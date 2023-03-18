@@ -15,6 +15,7 @@
     }
     :global(body) {
         margin-inline: auto;
+        margin-inline: 2rem;
         max-width: min(max(80vw, 800px), 2000px);
     }
 </style>
