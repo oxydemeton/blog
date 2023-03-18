@@ -2,6 +2,12 @@
     import "../app.postcss";
     import "../color-scheme.css";
     import "../base.postcss";
+    import {currentUser, pb} from "../lib/pocketbase"
+	import { onDestroy } from "svelte";
+
+    onDestroy(()=> {
+        pb.authStore.clear();
+    })
     let refresh = {};
 </script>
 
@@ -24,6 +30,9 @@
             <button type="submit" class="font-bold">Search</button>
         </form>
     </nav>
+    {#if $currentUser}
+        {$currentUser.username}
+    {/if}
 </header>
 {#key refresh}
 <slot />
