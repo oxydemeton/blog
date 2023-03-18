@@ -1,13 +1,12 @@
-@tailwind components;
-@tailwind utilities;
+
 :root {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     --cs-cfg-main-dark: theme(colors.neutral.900);
     --cs-cfg-main-light: theme(colors.neutral.100);
     --cs-cfg-accent-dark-sm: theme(colors.orange.900);
     --cs-cfg-accent-dark-lg: theme(colors.orange.700);
-    --cs-cfg-accent-light-sm: theme(colors.orange.100);
-    --cs-cfg-accent-light-lg: theme(colors.orange.400);
+    --cs-cfg-accent-light-sm: theme(colors.orange.300);
+    --cs-cfg-accent-light-lg: theme(colors.orange.500);
     --ft-size-sm: 1rem;
     --ft-size-sm: clamp(0.95rem, 0.245vw + 0.9rem, 1.75rem); 
     --ft-size-nm: 1.125rem;
@@ -35,3 +34,5 @@ body {
     max-width: min(max(80vw, 900px), 120vh);
     max-width: min(max(80vw, 900px), 120dvh);
 }
+@tailwind components;
+@tailwind utilities;
