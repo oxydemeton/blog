@@ -9,7 +9,7 @@
 </style>
 
 <header>
-    <h1 class="text-3xl">Heading</h1>
+    <h1>Heading</h1>
 </header>
 <slot />
 
