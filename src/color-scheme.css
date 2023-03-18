@@ -1,0 +1,311 @@
+:root {
+    /*External Vars and fallbacks*/
+    --cs-main-dark: var(--cs-cfg-main-dark, hsl(0 0% 10%));
+    --cs-main-light: var(--cs-cfg-main-light, hsl(0 0% 83%));
+    --cs-accent-dark-sm: var(--cs-cfg-accent-dark-sm, hsl(0 0% 25%));
+    --cs-accent-dark-lg: var(--cs-cfg-accent-dark-lg, hsl(0 0% 35%));
+    --cs-accent-light-sm: var(--cs-cfg-accent-light-sm, hsl(0 0% 65%));
+    --cs-accent-light-lg: var(--cs-cfg-accent-light-lg, hsl(0 0% 55%));
+    --cs-selection: var(--cs-cfg-selection, hsla(0, 0%, 50%, .4));
+    --cs-marker: var(--cs-cfg-marker, yellow);
+    /*Root Css*/
+    color-scheme: dark light;
+}
+/*Schemata */
+.cs-light {
+    color-scheme: light;
+}
+.cs-dark {
+    color-scheme: dark;
+}
+.cs-default {
+    --cs-main-dark: hsl(0 0% 10%);
+    --cs-main-light: hsl(0 0% 83%);
+    --cs-accent-dark-sm: hsl(0 0% 25%);
+    --cs-accent-dark-lg: hsl(0 0% 35%);
+    --cs-accent-light-sm: hsl(0 0% 65%);
+    --cs-accent-light-lg: hsl(0 0% 55%);
+    --cs-selection: hsla(0, 0%, 40%, .4);
+    --cs-marker: yellow;
+}
+.cs-main-default {
+    --cs-main-dark: hsl(0 0% 10%);
+    --cs-main-light: hsl(0 0% 90%);
+}
+.cs-accent-default {
+    --cs-accent-dark-sm: hsl(0 0% 25%);
+    --cs-accent-dark-lg: hsl(0 0% 35%);
+    --cs-accent-light-sm: hsl(0 0% 65%);
+    --cs-accent-light-lg: hsl(0 0% 55%);
+    --cs-selection: hsla(0, 0%, 40%, .4);
+    --cs-marker: yellow;
+}
+
+/* Apply Scheme */
+@keyframes target_color_fade_scheme {
+	from { color: var(--cs-marker); }
+	to { color: inherit; }
+}
+:target {
+    color: var(--cs-marker);
+    animation: target_color_fade_scheme 2s forwards alternate;
+    animation-delay: 3s;
+}
+mark {
+    background-color: var(--cs-marker);
+}
+html, .cs-light {
+    background-color: var(--cs-main-light);
+    color: var(--cs-main-dark);
+}
+hr, blockquote, dd, th, td {
+    border-color: var(--cs-accent-dark-sm);
+}
+a, abbr, q, em {
+    color: var(--cs-accent-dark-sm);
+    text-decoration-color: var(--cs-accent-light-sm);
+}
+cite, strong {
+    color: var(--cs-accent-dark-lg);
+}
+textarea, fieldset {
+    border-color: var(--cs-accent-light-sm);
+}
+textarea:focus-visible, textarea:active {
+    border-color: var(--cs-accent-light-lg);
+    outline: none;
+}
+input:where([type=text], [type=email], [type=tel], [type=search],
+[type=password], [type=number], [type=color],
+[type=date], [type=datetime], [type=datetime-local],
+[type=month], [type=week], [type=time]) {
+    border-color: var(--cs-accent-light-sm);
+}
+input:where([type=text], [type=email], [type=tel], [type=search],
+[type=password], [type=number], [type=color],
+[type=date], [type=datetime], [type=datetime-local],
+[type=month], [type=week], [type=time]):is(:focus-visible, :active) {
+    border-color: var(--cs-accent-dark-sm);
+}
+:where(button, input:is(
+    [type=button], [type=submit], input[type=reset]
+)):is(:focus-visible, :hover, :active) {
+    outline-color: var(--cs-accent-dark-lg);
+}
+::selection {
+    background-color: var(--cs-selection);
+}
+details summary:first-of-type::marker {
+    color: var(--cs-accent-dark-sm);
+}
+details[open] summary:first-of-type::marker {
+    color: var(--cs-accent-dark-lg);
+}
+select {
+    outline-color: var(--cs-accent-light-sm);
+}
+select:focus,
+select:hover {
+    outline-color: var(--cs-accent-dark-sm);
+}
+kbd {
+    background-color: var(--cs-accent-light-sm);
+}
+
+input {
+    accent-color: var(--cs-accent-dark-lg);
+}
+input:hover {
+    accent-color: var(--cs-accent-light-lg);
+}
+
+/*General dark mode*/
+@media(prefers-color-scheme: dark) {
+    html {
+        background-color: var(--cs-main-dark);
+        color: var(--cs-main-light);
+    }
+    blockquote, dd, hr {
+        border-color: var(--cs-accent-light-sm);
+    }
+    
+    a, abbr, q, em, th, td {
+        color: var(--cs-accent-light-sm);
+        text-decoration-color: var(--cs-accent-dark-sm);
+    }
+    cite, strong {
+        color: var(--cs-accent-light-lg);
+    }
+    textarea, fieldset {
+        border-color: var(--cs-accent-dark-sm);
+    }
+    textarea:focus-visible, textarea:active {
+        border-color: var(--cs-accent-dark-lg);
+        outline: none;
+    }
+    input:where([type=text], [type=email], [type=tel], [type=search],
+        [type=password], [type=number], [type=color],
+        [type=date], [type=datetime], [type=datetime-local],
+        [type=month], [type=week], [type=time]) {
+        border-color: var(--cs-accent-dark-sm);
+    }
+    input:where([type=text], [type=email], [type=tel], [type=search],
+        [type=password], [type=number], [type=color],
+        [type=date], [type=datetime], [type=datetime-local],
+        [type=month], [type=week], [type=time]):is(:focus-visible, :active) {
+        border-color: var(--cs-accent-light-sm);
+    }
+    :where(button, input:is(
+        [type=button], [type=submit], input[type=reset]
+    )):is(:focus-visible, :hover, :active) {
+        outline-color: var(--cs-accent-light-lg);
+    }
+    details summary:first-of-type::marker {
+        color: var(--cs-accent-light-sm);
+    }
+    details[open] summary:first-of-type::marker {
+        color: var(--cs-accent-light-lg);
+    }
+    select {
+        outline-color: var(--cs-accent-dark-sm);
+    }
+    select:focus,
+    select:hover {
+        outline-color: var(--cs-accent-light-sm);
+    }
+    kbd {
+        background-color: var(--cs-accent-dark-sm);
+    }
+    select {
+        outline-color: var(--cs-accent-dark-sm);
+    }
+    input {
+        accent-color: var(--cs-accent-light-lg);
+    }
+    input:hover {
+        accent-color: var(--cs-accent-dark-lg);
+    }
+}
+.cs-dark {
+    background-color: var(--cs-main-dark);
+    color: var(--cs-main-light);
+}
+/*Special light mode */
+.cs-light hr {
+    border-color: var(--cs-accent-dark-sm);
+}
+.cs-light :where(a, abbr, q, em) {
+    color: var(--cs-accent-dark-sm);
+    text-decoration-color: var(--cs-accent-light-sm);
+}
+.cs-light :where(cite, strong){
+    color: var(--cs-accent-dark-lg);
+}
+.cs-light :where(blockquote, dd, th, td) {
+    border-color: var(--cs-accent-dark-sm);
+}
+.cs-light :is(fieldset, textarea) {
+    border-color: var(--cs-accent-light-sm);
+}
+.cs-light textarea:where(:focus-visible, :active) {
+    border-color: var(--cs-accent-light-lg);
+    outline: none;
+}
+.cs-light input:where([type=text], [type=email], [type=tel], [type=search],
+    [type=password], [type=number], [type=color],
+    [type=date], [type=datetime], [type=datetime-local],
+    [type=month], [type=week], [type=time]) {
+    border-color: var(--cs-accent-light-sm);
+}
+.cs-light input:where([type=text], [type=email], [type=tel], [type=search],
+    [type=password], [type=number], [type=color],
+    [type=date], [type=datetime], [type=datetime-local],
+    [type=month], [type=week], [type=time]):is(:focus-visible,:active) {
+    border-color: var(--cs-accent-dark-sm);
+}
+.cs-light :where(button, input:is(
+        [type=button], [type=submit], input[type=reset]
+    )):is(:focus-visible, :hover, :active) {
+    outline-color: var(--cs-accent-dark-lg);
+}
+.cs-light details summary:first-of-type::marker {
+    color: var(--cs-accent-dark-sm);
+}
+.cs-light details[open] summary:first-of-type::marker {
+    color: var(--cs-accent-dark-lg);
+}
+.cs-light select {
+    outline-color: var(--cs-accent-light-sm);
+}
+.cs-light select:focus,
+.cs-light select:hover {
+    outline-color: var(--cs-accent-dark-sm);
+}
+.cs-light kbd {
+    background-color: var(--cs-accent-light-sm);
+}
+.cs-light input {
+    accent-color: var(--cs-accent-dark-lg);
+}
+.cs-light input:hover {
+    accent-color: var(--cs-accent-light-lg);
+}
+
+/*Special dark mode*/
+.cs-dark :where(hr, blockquote, dd, th, td) {
+    border-color: var(--cs-accent-light-sm);
+}
+.cs-dark :where(a, abbr, q, em) {
+    color: var(--cs-accent-light-sm);
+    text-decoration-color: var(--cs-accent-dark-sm);
+}
+.cs-dark :where(cite, strong) {
+    color: var(--cs-accent-light-lg);
+}
+.cs-dark textarea, .cs-dark fieldset {
+    border-color: var(--cs-accent-dark-sm);
+}
+.cs-dark textarea:where(:focus-visible, :active) {
+    border-color: var(--cs-accent-dark-lg);
+    outline: none;
+}
+.cs-dark input:where([type=text], [type=email], [type=tel], [type=search],
+    [type=password], [type=number], [type=color],
+    [type=date], [type=datetime], [type=datetime-local],
+    [type=month], [type=week], [type=time]) {
+    border-color: var(--cs-accent-dark-sm);
+}
+.cs-dark input:where([type=text], [type=email], [type=tel], [type=search],
+    [type=password], [type=number], [type=color],
+    [type=date], [type=datetime], [type=datetime-local],
+    [type=month], [type=week], [type=time]):is(:focus-visible, :active) {
+    border-color: var(--cs-accent-light-sm);
+}
+.cs-dark :where(button, input:is(
+        [type=button], [type=submit], input[type=reset]
+    )):is(:focus-visible, :hover, :active){
+    outline-color: var(--cs-accent-light-lg);
+}
+.cs-dark details summary:first-of-type::marker {
+    color: var(--cs-accent-light-sm);
+}
+.cs-dark details[open] summary:first-of-type::marker {
+    color: var(--cs-accent-light-lg);
+}
+.cs-dark select {
+    outline-color: var(--cs-accent-dark-sm);
+}
+.cs-dark select:focus,
+.cs-dark select:hover {
+    outline-color: var(--cs-accent-light-sm);
+}
+.cs-dark kbd {
+    background-color: var(--cs-accent-dark-sm);
+}
+
+.cs-dark input {
+    accent-color: var(--cs-accent-light-lg);
+}
+.cs-dark input:hover {
+    accent-color: var(--cs-accent-dark-lg);
+}
