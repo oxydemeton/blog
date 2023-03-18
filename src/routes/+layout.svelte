@@ -13,6 +13,10 @@
         --cs-cfg-accent-light-sm: theme(colors.orange.100);
         --cs-cfg-accent-light-lg: theme(colors.orange.400);
     }
+    :global(body) {
+        margin-inline: auto;
+        max-width: min(max(80vw, 800px), 2000px);
+    }
 </style>
 
 <header>
