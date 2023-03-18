@@ -1,6 +1,7 @@
 <script>
     import "../app.css";
     import "../color-scheme.css";
+    import "../base.postcss";
 </script>
 
 <style lang="postcss">
