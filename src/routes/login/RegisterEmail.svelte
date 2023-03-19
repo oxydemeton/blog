@@ -38,7 +38,7 @@
 
 <form on:submit={register}>
     <fieldset disabled={$currentUser != undefined}>
-        <legend>Email Login</legend>
+        <legend>Email Registration</legend>
         <input minlength="3" type="text" name="username" id="register-email-username" placeholder="Username" bind:value={username} aria-label="New Username">
         <input type="email" name="email" id="register-email-mail" placeholder="Email address" bind:value={email} aria-label="New Email address">
         <input type="password" id="register-email-password" placeholder="Password" minlength="4" bind:value={password} aria-label="New Password">
