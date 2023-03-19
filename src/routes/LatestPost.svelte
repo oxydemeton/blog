@@ -1,10 +1,14 @@
 <script lang="ts">
-    import type {Post} from "$lib/DbInterfaces"
+    import type {Post, User} from "$lib/DbInterfaces"
     export let post: Post;
+    let creator: User;
 </script>
 
 <article>
-    <h3 class="text-3xl mb-4">{post.title}</h3>
+    <div class="my-4">
+        <h3 class="text-3xl my-0">{post.title}</h3><br>
+        <span class="italic">Author: <a href={'/profile/'+post.creator}>{post.creatorExtend?.username}</a></span>
+    </div>
     <div class="latest-post-content isolate">
         {@html post.content}
     </div>
