@@ -1,7 +1,9 @@
-<script>
+<script lang="ts">
+	import Profile from "../Profile.svelte";
+
     export let data;
 </script>
 
 <main>
-    <h2>{data.user.username}</h2>
+    <Profile user={data.user}/>
 </main>
