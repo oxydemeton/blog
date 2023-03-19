@@ -4,7 +4,7 @@
     let creator: User;
 </script>
 
-<article class="max-h-[40vh] overflow-y-auto">
+<article class="max-h-[40vh] overflow-y-auto px-6">
     <div class="my-4">
         <h3 class="text-3xl my-0"><a href={"/post/" + post.id}>{post.title}</a></h3><br>
         <span class="italic">Author: <a href={'/profile/'+post.creator}>{post.creatorExtend?.username}</a></span>
@@ -15,6 +15,9 @@
 </article>
 
 <style lang="postcss">
+    article {
+        border-top: .2rem dotted white;
+    }
     a {
         text-decoration: none;
     }
