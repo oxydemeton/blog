@@ -1,8 +1,8 @@
 <script lang="ts">
-	import type { Post } from "$lib/DbInterfaces";
+	import Post from "./Post.svelte";
 	import LatestPost from "./LatestPost.svelte";
 
-    export let data: {latest_post: Post};
+    export let data;
 </script>
 <style lang="postcss">
     .latest-post-sec {
@@ -19,9 +19,14 @@
 <main>
     <h2 class="mb-4">Neuster Post</h2>
     <section class="latest-post-sec md:px-24 max-h-[50vh] overflow-y-auto shadow-xl">
-        <LatestPost post={data.latest_post}/>
+        <LatestPost post={data.posts[0]}/>
     </section>
     <section class="shadow-xl">
         <h2>Weitere neue Posts</h2>
+        {#each data.posts as post, i}
+            {#if i > 0}
+            <Post post={post}/>
+            {/if}
+        {/each}
     </section>
 </main>
