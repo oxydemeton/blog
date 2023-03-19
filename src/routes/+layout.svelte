@@ -1,7 +1,8 @@
 <script>
     import "../base.postcss";
-    import "../app.postcss";
     import "../color-scheme.css";
+    import "../app.postcss";
+    
     import {currentUser, pb} from "../lib/pocketbase"
 	import { onDestroy } from "svelte";
 
