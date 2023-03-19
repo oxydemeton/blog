@@ -66,4 +66,5 @@
 <footer>
     <div>Email: <a href="mailto:contact@mabla.name">contact@mabla.name</a></div>
     <div>Stable Blog <a href="https://mabla-meinung.blogspot.com/" target="_blank" rel="noopener noreferrer">mabla-meinung.blogspot.com</a></div>
+    <div>Source code: <a href="https://github.com/oxydemeton/blog" target="_blank" rel="noopener noreferrer">@Github</a></div>
 </footer>
