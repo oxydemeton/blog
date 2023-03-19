@@ -6,6 +6,7 @@ export interface Post {
     content: string,
     tags?: string
     creator: string
+    creatorExtend?: User 
 }
 
 export interface User {
