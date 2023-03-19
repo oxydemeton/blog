@@ -5,9 +5,7 @@ export async function load() {
     const {items: [latest_post]} = await pb.collection('posts').getList(1, 1, {
         sort: '-created'
     })
-    latest_post.creatorExtend = await loadPostAuthor(latest_post as unknown as Post)
-    console.log(latest_post);
-    
+    latest_post.creatorExtend = await loadPostAuthor(latest_post as unknown as Post)    
     return {
         latest_post
     }

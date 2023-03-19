@@ -1,6 +1,5 @@
 <script>
     export let data;
-    console.log(data.search_term);
 </script>
 
 <main>
