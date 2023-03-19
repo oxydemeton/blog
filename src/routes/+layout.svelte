@@ -32,7 +32,7 @@
         </form>
     </nav>
     {#if $currentUser}
-        <a href="/profile">{$currentUser.username}</a>
+        <a href="/profile">{$currentUser.username}</a> <button type="button" on:click={()=>pb.authStore.clear()}>Logout</button>
     {:else}
         <a href="/login">Login</a>
     {/if}
