@@ -30,12 +30,14 @@
             <input type="search" placeholder="search blog" name="search"/>
             <button type="submit" class="font-bold">Search</button>
         </form>
+        {#if $currentUser}
+            <a href="/profile">{$currentUser.username}</a>
+            <button type="button" on:click={()=>pb.authStore.clear()} class="font-medium text-base">Logout</button>
+        {:else}
+            <a href="/login">Login</a>
+        {/if}
     </nav>
-    {#if $currentUser}
-        <a href="/profile">{$currentUser.username}</a> <button type="button" on:click={()=>pb.authStore.clear()}>Logout</button>
-    {:else}
-        <a href="/login">Login</a>
-    {/if}
+    
 </header>
 {#key refresh}
 <slot />
