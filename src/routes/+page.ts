@@ -1,6 +1,6 @@
 import {pb} from "$lib/pocketbase"
-import {loadPostAuthor} from "$lib/DbUtil"
 import type { Post, User } from "$lib/DbInterfaces";
+export const ssr = false;
 export async function load() {
     const {items} = await pb.collection('posts').getList(1, 6, {
         sort: '-created',
