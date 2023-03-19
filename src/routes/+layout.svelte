@@ -32,7 +32,7 @@
         </form>
     </nav>
     {#if $currentUser}
-        {$currentUser.username}
+        <a href="/profile">{$currentUser.username}</a>
     {:else}
         <a href="/login">Login</a>
     {/if}
