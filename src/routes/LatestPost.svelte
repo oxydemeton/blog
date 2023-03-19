@@ -6,7 +6,7 @@
 
 <article>
     <div class="my-4">
-        <h3 class="text-3xl my-0">{post.title}</h3><br>
+        <h3 class="text-3xl my-0"><a href={"/post/" + post.id}>{post.title}</a></h3><br>
         <span class="italic">Author: <a href={'/profile/'+post.creator}>{post.creatorExtend?.username}</a></span>
     </div>
     <div class="latest-post-content isolate">
@@ -15,6 +15,9 @@
 </article>
 
 <style lang="postcss">
+    a {
+        text-decoration: none;
+    }
     .latest-post-content {
         margin: 1rem;
     }
