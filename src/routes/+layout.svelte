@@ -16,6 +16,23 @@
     a {
         @apply mx-1 p-1;
     }
+    footer {
+        margin-top: 4rem;
+    }
+    footer {
+        border-top: .15rem solid theme(colors.accent-dark-lg);
+    }
+    header{
+        border-bottom: .15rem solid theme(colors.accent-dark-lg);
+    }
+    @media(prefers-color-scheme: dark) {
+        footer {
+            border-top: .15rem solid theme(colors.accent-light-lg);
+        }
+        header{
+        border-bottom: .15rem solid theme(colors.accent-light-lg);
+    }
+    }
 </style>
 
 <header class="mb-8 pb-4 border-b-4 shadow-xl grid grid-cols-1 xl:grid-cols-2 items-center">
@@ -45,6 +62,8 @@
 {#key refresh}
 <slot />
 {/key}
-<footer>
 
+<footer>
+    <div>Email: <a href="mailto:contact@mabla.name">contact@mabla.name</a></div>
+    <div>Stable Blog <a href="https://mabla-meinung.blogspot.com/" target="_blank" rel="noopener noreferrer">mabla-meinung.blogspot.com</a></div>
 </footer>
