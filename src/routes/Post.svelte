@@ -16,7 +16,12 @@
 
 <style lang="postcss">
     article {
-        border-top: .2rem dotted white;
+        border-top: .2rem dotted theme(colors.accent-dark-sm);
+    }
+    @media(prefers-color-scheme: dark) {
+        article {
+            border-top: .2rem dotted theme(colors.accent-light-sm);
+        }
     }
     a {
         text-decoration: none;
