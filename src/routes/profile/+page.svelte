@@ -34,6 +34,7 @@
 
         <article>
             <h3>Einstellungen</h3>
+            <h5 class="italic mt-0">More features coming soon!</h5>
             {#if !user.verified}
                 <div>
                     <h6 class="inline">Deine Email ist nicht verifiziert.</h6>
