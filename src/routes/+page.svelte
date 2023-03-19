@@ -17,8 +17,11 @@
     }
 </style>
 <main>
-    <h2 class="mb-4">Latest Post</h2>
-    <section class="latest-post-sec md:px-24 max-h-[50vh] overflow-y-auto">
+    <h2 class="mb-4">Neuster Post</h2>
+    <section class="latest-post-sec md:px-24 max-h-[50vh] overflow-y-auto shadow-xl">
         <LatestPost post={data.latest_post}/>
+    </section>
+    <section class="shadow-xl">
+        <h2>Weitere neue Posts</h2>
     </section>
 </main>
