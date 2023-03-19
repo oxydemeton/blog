@@ -10,7 +10,7 @@ export async function load() {
 
     items.forEach(async (element)=> {
         let post = element as unknown as Post
-        post.creatorExtend = element.expand.creator as User
+        post.creatorExtend = element.expand.creator as unknown as User
         posts.push(post)
     })
 
