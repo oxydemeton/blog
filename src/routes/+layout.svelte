@@ -1,7 +1,7 @@
 <script>
+    import "../base.postcss";
     import "../app.postcss";
     import "../color-scheme.css";
-    import "../base.postcss";
     import {currentUser, pb} from "../lib/pocketbase"
 	import { onDestroy } from "svelte";
 
@@ -32,6 +32,8 @@
     </nav>
     {#if $currentUser}
         {$currentUser.username}
+    {:else}
+        <a href="/login">Login</a>
     {/if}
 </header>
 {#key refresh}
