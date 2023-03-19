@@ -1,6 +1,7 @@
 <script>
 	import LogInEmail from "./LogInEmail.svelte";
     import {currentUser, pb} from "../../lib/pocketbase"
+	import RegisterEmail from "./RegisterEmail.svelte";
     let login_register = 0;
     const toggle_login_register = () => {
         if (login_register <= 0) {
@@ -30,8 +31,8 @@
     
     {#if login_register <= 0}
     <h3 class="mb-20 mt-4">Login</h3>
-    <LogInEmail/>
+        <LogInEmail/>
     {:else}
-    
+        <RegisterEmail></RegisterEmail>
     {/if}
 </main>
