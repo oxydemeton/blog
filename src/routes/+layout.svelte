@@ -19,7 +19,7 @@
 </style>
 
 <header class="mb-8 pb-4 border-b-4 shadow-xl grid grid-cols-1 xl:grid-cols-2 items-center">
-    <h1 class="text-2xl inline text-center"><a class="no-underline" href="/" aria-label="Homepage">Mabla's Meinung</a></h1>
+    <h1 class="text-2xl inline text-center"><a class="no-underline" href="/" aria-label="Homepage">Mabla's Meinung</a><span class="text-md font-normal italic">Beta</span></h1>
     <nav class="flex align-middle justify-center flex-wrap shrink-0">
         <a href="/archive">Archive</a>
         <a href="/projects">Projects</a>
