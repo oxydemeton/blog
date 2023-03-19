@@ -1,6 +1,5 @@
 <script lang="ts">
 	import type { User } from "$lib/DbInterfaces";
-	import { readable } from "svelte/store";
     import {currentUser, pb} from "../../lib/pocketbase"
 	import Profile from "./Profile.svelte";
     let user = $currentUser as unknown as User;
