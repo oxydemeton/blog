@@ -30,7 +30,6 @@
         bind:value={login_register} >
     
     {#if login_register <= 0}
-    <h3 class="mb-20 mt-4">Login</h3>
         <LogInEmail/>
     {:else}
         <RegisterEmail></RegisterEmail>
