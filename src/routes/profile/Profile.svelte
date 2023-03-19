@@ -9,6 +9,9 @@
         <ul>
             <li>Username: {user.username}</li>
             <li>Creation: <time datetime={user.created}>{new Date(user.created).toLocaleDateString('de')}</time></li>
+            {#if user.email}
+                <li>Email: {user.email}</li>
+            {/if}
             <li>Id: <span class="select-all italic font-extralight">{user.id}</span></li>
         </ul>
     </article>
