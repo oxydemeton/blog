@@ -24,11 +24,13 @@
             <hr>
         </div>
     {/if}
-    <label for="login-register" class="font-bold text-lg">Login or register</label> <br>
-    <input type="range" min="0" max="1" step="1" class="w-36" id="login-register"
+    <div class="my-16 w-fit">
+    <h2 id="login-register" class="m-0">Login or Register</h2> <br>
+    <input type="range" min="0" max="1" step="1" class="w-3/4 m-auto block"
         aria-details="0=login and 1=register" role="switch" aria-checked={login_register > 0}
+        aria-labelledby="login-register"
         bind:value={login_register} >
-    
+    </div>
     {#if login_register <= 0}
         <LogInEmail/>
     {:else}
