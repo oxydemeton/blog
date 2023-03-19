@@ -1,12 +1,20 @@
 import {pb} from "$lib/pocketbase"
 import {loadPostAuthor} from "$lib/DbUtil"
-import type { Post } from "$lib/DbInterfaces";
+import type { Post, User } from "$lib/DbInterfaces";
 export async function load() {
-    const {items: [latest_post]} = await pb.collection('posts').getList(1, 1, {
-        sort: '-created'
+    const {items} = await pb.collection('posts').getList(1, 6, {
+        sort: '-created',
+        expand: 'creator'
     })
-    latest_post.creatorExtend = await loadPostAuthor(latest_post as unknown as Post)    
+    let posts: Post[] = []
+
+    items.forEach(async (element)=> {
+        let post = element as unknown as Post
+        post.creatorExtend = element.expand.creator as User
+        posts.push(post)
+    })
+
     return {
-        latest_post
+        posts
     }
 }
