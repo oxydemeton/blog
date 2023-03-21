@@ -1,8 +1,6 @@
 <script>
 	import Post from '../../Post.svelte';
-	import Comment from './Comment.svelte';
-
-
+	import Comment from '../../../lib/Comment.svelte';
     export let data;
 </script>
 
