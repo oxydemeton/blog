@@ -9,7 +9,7 @@ export interface Post {
     creatorExtend?: User
     expand: {
         creator: User[]
-        comments: Comment[]
+        'comments(post)': Comment[]
     }
 }
 
@@ -24,7 +24,7 @@ export interface User {
     editor?: boolean
     expand: {
         posts: Post[],
-        comments: Comment[]
+        'comments(user)': Comment[]
     }
 }
 
