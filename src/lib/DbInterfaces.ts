@@ -27,7 +27,7 @@ export interface Comment {
     title: string,
     content: string,
     extended: {
-        post: Post,
-        creator: User
+        post?: Post,
+        creator?: User
     }
 }
