@@ -19,3 +19,15 @@ export interface User {
     verified?: string
     editor?: boolean
 }
+
+export interface Comment {
+    id: string,
+    created: string,
+    updated: string,
+    title: string,
+    content: string,
+    extended: {
+        post: Post,
+        creator: User
+    }
+}
