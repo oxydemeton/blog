@@ -6,7 +6,11 @@ export interface Post {
     content: string,
     tags?: string
     creator: string
-    creatorExtend?: User 
+    creatorExtend?: User
+    expand: {
+        creator: User[]
+        comments: Comment[]
+    }
 }
 
 export interface User {
@@ -18,6 +22,10 @@ export interface User {
     emailVisibility: boolean
     verified?: string
     editor?: boolean
+    expand: {
+        posts: Post[],
+        comments: Comment[]
+    }
 }
 
 export interface Comment {
@@ -26,8 +34,8 @@ export interface Comment {
     updated: string,
     title: string,
     content: string,
-    extended: {
-        post?: Post,
-        creator?: User
+    expand: {
+        post: Post,
+        creator: User
     }
 }
