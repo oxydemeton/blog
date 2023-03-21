@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type {Comment} from "../../../lib/DbInterfaces"
+    import type {Comment} from "./DbInterfaces"
     export let comment: Comment;
 </script>
 
