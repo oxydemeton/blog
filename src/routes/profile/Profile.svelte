@@ -1,9 +1,10 @@
 <script lang="ts">
     import type {User} from "$lib/DbInterfaces"
+    import Comment from '../../lib/Comment.svelte';
     export let user: User
 </script>
 
-<main>
+<section>
     <article>
         <h2>{user.username}</h2>
         <ul>
@@ -15,4 +16,12 @@
             <li>Id: <span class="select-all italic font-extralight">{user.id}</span></li>
         </ul>
     </article>
-</main>
+    {#if user.expand['comments(creator)']}
+    <section class="comments">
+        {#each user.expand['comments(creator)'] as comment}
+            <Comment comment={comment}/>
+            <div class="m-0.5"> Post:<a href={"/post/" + comment.expand.post.id}>{comment.expand.post.title}</a></div>
+        {/each}
+    </section>
+    {/if}
+</section>

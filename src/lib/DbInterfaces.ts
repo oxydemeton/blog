@@ -24,7 +24,7 @@ export interface User {
     editor?: boolean
     expand: {
         posts: Post[],
-        'comments(user)': Comment[]
+        'comments(creator)': Comment[]
     }
 }
 
