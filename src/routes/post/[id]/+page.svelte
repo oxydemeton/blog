@@ -56,9 +56,11 @@
                 <span class="font-medium"></span>
             </fieldset>
         </form>
+        {#if data.post.expand['comments(post)']}
         {#each data.post.expand['comments(post)'] as comment}
             <Comment comment={comment}/>
         {/each}
+        {/if}
     </section>
 </main>
 
