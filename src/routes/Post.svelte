@@ -4,23 +4,25 @@
     let creator: User;
 </script>
 
-<article class="max-h-[40vh] overflow-y-auto mx-6 my-4">
+<article class="max-h-[40vh] overflow-y-auto mx-2 my-12 p-4 shadow-md">
     <div>
         <h3 class="text-3xl my-0"><a href={"/post/" + post.id}>{post.title}</a></h3><br>
         <span class="italic">Author: <a href={'/profile/'+post.creator}>{post.creatorExtend?.username}</a></span>
     </div>
-    <div class="more-post-content isolate">
+    <div class="more-post-content isolate my-1">
         {@html post.content}
     </div>
 </article>
 
 <style lang="postcss">
     article {
-        border-top: .2rem dotted theme(colors.accent-dark-sm);
+        border-top: .1rem dotted theme(colors.accent-dark-sm);
+        border-bottom: .1rem solid theme(colors.accent-dark-sm);
     }
     @media(prefers-color-scheme: dark) {
         article {
-            border-top: .2rem dotted theme(colors.accent-light-sm);
+            border-top: .1rem dotted theme(colors.accent-light-sm);
+            border-bottom: .1rem solid theme(colors.accent-light-sm);
         }
     }
     a {
