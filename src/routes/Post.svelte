@@ -4,8 +4,8 @@
     let creator: User;
 </script>
 
-<article class="max-h-[40vh] overflow-y-auto mx-6">
-    <div class="my-4">
+<article class="max-h-[40vh] overflow-y-auto mx-6 my-4">
+    <div>
         <h3 class="text-3xl my-0"><a href={"/post/" + post.id}>{post.title}</a></h3><br>
         <span class="italic">Author: <a href={'/profile/'+post.creator}>{post.creatorExtend?.username}</a></span>
     </div>
