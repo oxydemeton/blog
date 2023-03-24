@@ -23,7 +23,7 @@ export interface User {
     verified?: string
     editor?: boolean
     expand: {
-        posts: Post[],
+        'posts(creator)': Post[],
         'comments(creator)': Comment[]
     }
 }
