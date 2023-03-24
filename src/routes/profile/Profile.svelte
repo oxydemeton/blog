@@ -17,8 +17,9 @@
         </ul>
     </article>
     {#if user.expand['comments(creator)']}
+    <hr>
     <section class="comments">
-        <h2>Comments</h2>
+        <h3>Comments</h3>
         {#each user.expand['comments(creator)'] as comment}
             <Comment comment={comment}/>
             <div class="m-0.5"> Post:<a href={"/post/" + comment.expand.post.id}>{comment.expand.post.title}</a></div>
