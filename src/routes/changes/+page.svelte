@@ -1,3 +1,7 @@
+<script>
+    export const prerender = true;
+</script>
+
 <main>
     <h2>Änderungen</h2>
     <p>
