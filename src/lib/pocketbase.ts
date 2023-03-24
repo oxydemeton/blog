@@ -11,3 +11,5 @@ pb.authStore.onChange(async auth=> {
        currentUser.set(await pb.collection('users').getOne(pb.authStore.model.id));
     }
 })
+
+export function expendUserComments()
