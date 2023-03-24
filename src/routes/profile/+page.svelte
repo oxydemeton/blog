@@ -2,10 +2,9 @@
 	import type { User } from "$lib/DbInterfaces";
     import {currentUser, pb} from "../../lib/pocketbase"
 	import Profile from "./Profile.svelte";
-    let user = $currentUser as unknown as User;
-
     function sendVerify(){
-        if (user.email) pb.collection('users').requestVerification(user.email);
+        if ($currentUser)
+            if ($currentUser.email) pb.collection('users').requestVerification($currentUser.email);
     }
     async function updateEmail() {
         await pb.collection('users').requestEmailChange(newmail).catch((reason)=> {
@@ -31,11 +30,11 @@
 <main>
     {#if $currentUser}
         <a href={"/profile/" + $currentUser.id}>Public Profile</a>
-        <Profile user={user}/>
+        <Profile user={$currentUser}/>
         <article>
             <h3>Einstellungen</h3>
             <h5 class="italic mt-0">More features coming soon!</h5>
-            {#if !user.verified}
+            {#if !$currentUser.verified}
                 <div>
                     <h6 class="inline">Deine Email ist nicht verifiziert.</h6>
                     <button on:click={sendVerify} class="btn-verify">Email senden </button>
