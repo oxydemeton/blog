@@ -13,6 +13,7 @@ const genCurrentUser = () => {
 export const currentUser = writable<User | undefined>(genCurrentUser())
 pb.authStore.onChange(async auth=> {
     if (!pb.authStore.isValid) {
+        currentUser.set(undefined)
         return;
     }
     if (pb.authStore.model) {
