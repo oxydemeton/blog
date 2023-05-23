@@ -1,0 +1,2011 @@
+{
+    "npm": [
+        {
+            "manager": "npm",
+            "name": "blog",
+            "version": "0.1.2"
+        },
+        {
+            "manager": "npm",
+            "name": "@esbuild/win32-x64",
+            "version": "0.17.12",
+            "license": "MIT",
+            "description": "The Windows 64-bit binary for esbuild, a JavaScript bundler."
+        },
+        {
+            "manager": "npm",
+            "name": "@eslint-community/eslint-utils",
+            "author": "Toru Nagashima",
+            "version": "4.3.0",
+            "license": "MIT",
+            "description": "Utilities for ESLint plugins.",
+            "homepage": "https://github.com/eslint-community/eslint-utils#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "@eslint-community/regexpp",
+            "author": "Toru Nagashima",
+            "version": "4.4.0",
+            "license": "MIT",
+            "description": "Regular expression parser for ECMAScript.",
+            "homepage": "https://github.com/eslint-community/regexpp#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "@eslint/eslintrc",
+            "author": "Nicholas C. Zakas",
+            "version": "2.0.1",
+            "license": "MIT",
+            "description": "The legacy ESLintRC config file format for ESLint",
+            "homepage": "https://github.com/eslint/eslintrc#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "@eslint/js",
+            "version": "8.36.0",
+            "license": "MIT",
+            "description": "ESLint JavaScript language implementation",
+            "homepage": "https://eslint.org"
+        },
+        {
+            "manager": "npm",
+            "name": "@humanwhocodes/config-array",
+            "author": "Nicholas C. Zakas",
+            "version": "0.11.8",
+            "license": "Apache-2.0",
+            "description": "Glob-based configuration matching.",
+            "homepage": "https://github.com/humanwhocodes/config-array#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "@humanwhocodes/module-importer",
+            "author": "Nicholas C. Zaks",
+            "version": "1.0.1",
+            "license": "Apache-2.0",
+            "description": "Universal module importer for Node.js"
+        },
+        {
+            "manager": "npm",
+            "name": "@humanwhocodes/object-schema",
+            "author": "Nicholas C. Zakas",
+            "version": "1.2.1",
+            "license": "BSD-3-Clause",
+            "description": "An object schema merger/validator",
+            "homepage": "https://github.com/humanwhocodes/object-schema#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "@jridgewell/resolve-uri",
+            "author": "Justin Ridgewell <justin@ridgewell.name>",
+            "version": "3.1.0",
+            "license": "MIT",
+            "description": "Resolve a URI relative to an optional base URI"
+        },
+        {
+            "manager": "npm",
+            "name": "@jridgewell/sourcemap-codec",
+            "author": "Rich Harris",
+            "version": "1.4.14",
+            "license": "MIT",
+            "description": "Encode/decode sourcemap mappings"
+        },
+        {
+            "manager": "npm",
+            "name": "@jridgewell/trace-mapping",
+            "author": "Justin Ridgewell <justin@ridgewell.name>",
+            "version": "0.3.17",
+            "license": "MIT",
+            "description": "Trace the original position through a source map"
+        },
+        {
+            "manager": "npm",
+            "name": "@nodelib/fs.scandir",
+            "version": "2.1.5",
+            "license": "MIT",
+            "description": "List files and directories inside the specified directory"
+        },
+        {
+            "manager": "npm",
+            "name": "@nodelib/fs.stat",
+            "version": "2.0.5",
+            "license": "MIT",
+            "description": "Get the status of a file with some features"
+        },
+        {
+            "manager": "npm",
+            "name": "@nodelib/fs.walk",
+            "version": "1.2.8",
+            "license": "MIT",
+            "description": "A library for efficiently walking a directory recursively"
+        },
+        {
+            "manager": "npm",
+            "name": "@polka/url",
+            "author": "{\"name\":\"Luke Edwards\",\"email\":\"luke@lukeed.com\",\"url\":\"https://lukeed.com\"}",
+            "version": "1.0.0-next.21",
+            "license": "MIT",
+            "description": "Super fast, memoized `req.url` parser"
+        },
+        {
+            "manager": "npm",
+            "name": "@rollup/plugin-commonjs",
+            "author": "Rich Harris <richard.a.harris@gmail.com>",
+            "version": "24.0.1",
+            "license": "MIT",
+            "description": "Convert CommonJS modules to ES2015",
+            "homepage": "https://github.com/rollup/plugins/tree/master/packages/commonjs/#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "brace-expansion",
+            "author": "{\"name\":\"Julian Gruber\",\"email\":\"mail@juliangruber.com\",\"url\":\"http://juliangruber.com\"}",
+            "version": "2.0.1",
+            "license": "MIT",
+            "description": "Brace expansion as known from sh/bash",
+            "homepage": "https://github.com/juliangruber/brace-expansion"
+        },
+        {
+            "manager": "npm",
+            "name": "glob",
+            "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+            "version": "8.1.0",
+            "license": "ISC",
+            "description": "a little globber"
+        },
+        {
+            "manager": "npm",
+            "name": "magic-string",
+            "author": "Rich Harris",
+            "version": "0.27.0",
+            "license": "MIT",
+            "description": "Modify strings, generate sourcemaps"
+        },
+        {
+            "manager": "npm",
+            "name": "minimatch",
+            "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)",
+            "version": "5.1.6",
+            "license": "ISC",
+            "description": "a glob matcher in javascript"
+        },
+        {
+            "manager": "npm",
+            "name": "@rollup/plugin-json",
+            "author": "rollup",
+            "version": "6.0.0",
+            "license": "MIT",
+            "description": "Convert .json files to ES6 modules",
+            "homepage": "https://github.com/rollup/plugins/tree/master/packages/json#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "@rollup/plugin-node-resolve",
+            "author": "Rich Harris <richard.a.harris@gmail.com>",
+            "version": "15.0.1",
+            "license": "MIT",
+            "description": "Locate and bundle third-party dependencies in node_modules",
+            "homepage": "https://github.com/rollup/plugins/tree/master/packages/node-resolve/#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "@rollup/pluginutils",
+            "author": "Rich Harris <richard.a.harris@gmail.com>",
+            "version": "5.0.2",
+            "license": "MIT",
+            "description": "A set of utility functions commonly used by Rollup plugins",
+            "homepage": "https://github.com/rollup/plugins/tree/master/packages/pluginutils#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "@sveltejs/adapter-auto",
+            "version": "2.0.0",
+            "license": "MIT",
+            "homepage": "https://kit.svelte.dev"
+        },
+        {
+            "manager": "npm",
+            "name": "@sveltejs/adapter-node",
+            "version": "1.2.3",
+            "license": "MIT",
+            "homepage": "https://kit.svelte.dev"
+        },
+        {
+            "manager": "npm",
+            "name": "@sveltejs/kit",
+            "version": "1.12.0",
+            "license": "MIT",
+            "homepage": "https://kit.svelte.dev"
+        },
+        {
+            "manager": "npm",
+            "name": "@sveltejs/vite-plugin-svelte",
+            "author": "dominikg",
+            "version": "2.0.3",
+            "license": "MIT",
+            "homepage": "https://github.com/sveltejs/vite-plugin-svelte#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "@types/cookie",
+            "version": "0.5.1",
+            "license": "MIT",
+            "description": "TypeScript definitions for cookie",
+            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/cookie"
+        },
+        {
+            "manager": "npm",
+            "name": "@types/estree",
+            "version": "1.0.0",
+            "license": "MIT",
+            "description": "TypeScript definitions for estree",
+            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/estree"
+        },
+        {
+            "manager": "npm",
+            "name": "@types/json-schema",
+            "version": "7.0.11",
+            "license": "MIT",
+            "description": "TypeScript definitions for json-schema 4.0, 6.0 and",
+            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/json-schema"
+        },
+        {
+            "manager": "npm",
+            "name": "@types/pug",
+            "version": "2.0.6",
+            "license": "MIT",
+            "description": "TypeScript definitions for pug",
+            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/pug"
+        },
+        {
+            "manager": "npm",
+            "name": "@types/resolve",
+            "version": "1.20.2",
+            "license": "MIT",
+            "description": "TypeScript definitions for resolve",
+            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/resolve"
+        },
+        {
+            "manager": "npm",
+            "name": "@types/semver",
+            "version": "7.3.13",
+            "license": "MIT",
+            "description": "TypeScript definitions for semver",
+            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/semver"
+        },
+        {
+            "manager": "npm",
+            "name": "@typescript-eslint/eslint-plugin",
+            "version": "5.55.0",
+            "license": "MIT",
+            "description": "TypeScript plugin for ESLint"
+        },
+        {
+            "manager": "npm",
+            "name": "@typescript-eslint/parser",
+            "version": "5.55.0",
+            "license": "BSD-2-Clause",
+            "description": "An ESLint custom parser which leverages TypeScript ESTree"
+        },
+        {
+            "manager": "npm",
+            "name": "@typescript-eslint/scope-manager",
+            "version": "5.55.0",
+            "license": "MIT",
+            "description": "TypeScript scope analyser for ESLint"
+        },
+        {
+            "manager": "npm",
+            "name": "@typescript-eslint/type-utils",
+            "version": "5.55.0",
+            "license": "MIT",
+            "description": "Type utilities for working with TypeScript + ESLint together"
+        },
+        {
+            "manager": "npm",
+            "name": "@typescript-eslint/types",
+            "version": "5.55.0",
+            "license": "MIT",
+            "description": "Types for the TypeScript-ESTree AST spec"
+        },
+        {
+            "manager": "npm",
+            "name": "@typescript-eslint/typescript-estree",
+            "version": "5.55.0",
+            "license": "BSD-2-Clause",
+            "description": "A parser that converts TypeScript source code into an ESTree compatible form"
+        },
+        {
+            "manager": "npm",
+            "name": "@typescript-eslint/utils",
+            "version": "5.55.0",
+            "license": "MIT",
+            "description": "Utilities for working with TypeScript + ESLint together"
+        },
+        {
+            "manager": "npm",
+            "name": "@typescript-eslint/visitor-keys",
+            "version": "5.55.0",
+            "license": "MIT",
+            "description": "Visitor keys used to help traverse the TypeScript-ESTree AST"
+        },
+        {
+            "manager": "npm",
+            "name": "acorn",
+            "version": "8.8.2",
+            "license": "MIT",
+            "description": "ECMAScript parser",
+            "homepage": "https://github.com/acornjs/acorn"
+        },
+        {
+            "manager": "npm",
+            "name": "acorn-jsx",
+            "version": "5.3.2",
+            "license": "MIT",
+            "description": "Modern, fast React.js JSX parser",
+            "homepage": "https://github.com/acornjs/acorn-jsx"
+        },
+        {
+            "manager": "npm",
+            "name": "acorn-node",
+            "author": "Renée Kooi <renee@kooi.me>",
+            "version": "1.8.2",
+            "license": "Apache-2.0",
+            "description": "the acorn javascript parser, preloaded with plugins for syntax parity with recent node versions",
+            "homepage": "https://github.com/browserify/acorn-node"
+        },
+        {
+            "manager": "npm",
+            "name": "acorn-walk",
+            "version": "7.2.0",
+            "license": "MIT",
+            "description": "ECMAScript (ESTree) AST walker",
+            "homepage": "https://github.com/acornjs/acorn"
+        },
+        {
+            "manager": "npm",
+            "name": "ajv",
+            "author": "Evgeny Poberezkin",
+            "version": "6.12.6",
+            "license": "MIT",
+            "description": "Another JSON Schema Validator",
+            "homepage": "https://github.com/ajv-validator/ajv"
+        },
+        {
+            "manager": "npm",
+            "name": "ansi-regex",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "5.0.1",
+            "license": "MIT",
+            "description": "Regular expression for matching ANSI escape codes"
+        },
+        {
+            "manager": "npm",
+            "name": "ansi-styles",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "4.3.0",
+            "license": "MIT",
+            "description": "ANSI escape codes for styling strings in the terminal"
+        },
+        {
+            "manager": "npm",
+            "name": "anymatch",
+            "author": "{\"name\":\"Elan Shanker\",\"url\":\"https://github.com/es128\"}",
+            "version": "3.1.3",
+            "license": "ISC",
+            "description": "Matches strings against configurable strings, globs, regular expressions, and/or functions",
+            "homepage": "https://github.com/micromatch/anymatch"
+        },
+        {
+            "manager": "npm",
+            "name": "arg",
+            "author": "Josh Junon <junon@wavetilt.com>",
+            "version": "5.0.2",
+            "license": "MIT",
+            "description": "Unopinionated, no-frills CLI argument parser"
+        },
+        {
+            "manager": "npm",
+            "name": "argparse",
+            "version": "2.0.1",
+            "license": "Python-2.0",
+            "description": "CLI arguments parser. Native port of python's argparse."
+        },
+        {
+            "manager": "npm",
+            "name": "array-union",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "2.1.0",
+            "license": "MIT",
+            "description": "Create an array of unique values, in order, from the input arrays"
+        },
+        {
+            "manager": "npm",
+            "name": "autoprefixer",
+            "author": "Andrey Sitnik <andrey@sitnik.ru>",
+            "version": "10.4.14",
+            "license": "MIT",
+            "description": "Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website"
+        },
+        {
+            "manager": "npm",
+            "name": "balanced-match",
+            "author": "{\"name\":\"Julian Gruber\",\"email\":\"mail@juliangruber.com\",\"url\":\"http://juliangruber.com\"}",
+            "version": "1.0.2",
+            "license": "MIT",
+            "description": "Match balanced character pairs, like \"{\" and \"}\"",
+            "homepage": "https://github.com/juliangruber/balanced-match"
+        },
+        {
+            "manager": "npm",
+            "name": "binary-extensions",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "2.2.0",
+            "license": "MIT",
+            "description": "List of binary file extensions"
+        },
+        {
+            "manager": "npm",
+            "name": "braces",
+            "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+            "version": "3.0.2",
+            "license": "MIT",
+            "description": "Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.",
+            "homepage": "https://github.com/micromatch/braces"
+        },
+        {
+            "manager": "npm",
+            "name": "browserslist",
+            "author": "Andrey Sitnik <andrey@sitnik.ru>",
+            "version": "4.21.5",
+            "license": "MIT",
+            "description": "Share target browsers between different front-end tools, like Autoprefixer, Stylelint and babel-env-preset"
+        },
+        {
+            "manager": "npm",
+            "name": "buffer-crc32",
+            "author": "Brian J. Brennan <brianloveswords@gmail.com>",
+            "version": "0.2.13",
+            "license": "MIT",
+            "description": "A pure javascript CRC32 algorithm that plays nice with binary data",
+            "homepage": "https://github.com/brianloveswords/buffer-crc32"
+        },
+        {
+            "manager": "npm",
+            "name": "builtin-modules",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"https://sindresorhus.com\"}",
+            "version": "3.3.0",
+            "license": "MIT",
+            "description": "List of the Node.js builtin modules"
+        },
+        {
+            "manager": "npm",
+            "name": "busboy",
+            "author": "Brian White <mscdex@mscdex.net>",
+            "version": "1.6.0",
+            "description": "A streaming parser for HTML form data for node.js"
+        },
+        {
+            "manager": "npm",
+            "name": "callsites",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "3.1.0",
+            "license": "MIT",
+            "description": "Get callsites from the V8 stack trace API"
+        },
+        {
+            "manager": "npm",
+            "name": "camelcase-css",
+            "author": "Steven Vachon <contact@svachon.com> (https://www.svachon.com/)",
+            "version": "2.0.1",
+            "license": "MIT",
+            "description": "Convert a kebab-cased CSS property into a camelCased DOM property."
+        },
+        {
+            "manager": "npm",
+            "name": "caniuse-lite",
+            "author": "{\"name\":\"Ben Briggs\",\"email\":\"beneb.info@gmail.com\",\"url\":\"http://beneb.info\"}",
+            "version": "1.0.30001467",
+            "license": "CC-BY-4.0",
+            "description": "A smaller version of caniuse-db, with only the essentials!"
+        },
+        {
+            "manager": "npm",
+            "name": "chalk",
+            "version": "4.1.2",
+            "license": "MIT",
+            "description": "Terminal string styling done right"
+        },
+        {
+            "manager": "npm",
+            "name": "chokidar",
+            "author": "Paul Miller (https://paulmillr.com)",
+            "version": "3.5.3",
+            "license": "MIT",
+            "description": "Minimal and efficient cross-platform file watching library",
+            "homepage": "https://github.com/paulmillr/chokidar"
+        },
+        {
+            "manager": "npm",
+            "name": "glob-parent",
+            "author": "Gulp Team <team@gulpjs.com> (https://gulpjs.com/)",
+            "version": "5.1.2",
+            "license": "ISC",
+            "description": "Extract the non-magic parent path from a glob string."
+        },
+        {
+            "manager": "npm",
+            "name": "color-convert",
+            "author": "Heather Arthur <fayearthur@gmail.com>",
+            "version": "2.0.1",
+            "license": "MIT",
+            "description": "Plain color conversion functions"
+        },
+        {
+            "manager": "npm",
+            "name": "color-name",
+            "author": "DY <dfcreative@gmail.com>",
+            "version": "1.1.4",
+            "license": "MIT",
+            "description": "A list of color names and its values",
+            "homepage": "https://github.com/colorjs/color-name"
+        },
+        {
+            "manager": "npm",
+            "name": "commondir",
+            "author": "{\"name\":\"James Halliday\",\"email\":\"mail@substack.net\",\"url\":\"http://substack.net\"}",
+            "version": "1.0.1",
+            "license": "MIT",
+            "description": "compute the closest common parent for file paths"
+        },
+        {
+            "manager": "npm",
+            "name": "concat-map",
+            "author": "{\"name\":\"James Halliday\",\"email\":\"mail@substack.net\",\"url\":\"http://substack.net\"}",
+            "version": "0.0.1",
+            "license": "MIT",
+            "description": "concatenative mapdashery"
+        },
+        {
+            "manager": "npm",
+            "name": "cookie",
+            "author": "Roman Shtylman <shtylman@gmail.com>",
+            "version": "0.5.0",
+            "license": "MIT",
+            "description": "HTTP server cookie parsing and serialization"
+        },
+        {
+            "manager": "npm",
+            "name": "cross-spawn",
+            "author": "André Cruz <andre@moxy.studio>",
+            "version": "7.0.3",
+            "license": "MIT",
+            "description": "Cross platform child_process#spawn and child_process#spawnSync",
+            "homepage": "https://github.com/moxystudio/node-cross-spawn"
+        },
+        {
+            "manager": "npm",
+            "name": "cssesc",
+            "author": "{\"name\":\"Mathias Bynens\",\"url\":\"https://mathiasbynens.be/\"}",
+            "version": "3.0.0",
+            "license": "MIT",
+            "description": "A JavaScript library for escaping CSS strings and identifiers while generating the shortest possible ASCII-only output.",
+            "homepage": "https://mths.be/cssesc"
+        },
+        {
+            "manager": "npm",
+            "name": "debug",
+            "author": "Josh Junon <josh.junon@protonmail.com>",
+            "version": "4.3.4",
+            "license": "MIT",
+            "description": "Lightweight debugging utility for Node.js and the browser"
+        },
+        {
+            "manager": "npm",
+            "name": "deep-is",
+            "author": "{\"name\":\"Thorsten Lorenz\",\"email\":\"thlorenz@gmx.de\",\"url\":\"http://thlorenz.com\"}",
+            "version": "0.1.4",
+            "license": "MIT",
+            "description": "node's assert.deepEqual algorithm except for NaN being equal to NaN"
+        },
+        {
+            "manager": "npm",
+            "name": "deepmerge",
+            "version": "4.3.1",
+            "license": "MIT",
+            "description": "A library for deep (recursive) merging of Javascript objects",
+            "homepage": "https://github.com/TehShrike/deepmerge"
+        },
+        {
+            "manager": "npm",
+            "name": "defined",
+            "author": "{\"name\":\"James Halliday\",\"email\":\"mail@substack.net\",\"url\":\"http://substack.net\"}",
+            "version": "1.0.1",
+            "license": "MIT",
+            "description": "return the first argument that is `!== undefined`",
+            "homepage": "https://github.com/inspect-js/defined"
+        },
+        {
+            "manager": "npm",
+            "name": "detect-indent",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "6.1.0",
+            "license": "MIT",
+            "description": "Detect the indentation of code"
+        },
+        {
+            "manager": "npm",
+            "name": "detective",
+            "author": "{\"name\":\"James Halliday\",\"email\":\"mail@substack.net\",\"url\":\"http://substack.net\"}",
+            "version": "5.2.1",
+            "license": "MIT",
+            "description": "find all require() calls by walking the AST"
+        },
+        {
+            "manager": "npm",
+            "name": "devalue",
+            "version": "4.3.0",
+            "license": "MIT",
+            "description": "Gets the job done when JSON.stringify can't"
+        },
+        {
+            "manager": "npm",
+            "name": "didyoumean",
+            "author": "{\"name\":\"Dave Porter\",\"email\":\"dcporter@gmail.com\",\"url\":\"http://dcporter.net/\"}",
+            "version": "1.2.2",
+            "license": "Apache-2.0",
+            "description": "Match human-quality input to potential matches by edit distance.",
+            "homepage": "https://github.com/dcporter/didyoumean.js"
+        },
+        {
+            "manager": "npm",
+            "name": "dir-glob",
+            "author": "{\"name\":\"Kevin Mårtensson\",\"email\":\"kevinmartensson@gmail.com\",\"url\":\"github.com/kevva\"}",
+            "version": "3.0.1",
+            "license": "MIT",
+            "description": "Convert directories to glob compatible strings"
+        },
+        {
+            "manager": "npm",
+            "name": "dlv",
+            "author": "Jason Miller <jason@developit.ca> (http://jasonformat.com)",
+            "version": "1.1.3",
+            "license": "MIT",
+            "description": "Safely get a dot-notated property within an object."
+        },
+        {
+            "manager": "npm",
+            "name": "doctrine",
+            "version": "3.0.0",
+            "license": "Apache-2.0",
+            "description": "JSDoc parser",
+            "homepage": "https://github.com/eslint/doctrine"
+        },
+        {
+            "manager": "npm",
+            "name": "electron-to-chromium",
+            "author": "Kilian Valkhof",
+            "version": "1.4.333",
+            "license": "ISC",
+            "description": "Provides a list of electron-to-chromium version mappings"
+        },
+        {
+            "manager": "npm",
+            "name": "es6-promise",
+            "author": "Yehuda Katz, Tom Dale, Stefan Penner and contributors (Conversion to ES6 API by Jake Archibald)",
+            "version": "3.3.1",
+            "license": "MIT",
+            "description": "A lightweight library that provides tools for organizing asynchronous code"
+        },
+        {
+            "manager": "npm",
+            "name": "esbuild",
+            "version": "0.17.12",
+            "license": "MIT",
+            "description": "An extremely fast JavaScript and CSS bundler and minifier."
+        },
+        {
+            "manager": "npm",
+            "name": "escalade",
+            "author": "{\"name\":\"Luke Edwards\",\"email\":\"luke.edwards05@gmail.com\",\"url\":\"https://lukeed.com\"}",
+            "version": "3.1.1",
+            "license": "MIT",
+            "description": "A tiny (183B to 210B) and fast utility to ascend parent directories"
+        },
+        {
+            "manager": "npm",
+            "name": "escape-string-regexp",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"https://sindresorhus.com\"}",
+            "version": "4.0.0",
+            "license": "MIT",
+            "description": "Escape RegExp special characters"
+        },
+        {
+            "manager": "npm",
+            "name": "eslint",
+            "author": "Nicholas C. Zakas <nicholas+npm@nczconsulting.com>",
+            "version": "8.36.0",
+            "license": "MIT",
+            "description": "An AST-based pattern checker for JavaScript.",
+            "homepage": "https://eslint.org"
+        },
+        {
+            "manager": "npm",
+            "name": "eslint-config-prettier",
+            "author": "Simon Lydell",
+            "version": "8.7.0",
+            "license": "MIT",
+            "description": "Turns off all rules that are unnecessary or might conflict with Prettier."
+        },
+        {
+            "manager": "npm",
+            "name": "eslint-plugin-svelte3",
+            "author": "Conduitry",
+            "version": "4.0.0",
+            "license": "MIT",
+            "description": "An ESLint plugin for Svelte v3 components."
+        },
+        {
+            "manager": "npm",
+            "name": "eslint-scope",
+            "version": "5.1.1",
+            "license": "BSD-2-Clause",
+            "description": "ECMAScript scope analyzer for ESLint",
+            "homepage": "http://github.com/eslint/eslint-scope"
+        },
+        {
+            "manager": "npm",
+            "name": "eslint-visitor-keys",
+            "author": "Toru Nagashima (https://github.com/mysticatea)",
+            "version": "3.3.0",
+            "license": "Apache-2.0",
+            "description": "Constants and utilities about visitor keys to traverse AST.",
+            "homepage": "https://github.com/eslint/eslint-visitor-keys#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "estraverse",
+            "version": "5.3.0",
+            "license": "BSD-2-Clause",
+            "description": "ECMAScript JS AST traversal functions",
+            "homepage": "https://github.com/estools/estraverse"
+        },
+        {
+            "manager": "npm",
+            "name": "esm-env",
+            "author": "Ben McCann (https://www.benmccann.com)",
+            "version": "1.0.0",
+            "license": "MIT",
+            "homepage": "https://github.com/benmccann/esm-env"
+        },
+        {
+            "manager": "npm",
+            "name": "espree",
+            "author": "Nicholas C. Zakas <nicholas+npm@nczconsulting.com>",
+            "version": "9.5.0",
+            "license": "BSD-2-Clause",
+            "description": "An Esprima-compatible JavaScript parser built on Acorn",
+            "homepage": "https://github.com/eslint/espree"
+        },
+        {
+            "manager": "npm",
+            "name": "esquery",
+            "author": "Joel Feenstra <jrfeenst+esquery@gmail.com>",
+            "version": "1.5.0",
+            "license": "BSD-3-Clause",
+            "description": "A query library for ECMAScript AST using a CSS selector like query language.",
+            "homepage": "https://github.com/estools/esquery/"
+        },
+        {
+            "manager": "npm",
+            "name": "esrecurse",
+            "version": "4.3.0",
+            "license": "BSD-2-Clause",
+            "description": "ECMAScript AST recursive visitor",
+            "homepage": "https://github.com/estools/esrecurse"
+        },
+        {
+            "manager": "npm",
+            "name": "estree-walker",
+            "author": "Rich Harris",
+            "version": "2.0.2",
+            "license": "MIT",
+            "description": "Traverse an ESTree-compliant AST"
+        },
+        {
+            "manager": "npm",
+            "name": "esutils",
+            "version": "2.0.3",
+            "license": "BSD-2-Clause",
+            "description": "utility box for ECMAScript language tools",
+            "homepage": "https://github.com/estools/esutils"
+        },
+        {
+            "manager": "npm",
+            "name": "fast-deep-equal",
+            "author": "Evgeny Poberezkin",
+            "version": "3.1.3",
+            "license": "MIT",
+            "description": "Fast deep equal",
+            "homepage": "https://github.com/epoberezkin/fast-deep-equal#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "fast-glob",
+            "author": "{\"name\":\"Denis Malinochkin\",\"url\":\"https://mrmlnc.com\"}",
+            "version": "3.2.12",
+            "license": "MIT",
+            "description": "It's a very fast and efficient glob library for Node.js"
+        },
+        {
+            "manager": "npm",
+            "name": "fast-json-stable-stringify",
+            "author": "{\"name\":\"James Halliday\",\"email\":\"mail@substack.net\",\"url\":\"http://substack.net\"}",
+            "version": "2.1.0",
+            "license": "MIT",
+            "description": "deterministic `JSON.stringify()` - a faster version of substack's json-stable-strigify without jsonify",
+            "homepage": "https://github.com/epoberezkin/fast-json-stable-stringify"
+        },
+        {
+            "manager": "npm",
+            "name": "fast-levenshtein",
+            "author": "Ramesh Nair <ram@hiddentao.com> (http://www.hiddentao.com/)",
+            "version": "2.0.6",
+            "license": "MIT",
+            "description": "Efficient implementation of Levenshtein algorithm  with locale-specific collator support."
+        },
+        {
+            "manager": "npm",
+            "name": "fastq",
+            "author": "Matteo Collina <hello@matteocollina.com>",
+            "version": "1.15.0",
+            "license": "ISC",
+            "description": "Fast, in memory work queue",
+            "homepage": "https://github.com/mcollina/fastq#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "file-entry-cache",
+            "author": "{\"name\":\"Roy Riojas\",\"url\":\"http://royriojas.com\"}",
+            "version": "6.0.1",
+            "license": "MIT",
+            "description": "Super simple cache for file metadata, useful for process that work o a given series of files and that only need to repeat the job on the changed ones since the previous run of the process"
+        },
+        {
+            "manager": "npm",
+            "name": "fill-range",
+            "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+            "version": "7.0.1",
+            "license": "MIT",
+            "description": "Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`",
+            "homepage": "https://github.com/jonschlinkert/fill-range"
+        },
+        {
+            "manager": "npm",
+            "name": "find-up",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"https://sindresorhus.com\"}",
+            "version": "5.0.0",
+            "license": "MIT",
+            "description": "Find a file or directory by walking up parent directories"
+        },
+        {
+            "manager": "npm",
+            "name": "flat-cache",
+            "author": "{\"name\":\"Roy Riojas\",\"url\":\"http://royriojas.com\"}",
+            "version": "3.0.4",
+            "license": "MIT",
+            "description": "A stupidly simple key/value storage using files to persist some data"
+        },
+        {
+            "manager": "npm",
+            "name": "flatted",
+            "author": "Andrea Giammarchi",
+            "version": "3.2.7",
+            "license": "ISC",
+            "description": "A super light and fast circular JSON parser.",
+            "homepage": "https://github.com/WebReflection/flatted#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "fraction.js",
+            "author": "Robert Eisele <robert@xarg.org> (http://www.xarg.org/)",
+            "version": "4.2.0",
+            "license": "MIT",
+            "description": "A rational number library",
+            "homepage": "https://www.xarg.org/2014/03/rational-numbers-in-javascript/"
+        },
+        {
+            "manager": "npm",
+            "name": "fs.realpath",
+            "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+            "version": "1.0.0",
+            "license": "ISC",
+            "description": "Use node's fs.realpath, but fall back to the JS implementation if the native one fails"
+        },
+        {
+            "manager": "npm",
+            "name": "function-bind",
+            "author": "Raynos <raynos2@gmail.com>",
+            "version": "1.1.1",
+            "license": "MIT",
+            "description": "Implementation of Function.prototype.bind",
+            "homepage": "https://github.com/Raynos/function-bind"
+        },
+        {
+            "manager": "npm",
+            "name": "globals",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"https://sindresorhus.com\"}",
+            "version": "13.20.0",
+            "license": "MIT",
+            "description": "Global identifiers from different JavaScript environments"
+        },
+        {
+            "manager": "npm",
+            "name": "globalyzer",
+            "author": "Terkel Gjervig",
+            "version": "0.1.0",
+            "license": "MIT",
+            "description": "Detects and extract the glob part of a string"
+        },
+        {
+            "manager": "npm",
+            "name": "globby",
+            "author": "{\"email\":\"sindresorhus@gmail.com\",\"name\":\"Sindre Sorhus\",\"url\":\"https://sindresorhus.com\"}",
+            "version": "11.1.0",
+            "license": "MIT",
+            "description": "User-friendly glob matching"
+        },
+        {
+            "manager": "npm",
+            "name": "globrex",
+            "author": "Terkel Gjervig",
+            "version": "0.1.2",
+            "license": "MIT",
+            "description": "Glob to regular expression with support for extended globs"
+        },
+        {
+            "manager": "npm",
+            "name": "graceful-fs",
+            "version": "4.2.11",
+            "license": "ISC",
+            "description": "A drop-in replacement for fs, making various improvements."
+        },
+        {
+            "manager": "npm",
+            "name": "grapheme-splitter",
+            "author": "Orlin Georgiev",
+            "version": "1.0.4",
+            "license": "MIT",
+            "description": "A JavaScript library that breaks strings into their individual user-perceived characters. It supports emojis!",
+            "homepage": "https://github.com/orling/grapheme-splitter"
+        },
+        {
+            "manager": "npm",
+            "name": "has",
+            "author": "{\"name\":\"Thiago de Arruda\",\"email\":\"tpadilha84@gmail.com\"}",
+            "version": "1.0.3",
+            "license": "MIT",
+            "description": "Object.prototype.hasOwnProperty.call shortcut",
+            "homepage": "https://github.com/tarruda/has"
+        },
+        {
+            "manager": "npm",
+            "name": "has-flag",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "4.0.0",
+            "license": "MIT",
+            "description": "Check if argv has a specific flag"
+        },
+        {
+            "manager": "npm",
+            "name": "ignore",
+            "author": "kael",
+            "version": "5.2.4",
+            "license": "MIT",
+            "description": "Ignore is a manager and filter for .gitignore rules, the one used by eslint, gitbook and many others."
+        },
+        {
+            "manager": "npm",
+            "name": "import-fresh",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"https://sindresorhus.com\"}",
+            "version": "3.3.0",
+            "license": "MIT",
+            "description": "Import a module while bypassing the cache"
+        },
+        {
+            "manager": "npm",
+            "name": "import-meta-resolve",
+            "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
+            "version": "2.2.2",
+            "license": "MIT",
+            "description": "Resolve things like Node.js — ponyfill for `import.meta.resolve`"
+        },
+        {
+            "manager": "npm",
+            "name": "imurmurhash",
+            "author": "{\"name\":\"Jens Taylor\",\"email\":\"jensyt@gmail.com\",\"url\":\"https://github.com/homebrewing\"}",
+            "version": "0.1.4",
+            "license": "MIT",
+            "description": "An incremental implementation of MurmurHash3",
+            "homepage": "https://github.com/jensyt/imurmurhash-js"
+        },
+        {
+            "manager": "npm",
+            "name": "inflight",
+            "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+            "version": "1.0.6",
+            "license": "ISC",
+            "description": "Add callbacks to requests in flight to avoid async duplication",
+            "homepage": "https://github.com/isaacs/inflight"
+        },
+        {
+            "manager": "npm",
+            "name": "inherits",
+            "version": "2.0.4",
+            "license": "ISC",
+            "description": "Browser-friendly inheritance fully compatible with standard node.js inherits()"
+        },
+        {
+            "manager": "npm",
+            "name": "is-binary-path",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "2.1.0",
+            "license": "MIT",
+            "description": "Check if a file path is a binary file"
+        },
+        {
+            "manager": "npm",
+            "name": "is-builtin-module",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"https://sindresorhus.com\"}",
+            "version": "3.2.1",
+            "license": "MIT",
+            "description": "Check if a string matches the name of a Node.js builtin module"
+        },
+        {
+            "manager": "npm",
+            "name": "is-core-module",
+            "author": "Jordan Harband <ljharb@gmail.com>",
+            "version": "2.11.0",
+            "license": "MIT",
+            "description": "Is this specifier a node.js core module?",
+            "homepage": "https://github.com/inspect-js/is-core-module"
+        },
+        {
+            "manager": "npm",
+            "name": "is-extglob",
+            "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+            "version": "2.1.1",
+            "license": "MIT",
+            "description": "Returns true if a string has an extglob.",
+            "homepage": "https://github.com/jonschlinkert/is-extglob"
+        },
+        {
+            "manager": "npm",
+            "name": "is-glob",
+            "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+            "version": "4.0.3",
+            "license": "MIT",
+            "description": "Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a better user experience.",
+            "homepage": "https://github.com/micromatch/is-glob"
+        },
+        {
+            "manager": "npm",
+            "name": "is-module",
+            "author": "{\"name\":\"Jonathan Ong\",\"email\":\"me@jongleberry.com\",\"url\":\"http://jongleberry.com\",\"twitter\":\"https://twitter.com/jongleberry\"}",
+            "version": "1.0.0",
+            "license": "MIT",
+            "description": "check if a source string is an es6 module"
+        },
+        {
+            "manager": "npm",
+            "name": "is-number",
+            "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+            "version": "7.0.0",
+            "license": "MIT",
+            "description": "Returns true if a number or string value is a finite number. Useful for regex matches, parsing, user input, etc.",
+            "homepage": "https://github.com/jonschlinkert/is-number"
+        },
+        {
+            "manager": "npm",
+            "name": "is-path-inside",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "3.0.3",
+            "license": "MIT",
+            "description": "Check if a path is inside another path"
+        },
+        {
+            "manager": "npm",
+            "name": "is-reference",
+            "author": "Rich Harris",
+            "version": "1.2.1",
+            "license": "MIT",
+            "description": "Determine whether an AST node is a reference",
+            "homepage": "https://github.com/Rich-Harris/is-reference#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "isexe",
+            "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+            "version": "2.0.0",
+            "license": "ISC",
+            "description": "Minimal module to check if a file is executable.",
+            "homepage": "https://github.com/isaacs/isexe#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "js-sdsl",
+            "author": "{\"name\":\"ZLY201\",\"email\":\"951711127@qq.com\",\"url\":\"https://github.com/js-sdsl/js-sdsl\"}",
+            "version": "4.3.0",
+            "license": "MIT",
+            "description": "javascript standard data structure library which benchmark against C++ STL",
+            "homepage": "https://js-sdsl.org"
+        },
+        {
+            "manager": "npm",
+            "name": "js-yaml",
+            "author": "Vladimir Zapparov <dervus.grim@gmail.com>",
+            "version": "4.1.0",
+            "license": "MIT",
+            "description": "YAML 1.2 parser and serializer"
+        },
+        {
+            "manager": "npm",
+            "name": "json-schema-traverse",
+            "author": "Evgeny Poberezkin",
+            "version": "0.4.1",
+            "license": "MIT",
+            "description": "Traverse JSON Schema passing each schema object to callback",
+            "homepage": "https://github.com/epoberezkin/json-schema-traverse#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "json-stable-stringify-without-jsonify",
+            "author": "{\"name\":\"James Halliday\",\"email\":\"mail@substack.net\",\"url\":\"http://substack.net\"}",
+            "version": "1.0.1",
+            "license": "MIT",
+            "description": "deterministic JSON.stringify() with custom sorting to get deterministic hashes from stringified results, with no public domain dependencies",
+            "homepage": "https://github.com/samn/json-stable-stringify"
+        },
+        {
+            "manager": "npm",
+            "name": "kleur",
+            "author": "{\"name\":\"Luke Edwards\",\"email\":\"luke.edwards05@gmail.com\",\"url\":\"https://lukeed.com\"}",
+            "version": "4.1.5",
+            "license": "MIT",
+            "description": "The fastest Node.js library for formatting terminal text with ANSI colors~!"
+        },
+        {
+            "manager": "npm",
+            "name": "levn",
+            "author": "George Zahariev <z@georgezahariev.com>",
+            "version": "0.4.1",
+            "license": "MIT",
+            "description": "Light ECMAScript (JavaScript) Value Notation - human written, concise, typed, flexible",
+            "homepage": "https://github.com/gkz/levn"
+        },
+        {
+            "manager": "npm",
+            "name": "lilconfig",
+            "author": "antonk52",
+            "version": "2.1.0",
+            "license": "MIT",
+            "description": "A zero-dependency alternative to cosmiconfig"
+        },
+        {
+            "manager": "npm",
+            "name": "locate-path",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"https://sindresorhus.com\"}",
+            "version": "6.0.0",
+            "license": "MIT",
+            "description": "Get the first path that exists on disk of multiple paths"
+        },
+        {
+            "manager": "npm",
+            "name": "lodash.merge",
+            "author": "John-David Dalton <john.david.dalton@gmail.com>",
+            "version": "4.6.2",
+            "license": "MIT",
+            "description": "The Lodash method `_.merge` exported as a module.",
+            "homepage": "https://lodash.com/"
+        },
+        {
+            "manager": "npm",
+            "name": "lru-cache",
+            "author": "Isaac Z. Schlueter <i@izs.me>",
+            "version": "6.0.0",
+            "license": "ISC",
+            "description": "A cache object that deletes the least-recently-used items."
+        },
+        {
+            "manager": "npm",
+            "name": "merge2",
+            "version": "1.4.1",
+            "license": "MIT",
+            "description": "Merge multiple streams into one stream in sequence or parallel.",
+            "homepage": "https://github.com/teambition/merge2"
+        },
+        {
+            "manager": "npm",
+            "name": "micromatch",
+            "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+            "version": "4.0.5",
+            "license": "MIT",
+            "description": "Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
+            "homepage": "https://github.com/micromatch/micromatch"
+        },
+        {
+            "manager": "npm",
+            "name": "mime",
+            "author": "{\"name\":\"Robert Kieffer\",\"url\":\"http://github.com/broofa\",\"email\":\"robert@broofa.com\"}",
+            "version": "3.0.0",
+            "license": "MIT",
+            "description": "A comprehensive library for mime-type mapping"
+        },
+        {
+            "manager": "npm",
+            "name": "min-indent",
+            "author": "{\"name\":\"James Kyle\",\"email\":\"me@thejameskyle.com\",\"url\":\"thejameskyle.com\"}",
+            "version": "1.0.1",
+            "license": "MIT",
+            "description": "Get the shortest leading whitespace from lines in a string"
+        },
+        {
+            "manager": "npm",
+            "name": "minimist",
+            "author": "{\"name\":\"James Halliday\",\"email\":\"mail@substack.net\",\"url\":\"http://substack.net\"}",
+            "version": "1.2.8",
+            "license": "MIT",
+            "description": "parse argument options",
+            "homepage": "https://github.com/minimistjs/minimist"
+        },
+        {
+            "manager": "npm",
+            "name": "mkdirp",
+            "author": "James Halliday <mail@substack.net> (http://substack.net)",
+            "version": "0.5.6",
+            "license": "MIT",
+            "description": "Recursively mkdir, like `mkdir -p`"
+        },
+        {
+            "manager": "npm",
+            "name": "mri",
+            "author": "{\"name\":\"Luke Edwards\",\"email\":\"luke.edwards05@gmail.com\",\"url\":\"https://lukeed.com\"}",
+            "version": "1.2.0",
+            "license": "MIT",
+            "description": "Quickly scan for CLI flags and arguments"
+        },
+        {
+            "manager": "npm",
+            "name": "mrmime",
+            "author": "{\"name\":\"Luke Edwards\",\"email\":\"luke.edwards05@gmail.com\",\"url\":\"https://lukeed.com\"}",
+            "version": "1.0.1",
+            "license": "MIT",
+            "description": "A tiny (2.8kB) and fast utility for getting a MIME type from an extension or filename"
+        },
+        {
+            "manager": "npm",
+            "name": "ms",
+            "version": "2.1.2",
+            "license": "MIT",
+            "description": "Tiny millisecond conversion utility"
+        },
+        {
+            "manager": "npm",
+            "name": "nanoid",
+            "author": "Andrey Sitnik <andrey@sitnik.ru>",
+            "version": "3.3.4",
+            "license": "MIT",
+            "description": "A tiny (116 bytes), secure URL-friendly unique string ID generator"
+        },
+        {
+            "manager": "npm",
+            "name": "natural-compare",
+            "author": "Lauri Rooden (https://github.com/litejs/natural-compare-lite)",
+            "version": "1.4.0",
+            "license": "MIT",
+            "description": "Compare strings containing a mix of letters and numbers in the way a human being would in sort order."
+        },
+        {
+            "manager": "npm",
+            "name": "natural-compare-lite",
+            "author": "Lauri Rooden (https://github.com/litejs/natural-compare-lite)",
+            "version": "1.4.0",
+            "license": "MIT",
+            "description": "Compare strings containing a mix of letters and numbers in the way a human being would in sort order."
+        },
+        {
+            "manager": "npm",
+            "name": "node-releases",
+            "author": "Sergey Rubanov <chi187@gmail.com>",
+            "version": "2.0.10",
+            "license": "MIT",
+            "description": "Node.js releases data"
+        },
+        {
+            "manager": "npm",
+            "name": "normalize-path",
+            "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+            "version": "3.0.0",
+            "license": "MIT",
+            "description": "Normalize slashes in a file path to be posix/unix-like forward slashes. Also condenses repeat slashes to a single slash and removes and trailing slashes, unless disabled.",
+            "homepage": "https://github.com/jonschlinkert/normalize-path"
+        },
+        {
+            "manager": "npm",
+            "name": "normalize-range",
+            "author": "{\"name\":\"James Talmage\",\"email\":\"james@talmage.io\",\"url\":\"github.com/jamestalmage\"}",
+            "version": "0.1.2",
+            "license": "MIT",
+            "description": "Utility for normalizing a numeric range, with a wrapping function useful for polar coordinates"
+        },
+        {
+            "manager": "npm",
+            "name": "object-hash",
+            "author": "Scott Puleo <puleos@gmail.com>",
+            "version": "3.0.0",
+            "license": "MIT",
+            "description": "Generate hashes from javascript objects in node and the browser.",
+            "homepage": "https://github.com/puleos/object-hash"
+        },
+        {
+            "manager": "npm",
+            "name": "once",
+            "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+            "version": "1.4.0",
+            "license": "ISC",
+            "description": "Run a function exactly one time"
+        },
+        {
+            "manager": "npm",
+            "name": "optionator",
+            "author": "George Zahariev <z@georgezahariev.com>",
+            "version": "0.9.1",
+            "license": "MIT",
+            "description": "option parsing and help generation",
+            "homepage": "https://github.com/gkz/optionator"
+        },
+        {
+            "manager": "npm",
+            "name": "p-limit",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"https://sindresorhus.com\"}",
+            "version": "3.1.0",
+            "license": "MIT",
+            "description": "Run multiple promise-returning & async functions with limited concurrency"
+        },
+        {
+            "manager": "npm",
+            "name": "p-locate",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"https://sindresorhus.com\"}",
+            "version": "5.0.0",
+            "license": "MIT",
+            "description": "Get the first fulfilled promise that satisfies the provided testing function"
+        },
+        {
+            "manager": "npm",
+            "name": "parent-module",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "1.0.1",
+            "license": "MIT",
+            "description": "Get the path of the parent module"
+        },
+        {
+            "manager": "npm",
+            "name": "path-exists",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "4.0.0",
+            "license": "MIT",
+            "description": "Check if a path exists"
+        },
+        {
+            "manager": "npm",
+            "name": "path-is-absolute",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "1.0.1",
+            "license": "MIT",
+            "description": "Node.js 0.12 path.isAbsolute() ponyfill"
+        },
+        {
+            "manager": "npm",
+            "name": "path-key",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "3.1.1",
+            "license": "MIT",
+            "description": "Get the PATH environment variable key cross-platform"
+        },
+        {
+            "manager": "npm",
+            "name": "path-parse",
+            "author": "Javier Blanco <http://jbgutierrez.info>",
+            "version": "1.0.7",
+            "license": "MIT",
+            "description": "Node.js path.parse() ponyfill",
+            "homepage": "https://github.com/jbgutierrez/path-parse#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "path-type",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "4.0.0",
+            "license": "MIT",
+            "description": "Check if a path is a file, directory, or symlink"
+        },
+        {
+            "manager": "npm",
+            "name": "picocolors",
+            "author": "Alexey Raspopov",
+            "version": "1.0.0",
+            "license": "ISC",
+            "description": "The tiniest and the fastest library for terminal output formatting with ANSI colors"
+        },
+        {
+            "manager": "npm",
+            "name": "picomatch",
+            "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+            "version": "2.3.1",
+            "license": "MIT",
+            "description": "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+            "homepage": "https://github.com/micromatch/picomatch"
+        },
+        {
+            "manager": "npm",
+            "name": "pify",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "2.3.0",
+            "license": "MIT",
+            "description": "Promisify a callback-style function"
+        },
+        {
+            "manager": "npm",
+            "name": "pocketbase",
+            "author": "Gani Georgiev",
+            "version": "0.12.1",
+            "license": "MIT",
+            "description": "PocketBase JavaScript SDK"
+        },
+        {
+            "manager": "npm",
+            "name": "postcss",
+            "author": "Andrey Sitnik <andrey@sitnik.ru>",
+            "version": "8.4.21",
+            "license": "MIT",
+            "description": "Tool for transforming styles with JS plugins",
+            "homepage": "https://postcss.org/"
+        },
+        {
+            "manager": "npm",
+            "name": "postcss-import",
+            "author": "Maxime Thirouin",
+            "version": "14.1.0",
+            "license": "MIT",
+            "description": "PostCSS plugin to import CSS files"
+        },
+        {
+            "manager": "npm",
+            "name": "postcss-js",
+            "author": "Andrey Sitnik <andrey@sitnik.ru>",
+            "version": "4.0.1",
+            "license": "MIT",
+            "description": "PostCSS for CSS-in-JS and styles in JS objects"
+        },
+        {
+            "manager": "npm",
+            "name": "postcss-load-config",
+            "author": "Michael Ciniawky <michael.ciniawsky@gmail.com>",
+            "version": "3.1.4",
+            "license": "MIT",
+            "description": "Autoload Config for PostCSS"
+        },
+        {
+            "manager": "npm",
+            "name": "postcss-nested",
+            "author": "Andrey Sitnik <andrey@sitnik.ru>",
+            "version": "6.0.0",
+            "license": "MIT",
+            "description": "PostCSS plugin to unwrap nested rules like how Sass does it"
+        },
+        {
+            "manager": "npm",
+            "name": "postcss-selector-parser",
+            "version": "6.0.11",
+            "license": "MIT",
+            "homepage": "https://github.com/postcss/postcss-selector-parser"
+        },
+        {
+            "manager": "npm",
+            "name": "postcss-value-parser",
+            "author": "Bogdan Chadkin <trysound@yandex.ru>",
+            "version": "4.2.0",
+            "license": "MIT",
+            "description": "Transforms css values and at-rule params into the tree",
+            "homepage": "https://github.com/TrySound/postcss-value-parser"
+        },
+        {
+            "manager": "npm",
+            "name": "prelude-ls",
+            "author": "George Zahariev <z@georgezahariev.com>",
+            "version": "1.2.1",
+            "license": "MIT",
+            "description": "prelude.ls is a functionally oriented utility library. It is powerful and flexible. Almost all of its functions are curried. It is written in, and is the recommended base library for, LiveScript.",
+            "homepage": "http://preludels.com"
+        },
+        {
+            "manager": "npm",
+            "name": "prettier",
+            "author": "James Long",
+            "version": "2.8.4",
+            "license": "MIT",
+            "description": "Prettier is an opinionated code formatter",
+            "homepage": "https://prettier.io"
+        },
+        {
+            "manager": "npm",
+            "name": "prettier-plugin-svelte",
+            "author": "James Birtles <jameshbirtles@gmail.com>",
+            "version": "2.9.0",
+            "license": "MIT",
+            "description": "Svelte plugin for prettier",
+            "homepage": "https://github.com/sveltejs/prettier-plugin-svelte#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "punycode",
+            "author": "{\"name\":\"Mathias Bynens\",\"url\":\"https://mathiasbynens.be/\"}",
+            "version": "2.3.0",
+            "license": "MIT",
+            "description": "A robust Punycode converter that fully complies to RFC 3492 and RFC 5891, and works on nearly all JavaScript platforms.",
+            "homepage": "https://mths.be/punycode"
+        },
+        {
+            "manager": "npm",
+            "name": "queue-microtask",
+            "author": "{\"name\":\"Feross Aboukhadijeh\",\"email\":\"feross@feross.org\",\"url\":\"https://feross.org\"}",
+            "version": "1.2.3",
+            "license": "MIT",
+            "description": "fast, tiny `queueMicrotask` shim for modern engines",
+            "homepage": "https://github.com/feross/queue-microtask"
+        },
+        {
+            "manager": "npm",
+            "name": "quick-lru",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"https://sindresorhus.com\"}",
+            "version": "5.1.1",
+            "license": "MIT",
+            "description": "Simple “Least Recently Used” (LRU) cache"
+        },
+        {
+            "manager": "npm",
+            "name": "read-cache",
+            "author": "Bogdan Chadkin <trysound@yandex.ru>",
+            "version": "1.0.0",
+            "license": "MIT",
+            "description": "Reads and caches the entire contents of a file until it is modified",
+            "homepage": "https://github.com/TrySound/read-cache#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "readdirp",
+            "author": "Thorsten Lorenz <thlorenz@gmx.de> (thlorenz.com)",
+            "version": "3.6.0",
+            "license": "MIT",
+            "description": "Recursive version of fs.readdir with streaming API.",
+            "homepage": "https://github.com/paulmillr/readdirp"
+        },
+        {
+            "manager": "npm",
+            "name": "resolve",
+            "author": "{\"name\":\"James Halliday\",\"email\":\"mail@substack.net\",\"url\":\"http://substack.net\"}",
+            "version": "1.22.1",
+            "license": "MIT",
+            "description": "resolve like require.resolve() on behalf of files asynchronously and synchronously"
+        },
+        {
+            "manager": "npm",
+            "name": "resolve-from",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "4.0.0",
+            "license": "MIT",
+            "description": "Resolve the path of a module like `require.resolve()` but from a given path"
+        },
+        {
+            "manager": "npm",
+            "name": "reusify",
+            "author": "Matteo Collina <hello@matteocollina.com>",
+            "version": "1.0.4",
+            "license": "MIT",
+            "description": "Reuse objects and functions with style",
+            "homepage": "https://github.com/mcollina/reusify#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "rimraf",
+            "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+            "version": "3.0.2",
+            "license": "ISC",
+            "description": "A deep deletion module for node (like `rm -rf`)"
+        },
+        {
+            "manager": "npm",
+            "name": "rollup",
+            "author": "Rich Harris",
+            "version": "3.19.1",
+            "license": "MIT",
+            "description": "Next-generation ES module bundler",
+            "homepage": "https://rollupjs.org/"
+        },
+        {
+            "manager": "npm",
+            "name": "run-parallel",
+            "author": "{\"name\":\"Feross Aboukhadijeh\",\"email\":\"feross@feross.org\",\"url\":\"https://feross.org\"}",
+            "version": "1.2.0",
+            "license": "MIT",
+            "description": "Run an array of functions in parallel",
+            "homepage": "https://github.com/feross/run-parallel"
+        },
+        {
+            "manager": "npm",
+            "name": "sade",
+            "author": "{\"name\":\"Luke Edwards\",\"email\":\"luke.edwards05@gmail.com\",\"url\":\"https://lukeed.com\"}",
+            "version": "1.8.1",
+            "license": "MIT",
+            "description": "Smooth (CLI) operator 🎶"
+        },
+        {
+            "manager": "npm",
+            "name": "sander",
+            "author": "Rich Harris",
+            "version": "0.5.1",
+            "license": "MIT",
+            "description": "Promise-based power tool for common filesystem tasks"
+        },
+        {
+            "manager": "npm",
+            "name": "semver",
+            "author": "GitHub Inc.",
+            "version": "7.3.8",
+            "license": "ISC",
+            "description": "The semantic version parser used by npm."
+        },
+        {
+            "manager": "npm",
+            "name": "set-cookie-parser",
+            "author": "{\"name\":\"Nathan Friedly\",\"email\":\"\",\"url\":\"http://nfriedly.com/\"}",
+            "version": "2.6.0",
+            "license": "MIT",
+            "description": "Parses set-cookie headers into objects",
+            "homepage": "https://github.com/nfriedly/set-cookie-parser"
+        },
+        {
+            "manager": "npm",
+            "name": "shebang-command",
+            "author": "{\"name\":\"Kevin Mårtensson\",\"email\":\"kevinmartensson@gmail.com\",\"url\":\"github.com/kevva\"}",
+            "version": "2.0.0",
+            "license": "MIT",
+            "description": "Get the command from a shebang"
+        },
+        {
+            "manager": "npm",
+            "name": "shebang-regex",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "3.0.0",
+            "license": "MIT",
+            "description": "Regular expression for matching a shebang line"
+        },
+        {
+            "manager": "npm",
+            "name": "sirv",
+            "author": "{\"name\":\"Luke Edwards\",\"email\":\"luke@lukeed.com\",\"url\":\"https://lukeed.com\"}",
+            "version": "2.0.2",
+            "license": "MIT",
+            "description": "The optimized & lightweight middleware for serving requests to static assets"
+        },
+        {
+            "manager": "npm",
+            "name": "slash",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "3.0.0",
+            "license": "MIT",
+            "description": "Convert Windows backslash paths to slash paths"
+        },
+        {
+            "manager": "npm",
+            "name": "sorcery",
+            "author": "Rich Harris",
+            "version": "0.11.0",
+            "license": "MIT",
+            "description": "Resolve a chain of sourcemaps back to the original source"
+        },
+        {
+            "manager": "npm",
+            "name": "source-map-js",
+            "author": "Valentin 7rulnik Semirulnik <v7rulnik@gmail.com>",
+            "version": "1.0.2",
+            "license": "BSD-3-Clause",
+            "description": "Generates and consumes source maps",
+            "homepage": "https://github.com/7rulnik/source-map-js"
+        },
+        {
+            "manager": "npm",
+            "name": "streamsearch",
+            "author": "Brian White <mscdex@mscdex.net>",
+            "version": "1.1.0",
+            "description": "Streaming Boyer-Moore-Horspool searching for node.js"
+        },
+        {
+            "manager": "npm",
+            "name": "strip-ansi",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "6.0.1",
+            "license": "MIT",
+            "description": "Strip ANSI escape codes from a string"
+        },
+        {
+            "manager": "npm",
+            "name": "strip-indent",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "3.0.0",
+            "license": "MIT",
+            "description": "Strip leading whitespace from each line in a string"
+        },
+        {
+            "manager": "npm",
+            "name": "strip-json-comments",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"https://sindresorhus.com\"}",
+            "version": "3.1.1",
+            "license": "MIT",
+            "description": "Strip comments from JSON. Lets you use comments in your JSON files!"
+        },
+        {
+            "manager": "npm",
+            "name": "supports-color",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"sindresorhus.com\"}",
+            "version": "7.2.0",
+            "license": "MIT",
+            "description": "Detect whether a terminal supports color"
+        },
+        {
+            "manager": "npm",
+            "name": "supports-preserve-symlinks-flag",
+            "author": "Jordan Harband <ljharb@gmail.com>",
+            "version": "1.0.0",
+            "license": "MIT",
+            "description": "Determine if the current node version supports the `--preserve-symlinks` flag.",
+            "homepage": "https://github.com/inspect-js/node-supports-preserve-symlinks-flag#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "svelte",
+            "author": "Rich Harris",
+            "version": "3.57.0",
+            "license": "MIT",
+            "description": "Cybernetically enhanced web apps",
+            "homepage": "https://svelte.dev"
+        },
+        {
+            "manager": "npm",
+            "name": "svelte-adapter-deno",
+            "version": "0.9.0",
+            "license": "MIT"
+        },
+        {
+            "manager": "npm",
+            "name": "svelte-check",
+            "author": "The Svelte Community",
+            "version": "3.1.4",
+            "license": "MIT",
+            "description": "Svelte Code Checker Terminal Interface",
+            "homepage": "https://github.com/sveltejs/language-tools#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "svelte-hmr",
+            "author": "rixo <rixo@rixo.fr>",
+            "version": "0.15.1",
+            "license": "ISC",
+            "description": "Bundler agnostic HMR utils for Svelte 3",
+            "homepage": "https://github.com/sveltejs/svelte-hmr"
+        },
+        {
+            "manager": "npm",
+            "name": "svelte-preprocess",
+            "author": "Christian Kaisermann <christian@kaisermann.me>",
+            "version": "5.0.3",
+            "license": "MIT",
+            "description": "A Svelte preprocessor wrapper with baked-in support for commonly used preprocessors"
+        },
+        {
+            "manager": "npm",
+            "name": "tailwindcss",
+            "version": "3.2.7",
+            "license": "MIT",
+            "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
+            "homepage": "https://tailwindcss.com"
+        },
+        {
+            "manager": "npm",
+            "name": "text-table",
+            "author": "{\"name\":\"James Halliday\",\"email\":\"mail@substack.net\",\"url\":\"http://substack.net\"}",
+            "version": "0.2.0",
+            "license": "MIT",
+            "description": "borderless text tables with alignment",
+            "homepage": "https://github.com/substack/text-table"
+        },
+        {
+            "manager": "npm",
+            "name": "tiny-glob",
+            "author": "{\"name\":\"Terkel Gjervig\",\"email\":\"terkel@terkel.com\",\"url\":\"https://terkel.com\"}",
+            "version": "0.2.9",
+            "license": "MIT",
+            "description": "Tiny and extremely fast globbing"
+        },
+        {
+            "manager": "npm",
+            "name": "to-regex-range",
+            "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+            "version": "5.0.1",
+            "license": "MIT",
+            "description": "Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+            "homepage": "https://github.com/micromatch/to-regex-range"
+        },
+        {
+            "manager": "npm",
+            "name": "totalist",
+            "author": "{\"name\":\"Luke Edwards\",\"email\":\"luke.edwards05@gmail.com\",\"url\":\"https://lukeed.com\"}",
+            "version": "3.0.0",
+            "license": "MIT",
+            "description": "A tiny (195B to 220B) utility to recursively list all (total) files in a directory"
+        },
+        {
+            "manager": "npm",
+            "name": "tslib",
+            "author": "Microsoft Corp.",
+            "version": "2.5.0",
+            "license": "0BSD",
+            "description": "Runtime library for TypeScript helper functions",
+            "homepage": "https://www.typescriptlang.org/"
+        },
+        {
+            "manager": "npm",
+            "name": "tsutils",
+            "author": "Klaus Meinhardt",
+            "version": "3.21.0",
+            "license": "MIT",
+            "description": "utilities for working with typescript's AST"
+        },
+        {
+            "manager": "npm",
+            "name": "type-check",
+            "author": "George Zahariev <z@georgezahariev.com>",
+            "version": "0.4.0",
+            "license": "MIT",
+            "description": "type-check allows you to check the types of JavaScript values at runtime with a Haskell like type syntax.",
+            "homepage": "https://github.com/gkz/type-check"
+        },
+        {
+            "manager": "npm",
+            "name": "type-fest",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"https://sindresorhus.com\"}",
+            "version": "0.20.2",
+            "license": "(MIT OR CC0-1.0)",
+            "description": "A collection of essential TypeScript types"
+        },
+        {
+            "manager": "npm",
+            "name": "typescript",
+            "author": "Microsoft Corp.",
+            "version": "4.9.5",
+            "license": "Apache-2.0",
+            "description": "TypeScript is a language for application scale JavaScript development",
+            "homepage": "https://www.typescriptlang.org/"
+        },
+        {
+            "manager": "npm",
+            "name": "undici",
+            "author": "Matteo Collina <hello@matteocollina.com>",
+            "version": "5.21.0",
+            "license": "MIT",
+            "description": "An HTTP/1.1 client, written from scratch for Node.js",
+            "homepage": "https://undici.nodejs.org"
+        },
+        {
+            "manager": "npm",
+            "name": "update-browserslist-db",
+            "author": "Andrey Sitnik <andrey@sitnik.ru>",
+            "version": "1.0.10",
+            "license": "MIT",
+            "description": "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config"
+        },
+        {
+            "manager": "npm",
+            "name": "uri-js",
+            "author": "Gary Court <gary.court@gmail.com>",
+            "version": "4.4.1",
+            "license": "BSD-2-Clause",
+            "description": "An RFC 3986/3987 compliant, scheme extendable URI/IRI parsing/validating/resolving library for JavaScript.",
+            "homepage": "https://github.com/garycourt/uri-js"
+        },
+        {
+            "manager": "npm",
+            "name": "util-deprecate",
+            "author": "Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)",
+            "version": "1.0.2",
+            "license": "MIT",
+            "description": "The Node.js `util.deprecate()` function with browser support",
+            "homepage": "https://github.com/TooTallNate/util-deprecate"
+        },
+        {
+            "manager": "npm",
+            "name": "vite",
+            "author": "Evan You",
+            "version": "4.2.0",
+            "license": "MIT",
+            "description": "Native-ESM powered web dev build tool",
+            "homepage": "https://github.com/vitejs/vite/tree/main/#readme"
+        },
+        {
+            "manager": "npm",
+            "name": "vitefu",
+            "version": "0.2.4",
+            "license": "MIT",
+            "description": "Utilities for building frameworks with Vite"
+        },
+        {
+            "manager": "npm",
+            "name": "which",
+            "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)",
+            "version": "2.0.2",
+            "license": "ISC",
+            "description": "Like which(1) unix command. Find the first instance of an executable in the PATH."
+        },
+        {
+            "manager": "npm",
+            "name": "word-wrap",
+            "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+            "version": "1.2.3",
+            "license": "MIT",
+            "description": "Wrap words to a specified length.",
+            "homepage": "https://github.com/jonschlinkert/word-wrap"
+        },
+        {
+            "manager": "npm",
+            "name": "wrappy",
+            "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+            "version": "1.0.2",
+            "license": "ISC",
+            "description": "Callback wrapping utility",
+            "homepage": "https://github.com/npm/wrappy"
+        },
+        {
+            "manager": "npm",
+            "name": "xtend",
+            "author": "Raynos <raynos2@gmail.com>",
+            "version": "4.0.2",
+            "license": "MIT",
+            "description": "extend like a boss",
+            "homepage": "https://github.com/Raynos/xtend"
+        },
+        {
+            "manager": "npm",
+            "name": "yallist",
+            "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+            "version": "4.0.0",
+            "license": "ISC",
+            "description": "Yet Another Linked List"
+        },
+        {
+            "manager": "npm",
+            "name": "yaml",
+            "author": "Eemeli Aro <eemeli@gmail.com>",
+            "version": "1.10.2",
+            "license": "ISC",
+            "description": "JavaScript parser and stringifier for YAML",
+            "homepage": "https://eemeli.org/yaml/v1/"
+        },
+        {
+            "manager": "npm",
+            "name": "yocto-queue",
+            "author": "{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"https://sindresorhus.com\"}",
+            "version": "0.1.0",
+            "license": "MIT",
+            "description": "Tiny queue data structure"
+        }
+    ]
+}

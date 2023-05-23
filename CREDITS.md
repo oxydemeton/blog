@@ -1,0 +1,1278 @@
+# Mentions
+## Modules
+### NPM Modules
+- blog
+    - Version: 0.1.2
+- @esbuild/win32-x64
+    - Version: 0.17.12
+    - License: MIT
+    - Description: The Windows 64-bit binary for esbuild, a JavaScript bundler.
+- @eslint-community/eslint-utils
+    - Author: Toru Nagashima
+    - Version: 4.3.0
+    - License: MIT
+    - Description: Utilities for ESLint plugins.
+    - Homepage: https://github.com/eslint-community/eslint-utils#readme
+- @eslint-community/regexpp
+    - Author: Toru Nagashima
+    - Version: 4.4.0
+    - License: MIT
+    - Description: Regular expression parser for ECMAScript.
+    - Homepage: https://github.com/eslint-community/regexpp#readme
+- @eslint/eslintrc
+    - Author: Nicholas C. Zakas
+    - Version: 2.0.1
+    - License: MIT
+    - Description: The legacy ESLintRC config file format for ESLint
+    - Homepage: https://github.com/eslint/eslintrc#readme
+- @eslint/js
+    - Version: 8.36.0
+    - License: MIT
+    - Description: ESLint JavaScript language implementation
+    - Homepage: https://eslint.org
+- @humanwhocodes/config-array
+    - Author: Nicholas C. Zakas
+    - Version: 0.11.8
+    - License: Apache-2.0
+    - Description: Glob-based configuration matching.
+    - Homepage: https://github.com/humanwhocodes/config-array#readme
+- @humanwhocodes/module-importer
+    - Author: Nicholas C. Zaks
+    - Version: 1.0.1
+    - License: Apache-2.0
+    - Description: Universal module importer for Node.js
+- @humanwhocodes/object-schema
+    - Author: Nicholas C. Zakas
+    - Version: 1.2.1
+    - License: BSD-3-Clause
+    - Description: An object schema merger/validator
+    - Homepage: https://github.com/humanwhocodes/object-schema#readme
+- @jridgewell/resolve-uri
+    - Author: Justin Ridgewell <justin@ridgewell.name>
+    - Version: 3.1.0
+    - License: MIT
+    - Description: Resolve a URI relative to an optional base URI
+- @jridgewell/sourcemap-codec
+    - Author: Rich Harris
+    - Version: 1.4.14
+    - License: MIT
+    - Description: Encode/decode sourcemap mappings
+- @jridgewell/trace-mapping
+    - Author: Justin Ridgewell <justin@ridgewell.name>
+    - Version: 0.3.17
+    - License: MIT
+    - Description: Trace the original position through a source map
+- @nodelib/fs.scandir
+    - Version: 2.1.5
+    - License: MIT
+    - Description: List files and directories inside the specified directory
+- @nodelib/fs.stat
+    - Version: 2.0.5
+    - License: MIT
+    - Description: Get the status of a file with some features
+- @nodelib/fs.walk
+    - Version: 1.2.8
+    - License: MIT
+    - Description: A library for efficiently walking a directory recursively
+- @polka/url
+    - Author: {"name":"Luke Edwards","email":"luke@lukeed.com","url":"https://lukeed.com"}
+    - Version: 1.0.0-next.21
+    - License: MIT
+    - Description: Super fast, memoized `req.url` parser
+- @rollup/plugin-commonjs
+    - Author: Rich Harris <richard.a.harris@gmail.com>
+    - Version: 24.0.1
+    - License: MIT
+    - Description: Convert CommonJS modules to ES2015
+    - Homepage: https://github.com/rollup/plugins/tree/master/packages/commonjs/#readme
+- brace-expansion
+    - Author: {"name":"Julian Gruber","email":"mail@juliangruber.com","url":"http://juliangruber.com"}
+    - Version: 2.0.1
+    - License: MIT
+    - Description: Brace expansion as known from sh/bash
+    - Homepage: https://github.com/juliangruber/brace-expansion
+- glob
+    - Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+    - Version: 8.1.0
+    - License: ISC
+    - Description: a little globber
+- magic-string
+    - Author: Rich Harris
+    - Version: 0.27.0
+    - License: MIT
+    - Description: Modify strings, generate sourcemaps
+- minimatch
+    - Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)
+    - Version: 5.1.6
+    - License: ISC
+    - Description: a glob matcher in javascript
+- @rollup/plugin-json
+    - Author: rollup
+    - Version: 6.0.0
+    - License: MIT
+    - Description: Convert .json files to ES6 modules
+    - Homepage: https://github.com/rollup/plugins/tree/master/packages/json#readme
+- @rollup/plugin-node-resolve
+    - Author: Rich Harris <richard.a.harris@gmail.com>
+    - Version: 15.0.1
+    - License: MIT
+    - Description: Locate and bundle third-party dependencies in node_modules
+    - Homepage: https://github.com/rollup/plugins/tree/master/packages/node-resolve/#readme
+- @rollup/pluginutils
+    - Author: Rich Harris <richard.a.harris@gmail.com>
+    - Version: 5.0.2
+    - License: MIT
+    - Description: A set of utility functions commonly used by Rollup plugins
+    - Homepage: https://github.com/rollup/plugins/tree/master/packages/pluginutils#readme
+- @sveltejs/adapter-auto
+    - Version: 2.0.0
+    - License: MIT
+    - Homepage: https://kit.svelte.dev
+- @sveltejs/adapter-node
+    - Version: 1.2.3
+    - License: MIT
+    - Homepage: https://kit.svelte.dev
+- @sveltejs/kit
+    - Version: 1.12.0
+    - License: MIT
+    - Homepage: https://kit.svelte.dev
+- @sveltejs/vite-plugin-svelte
+    - Author: dominikg
+    - Version: 2.0.3
+    - License: MIT
+    - Homepage: https://github.com/sveltejs/vite-plugin-svelte#readme
+- @types/cookie
+    - Version: 0.5.1
+    - License: MIT
+    - Description: TypeScript definitions for cookie
+    - Homepage: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/cookie
+- @types/estree
+    - Version: 1.0.0
+    - License: MIT
+    - Description: TypeScript definitions for estree
+    - Homepage: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/estree
+- @types/json-schema
+    - Version: 7.0.11
+    - License: MIT
+    - Description: TypeScript definitions for json-schema 4.0, 6.0 and
+    - Homepage: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/json-schema
+- @types/pug
+    - Version: 2.0.6
+    - License: MIT
+    - Description: TypeScript definitions for pug
+    - Homepage: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/pug
+- @types/resolve
+    - Version: 1.20.2
+    - License: MIT
+    - Description: TypeScript definitions for resolve
+    - Homepage: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/resolve
+- @types/semver
+    - Version: 7.3.13
+    - License: MIT
+    - Description: TypeScript definitions for semver
+    - Homepage: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/semver
+- @typescript-eslint/eslint-plugin
+    - Version: 5.55.0
+    - License: MIT
+    - Description: TypeScript plugin for ESLint
+- @typescript-eslint/parser
+    - Version: 5.55.0
+    - License: BSD-2-Clause
+    - Description: An ESLint custom parser which leverages TypeScript ESTree
+- @typescript-eslint/scope-manager
+    - Version: 5.55.0
+    - License: MIT
+    - Description: TypeScript scope analyser for ESLint
+- @typescript-eslint/type-utils
+    - Version: 5.55.0
+    - License: MIT
+    - Description: Type utilities for working with TypeScript + ESLint together
+- @typescript-eslint/types
+    - Version: 5.55.0
+    - License: MIT
+    - Description: Types for the TypeScript-ESTree AST spec
+- @typescript-eslint/typescript-estree
+    - Version: 5.55.0
+    - License: BSD-2-Clause
+    - Description: A parser that converts TypeScript source code into an ESTree compatible form
+- @typescript-eslint/utils
+    - Version: 5.55.0
+    - License: MIT
+    - Description: Utilities for working with TypeScript + ESLint together
+- @typescript-eslint/visitor-keys
+    - Version: 5.55.0
+    - License: MIT
+    - Description: Visitor keys used to help traverse the TypeScript-ESTree AST
+- acorn
+    - Version: 8.8.2
+    - License: MIT
+    - Description: ECMAScript parser
+    - Homepage: https://github.com/acornjs/acorn
+- acorn-jsx
+    - Version: 5.3.2
+    - License: MIT
+    - Description: Modern, fast React.js JSX parser
+    - Homepage: https://github.com/acornjs/acorn-jsx
+- acorn-node
+    - Author: Renée Kooi <renee@kooi.me>
+    - Version: 1.8.2
+    - License: Apache-2.0
+    - Description: the acorn javascript parser, preloaded with plugins for syntax parity with recent node versions
+    - Homepage: https://github.com/browserify/acorn-node
+- acorn-walk
+    - Version: 7.2.0
+    - License: MIT
+    - Description: ECMAScript (ESTree) AST walker
+    - Homepage: https://github.com/acornjs/acorn
+- ajv
+    - Author: Evgeny Poberezkin
+    - Version: 6.12.6
+    - License: MIT
+    - Description: Another JSON Schema Validator
+    - Homepage: https://github.com/ajv-validator/ajv
+- ansi-regex
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 5.0.1
+    - License: MIT
+    - Description: Regular expression for matching ANSI escape codes
+- ansi-styles
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 4.3.0
+    - License: MIT
+    - Description: ANSI escape codes for styling strings in the terminal
+- anymatch
+    - Author: {"name":"Elan Shanker","url":"https://github.com/es128"}
+    - Version: 3.1.3
+    - License: ISC
+    - Description: Matches strings against configurable strings, globs, regular expressions, and/or functions
+    - Homepage: https://github.com/micromatch/anymatch
+- arg
+    - Author: Josh Junon <junon@wavetilt.com>
+    - Version: 5.0.2
+    - License: MIT
+    - Description: Unopinionated, no-frills CLI argument parser
+- argparse
+    - Version: 2.0.1
+    - License: Python-2.0
+    - Description: CLI arguments parser. Native port of python's argparse.
+- array-union
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 2.1.0
+    - License: MIT
+    - Description: Create an array of unique values, in order, from the input arrays
+- autoprefixer
+    - Author: Andrey Sitnik <andrey@sitnik.ru>
+    - Version: 10.4.14
+    - License: MIT
+    - Description: Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website
+- balanced-match
+    - Author: {"name":"Julian Gruber","email":"mail@juliangruber.com","url":"http://juliangruber.com"}
+    - Version: 1.0.2
+    - License: MIT
+    - Description: Match balanced character pairs, like "{" and "}"
+    - Homepage: https://github.com/juliangruber/balanced-match
+- binary-extensions
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 2.2.0
+    - License: MIT
+    - Description: List of binary file extensions
+- braces
+    - Author: Jon Schlinkert (https://github.com/jonschlinkert)
+    - Version: 3.0.2
+    - License: MIT
+    - Description: Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.
+    - Homepage: https://github.com/micromatch/braces
+- browserslist
+    - Author: Andrey Sitnik <andrey@sitnik.ru>
+    - Version: 4.21.5
+    - License: MIT
+    - Description: Share target browsers between different front-end tools, like Autoprefixer, Stylelint and babel-env-preset
+- buffer-crc32
+    - Author: Brian J. Brennan <brianloveswords@gmail.com>
+    - Version: 0.2.13
+    - License: MIT
+    - Description: A pure javascript CRC32 algorithm that plays nice with binary data
+    - Homepage: https://github.com/brianloveswords/buffer-crc32
+- builtin-modules
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"}
+    - Version: 3.3.0
+    - License: MIT
+    - Description: List of the Node.js builtin modules
+- busboy
+    - Author: Brian White <mscdex@mscdex.net>
+    - Version: 1.6.0
+    - Description: A streaming parser for HTML form data for node.js
+- callsites
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 3.1.0
+    - License: MIT
+    - Description: Get callsites from the V8 stack trace API
+- camelcase-css
+    - Author: Steven Vachon <contact@svachon.com> (https://www.svachon.com/)
+    - Version: 2.0.1
+    - License: MIT
+    - Description: Convert a kebab-cased CSS property into a camelCased DOM property.
+- caniuse-lite
+    - Author: {"name":"Ben Briggs","email":"beneb.info@gmail.com","url":"http://beneb.info"}
+    - Version: 1.0.30001467
+    - License: CC-BY-4.0
+    - Description: A smaller version of caniuse-db, with only the essentials!
+- chalk
+    - Version: 4.1.2
+    - License: MIT
+    - Description: Terminal string styling done right
+- chokidar
+    - Author: Paul Miller (https://paulmillr.com)
+    - Version: 3.5.3
+    - License: MIT
+    - Description: Minimal and efficient cross-platform file watching library
+    - Homepage: https://github.com/paulmillr/chokidar
+- glob-parent
+    - Author: Gulp Team <team@gulpjs.com> (https://gulpjs.com/)
+    - Version: 5.1.2
+    - License: ISC
+    - Description: Extract the non-magic parent path from a glob string.
+- color-convert
+    - Author: Heather Arthur <fayearthur@gmail.com>
+    - Version: 2.0.1
+    - License: MIT
+    - Description: Plain color conversion functions
+- color-name
+    - Author: DY <dfcreative@gmail.com>
+    - Version: 1.1.4
+    - License: MIT
+    - Description: A list of color names and its values
+    - Homepage: https://github.com/colorjs/color-name
+- commondir
+    - Author: {"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"}
+    - Version: 1.0.1
+    - License: MIT
+    - Description: compute the closest common parent for file paths
+- concat-map
+    - Author: {"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"}
+    - Version: 0.0.1
+    - License: MIT
+    - Description: concatenative mapdashery
+- cookie
+    - Author: Roman Shtylman <shtylman@gmail.com>
+    - Version: 0.5.0
+    - License: MIT
+    - Description: HTTP server cookie parsing and serialization
+- cross-spawn
+    - Author: André Cruz <andre@moxy.studio>
+    - Version: 7.0.3
+    - License: MIT
+    - Description: Cross platform child_process#spawn and child_process#spawnSync
+    - Homepage: https://github.com/moxystudio/node-cross-spawn
+- cssesc
+    - Author: {"name":"Mathias Bynens","url":"https://mathiasbynens.be/"}
+    - Version: 3.0.0
+    - License: MIT
+    - Description: A JavaScript library for escaping CSS strings and identifiers while generating the shortest possible ASCII-only output.
+    - Homepage: https://mths.be/cssesc
+- debug
+    - Author: Josh Junon <josh.junon@protonmail.com>
+    - Version: 4.3.4
+    - License: MIT
+    - Description: Lightweight debugging utility for Node.js and the browser
+- deep-is
+    - Author: {"name":"Thorsten Lorenz","email":"thlorenz@gmx.de","url":"http://thlorenz.com"}
+    - Version: 0.1.4
+    - License: MIT
+    - Description: node's assert.deepEqual algorithm except for NaN being equal to NaN
+- deepmerge
+    - Version: 4.3.1
+    - License: MIT
+    - Description: A library for deep (recursive) merging of Javascript objects
+    - Homepage: https://github.com/TehShrike/deepmerge
+- defined
+    - Author: {"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"}
+    - Version: 1.0.1
+    - License: MIT
+    - Description: return the first argument that is `!== undefined`
+    - Homepage: https://github.com/inspect-js/defined
+- detect-indent
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 6.1.0
+    - License: MIT
+    - Description: Detect the indentation of code
+- detective
+    - Author: {"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"}
+    - Version: 5.2.1
+    - License: MIT
+    - Description: find all require() calls by walking the AST
+- devalue
+    - Version: 4.3.0
+    - License: MIT
+    - Description: Gets the job done when JSON.stringify can't
+- didyoumean
+    - Author: {"name":"Dave Porter","email":"dcporter@gmail.com","url":"http://dcporter.net/"}
+    - Version: 1.2.2
+    - License: Apache-2.0
+    - Description: Match human-quality input to potential matches by edit distance.
+    - Homepage: https://github.com/dcporter/didyoumean.js
+- dir-glob
+    - Author: {"name":"Kevin Mårtensson","email":"kevinmartensson@gmail.com","url":"github.com/kevva"}
+    - Version: 3.0.1
+    - License: MIT
+    - Description: Convert directories to glob compatible strings
+- dlv
+    - Author: Jason Miller <jason@developit.ca> (http://jasonformat.com)
+    - Version: 1.1.3
+    - License: MIT
+    - Description: Safely get a dot-notated property within an object.
+- doctrine
+    - Version: 3.0.0
+    - License: Apache-2.0
+    - Description: JSDoc parser
+    - Homepage: https://github.com/eslint/doctrine
+- electron-to-chromium
+    - Author: Kilian Valkhof
+    - Version: 1.4.333
+    - License: ISC
+    - Description: Provides a list of electron-to-chromium version mappings
+- es6-promise
+    - Author: Yehuda Katz, Tom Dale, Stefan Penner and contributors (Conversion to ES6 API by Jake Archibald)
+    - Version: 3.3.1
+    - License: MIT
+    - Description: A lightweight library that provides tools for organizing asynchronous code
+- esbuild
+    - Version: 0.17.12
+    - License: MIT
+    - Description: An extremely fast JavaScript and CSS bundler and minifier.
+- escalade
+    - Author: {"name":"Luke Edwards","email":"luke.edwards05@gmail.com","url":"https://lukeed.com"}
+    - Version: 3.1.1
+    - License: MIT
+    - Description: A tiny (183B to 210B) and fast utility to ascend parent directories
+- escape-string-regexp
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"}
+    - Version: 4.0.0
+    - License: MIT
+    - Description: Escape RegExp special characters
+- eslint
+    - Author: Nicholas C. Zakas <nicholas+npm@nczconsulting.com>
+    - Version: 8.36.0
+    - License: MIT
+    - Description: An AST-based pattern checker for JavaScript.
+    - Homepage: https://eslint.org
+- eslint-config-prettier
+    - Author: Simon Lydell
+    - Version: 8.7.0
+    - License: MIT
+    - Description: Turns off all rules that are unnecessary or might conflict with Prettier.
+- eslint-plugin-svelte3
+    - Author: Conduitry
+    - Version: 4.0.0
+    - License: MIT
+    - Description: An ESLint plugin for Svelte v3 components.
+- eslint-scope
+    - Version: 5.1.1
+    - License: BSD-2-Clause
+    - Description: ECMAScript scope analyzer for ESLint
+    - Homepage: http://github.com/eslint/eslint-scope
+- eslint-visitor-keys
+    - Author: Toru Nagashima (https://github.com/mysticatea)
+    - Version: 3.3.0
+    - License: Apache-2.0
+    - Description: Constants and utilities about visitor keys to traverse AST.
+    - Homepage: https://github.com/eslint/eslint-visitor-keys#readme
+- estraverse
+    - Version: 5.3.0
+    - License: BSD-2-Clause
+    - Description: ECMAScript JS AST traversal functions
+    - Homepage: https://github.com/estools/estraverse
+- esm-env
+    - Author: Ben McCann (https://www.benmccann.com)
+    - Version: 1.0.0
+    - License: MIT
+    - Homepage: https://github.com/benmccann/esm-env
+- espree
+    - Author: Nicholas C. Zakas <nicholas+npm@nczconsulting.com>
+    - Version: 9.5.0
+    - License: BSD-2-Clause
+    - Description: An Esprima-compatible JavaScript parser built on Acorn
+    - Homepage: https://github.com/eslint/espree
+- esquery
+    - Author: Joel Feenstra <jrfeenst+esquery@gmail.com>
+    - Version: 1.5.0
+    - License: BSD-3-Clause
+    - Description: A query library for ECMAScript AST using a CSS selector like query language.
+    - Homepage: https://github.com/estools/esquery/
+- esrecurse
+    - Version: 4.3.0
+    - License: BSD-2-Clause
+    - Description: ECMAScript AST recursive visitor
+    - Homepage: https://github.com/estools/esrecurse
+- estree-walker
+    - Author: Rich Harris
+    - Version: 2.0.2
+    - License: MIT
+    - Description: Traverse an ESTree-compliant AST
+- esutils
+    - Version: 2.0.3
+    - License: BSD-2-Clause
+    - Description: utility box for ECMAScript language tools
+    - Homepage: https://github.com/estools/esutils
+- fast-deep-equal
+    - Author: Evgeny Poberezkin
+    - Version: 3.1.3
+    - License: MIT
+    - Description: Fast deep equal
+    - Homepage: https://github.com/epoberezkin/fast-deep-equal#readme
+- fast-glob
+    - Author: {"name":"Denis Malinochkin","url":"https://mrmlnc.com"}
+    - Version: 3.2.12
+    - License: MIT
+    - Description: It's a very fast and efficient glob library for Node.js
+- fast-json-stable-stringify
+    - Author: {"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"}
+    - Version: 2.1.0
+    - License: MIT
+    - Description: deterministic `JSON.stringify()` - a faster version of substack's json-stable-strigify without jsonify
+    - Homepage: https://github.com/epoberezkin/fast-json-stable-stringify
+- fast-levenshtein
+    - Author: Ramesh Nair <ram@hiddentao.com> (http://www.hiddentao.com/)
+    - Version: 2.0.6
+    - License: MIT
+    - Description: Efficient implementation of Levenshtein algorithm  with locale-specific collator support.
+- fastq
+    - Author: Matteo Collina <hello@matteocollina.com>
+    - Version: 1.15.0
+    - License: ISC
+    - Description: Fast, in memory work queue
+    - Homepage: https://github.com/mcollina/fastq#readme
+- file-entry-cache
+    - Author: {"name":"Roy Riojas","url":"http://royriojas.com"}
+    - Version: 6.0.1
+    - License: MIT
+    - Description: Super simple cache for file metadata, useful for process that work o a given series of files and that only need to repeat the job on the changed ones since the previous run of the process
+- fill-range
+    - Author: Jon Schlinkert (https://github.com/jonschlinkert)
+    - Version: 7.0.1
+    - License: MIT
+    - Description: Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`
+    - Homepage: https://github.com/jonschlinkert/fill-range
+- find-up
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"}
+    - Version: 5.0.0
+    - License: MIT
+    - Description: Find a file or directory by walking up parent directories
+- flat-cache
+    - Author: {"name":"Roy Riojas","url":"http://royriojas.com"}
+    - Version: 3.0.4
+    - License: MIT
+    - Description: A stupidly simple key/value storage using files to persist some data
+- flatted
+    - Author: Andrea Giammarchi
+    - Version: 3.2.7
+    - License: ISC
+    - Description: A super light and fast circular JSON parser.
+    - Homepage: https://github.com/WebReflection/flatted#readme
+- fraction.js
+    - Author: Robert Eisele <robert@xarg.org> (http://www.xarg.org/)
+    - Version: 4.2.0
+    - License: MIT
+    - Description: A rational number library
+    - Homepage: https://www.xarg.org/2014/03/rational-numbers-in-javascript/
+- fs.realpath
+    - Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+    - Version: 1.0.0
+    - License: ISC
+    - Description: Use node's fs.realpath, but fall back to the JS implementation if the native one fails
+- function-bind
+    - Author: Raynos <raynos2@gmail.com>
+    - Version: 1.1.1
+    - License: MIT
+    - Description: Implementation of Function.prototype.bind
+    - Homepage: https://github.com/Raynos/function-bind
+- globals
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"}
+    - Version: 13.20.0
+    - License: MIT
+    - Description: Global identifiers from different JavaScript environments
+- globalyzer
+    - Author: Terkel Gjervig
+    - Version: 0.1.0
+    - License: MIT
+    - Description: Detects and extract the glob part of a string
+- globby
+    - Author: {"email":"sindresorhus@gmail.com","name":"Sindre Sorhus","url":"https://sindresorhus.com"}
+    - Version: 11.1.0
+    - License: MIT
+    - Description: User-friendly glob matching
+- globrex
+    - Author: Terkel Gjervig
+    - Version: 0.1.2
+    - License: MIT
+    - Description: Glob to regular expression with support for extended globs
+- graceful-fs
+    - Version: 4.2.11
+    - License: ISC
+    - Description: A drop-in replacement for fs, making various improvements.
+- grapheme-splitter
+    - Author: Orlin Georgiev
+    - Version: 1.0.4
+    - License: MIT
+    - Description: A JavaScript library that breaks strings into their individual user-perceived characters. It supports emojis!
+    - Homepage: https://github.com/orling/grapheme-splitter
+- has
+    - Author: {"name":"Thiago de Arruda","email":"tpadilha84@gmail.com"}
+    - Version: 1.0.3
+    - License: MIT
+    - Description: Object.prototype.hasOwnProperty.call shortcut
+    - Homepage: https://github.com/tarruda/has
+- has-flag
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 4.0.0
+    - License: MIT
+    - Description: Check if argv has a specific flag
+- ignore
+    - Author: kael
+    - Version: 5.2.4
+    - License: MIT
+    - Description: Ignore is a manager and filter for .gitignore rules, the one used by eslint, gitbook and many others.
+- import-fresh
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"}
+    - Version: 3.3.0
+    - License: MIT
+    - Description: Import a module while bypassing the cache
+- import-meta-resolve
+    - Author: Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)
+    - Version: 2.2.2
+    - License: MIT
+    - Description: Resolve things like Node.js — ponyfill for `import.meta.resolve`
+- imurmurhash
+    - Author: {"name":"Jens Taylor","email":"jensyt@gmail.com","url":"https://github.com/homebrewing"}
+    - Version: 0.1.4
+    - License: MIT
+    - Description: An incremental implementation of MurmurHash3
+    - Homepage: https://github.com/jensyt/imurmurhash-js
+- inflight
+    - Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+    - Version: 1.0.6
+    - License: ISC
+    - Description: Add callbacks to requests in flight to avoid async duplication
+    - Homepage: https://github.com/isaacs/inflight
+- inherits
+    - Version: 2.0.4
+    - License: ISC
+    - Description: Browser-friendly inheritance fully compatible with standard node.js inherits()
+- is-binary-path
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 2.1.0
+    - License: MIT
+    - Description: Check if a file path is a binary file
+- is-builtin-module
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"}
+    - Version: 3.2.1
+    - License: MIT
+    - Description: Check if a string matches the name of a Node.js builtin module
+- is-core-module
+    - Author: Jordan Harband <ljharb@gmail.com>
+    - Version: 2.11.0
+    - License: MIT
+    - Description: Is this specifier a node.js core module?
+    - Homepage: https://github.com/inspect-js/is-core-module
+- is-extglob
+    - Author: Jon Schlinkert (https://github.com/jonschlinkert)
+    - Version: 2.1.1
+    - License: MIT
+    - Description: Returns true if a string has an extglob.
+    - Homepage: https://github.com/jonschlinkert/is-extglob
+- is-glob
+    - Author: Jon Schlinkert (https://github.com/jonschlinkert)
+    - Version: 4.0.3
+    - License: MIT
+    - Description: Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a better user experience.
+    - Homepage: https://github.com/micromatch/is-glob
+- is-module
+    - Author: {"name":"Jonathan Ong","email":"me@jongleberry.com","url":"http://jongleberry.com","twitter":"https://twitter.com/jongleberry"}
+    - Version: 1.0.0
+    - License: MIT
+    - Description: check if a source string is an es6 module
+- is-number
+    - Author: Jon Schlinkert (https://github.com/jonschlinkert)
+    - Version: 7.0.0
+    - License: MIT
+    - Description: Returns true if a number or string value is a finite number. Useful for regex matches, parsing, user input, etc.
+    - Homepage: https://github.com/jonschlinkert/is-number
+- is-path-inside
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 3.0.3
+    - License: MIT
+    - Description: Check if a path is inside another path
+- is-reference
+    - Author: Rich Harris
+    - Version: 1.2.1
+    - License: MIT
+    - Description: Determine whether an AST node is a reference
+    - Homepage: https://github.com/Rich-Harris/is-reference#readme
+- isexe
+    - Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+    - Version: 2.0.0
+    - License: ISC
+    - Description: Minimal module to check if a file is executable.
+    - Homepage: https://github.com/isaacs/isexe#readme
+- js-sdsl
+    - Author: {"name":"ZLY201","email":"951711127@qq.com","url":"https://github.com/js-sdsl/js-sdsl"}
+    - Version: 4.3.0
+    - License: MIT
+    - Description: javascript standard data structure library which benchmark against C++ STL
+    - Homepage: https://js-sdsl.org
+- js-yaml
+    - Author: Vladimir Zapparov <dervus.grim@gmail.com>
+    - Version: 4.1.0
+    - License: MIT
+    - Description: YAML 1.2 parser and serializer
+- json-schema-traverse
+    - Author: Evgeny Poberezkin
+    - Version: 0.4.1
+    - License: MIT
+    - Description: Traverse JSON Schema passing each schema object to callback
+    - Homepage: https://github.com/epoberezkin/json-schema-traverse#readme
+- json-stable-stringify-without-jsonify
+    - Author: {"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"}
+    - Version: 1.0.1
+    - License: MIT
+    - Description: deterministic JSON.stringify() with custom sorting to get deterministic hashes from stringified results, with no public domain dependencies
+    - Homepage: https://github.com/samn/json-stable-stringify
+- kleur
+    - Author: {"name":"Luke Edwards","email":"luke.edwards05@gmail.com","url":"https://lukeed.com"}
+    - Version: 4.1.5
+    - License: MIT
+    - Description: The fastest Node.js library for formatting terminal text with ANSI colors~!
+- levn
+    - Author: George Zahariev <z@georgezahariev.com>
+    - Version: 0.4.1
+    - License: MIT
+    - Description: Light ECMAScript (JavaScript) Value Notation - human written, concise, typed, flexible
+    - Homepage: https://github.com/gkz/levn
+- lilconfig
+    - Author: antonk52
+    - Version: 2.1.0
+    - License: MIT
+    - Description: A zero-dependency alternative to cosmiconfig
+- locate-path
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"}
+    - Version: 6.0.0
+    - License: MIT
+    - Description: Get the first path that exists on disk of multiple paths
+- lodash.merge
+    - Author: John-David Dalton <john.david.dalton@gmail.com>
+    - Version: 4.6.2
+    - License: MIT
+    - Description: The Lodash method `_.merge` exported as a module.
+    - Homepage: https://lodash.com/
+- lru-cache
+    - Author: Isaac Z. Schlueter <i@izs.me>
+    - Version: 6.0.0
+    - License: ISC
+    - Description: A cache object that deletes the least-recently-used items.
+- merge2
+    - Version: 1.4.1
+    - License: MIT
+    - Description: Merge multiple streams into one stream in sequence or parallel.
+    - Homepage: https://github.com/teambition/merge2
+- micromatch
+    - Author: Jon Schlinkert (https://github.com/jonschlinkert)
+    - Version: 4.0.5
+    - License: MIT
+    - Description: Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.
+    - Homepage: https://github.com/micromatch/micromatch
+- mime
+    - Author: {"name":"Robert Kieffer","url":"http://github.com/broofa","email":"robert@broofa.com"}
+    - Version: 3.0.0
+    - License: MIT
+    - Description: A comprehensive library for mime-type mapping
+- min-indent
+    - Author: {"name":"James Kyle","email":"me@thejameskyle.com","url":"thejameskyle.com"}
+    - Version: 1.0.1
+    - License: MIT
+    - Description: Get the shortest leading whitespace from lines in a string
+- minimist
+    - Author: {"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"}
+    - Version: 1.2.8
+    - License: MIT
+    - Description: parse argument options
+    - Homepage: https://github.com/minimistjs/minimist
+- mkdirp
+    - Author: James Halliday <mail@substack.net> (http://substack.net)
+    - Version: 0.5.6
+    - License: MIT
+    - Description: Recursively mkdir, like `mkdir -p`
+- mri
+    - Author: {"name":"Luke Edwards","email":"luke.edwards05@gmail.com","url":"https://lukeed.com"}
+    - Version: 1.2.0
+    - License: MIT
+    - Description: Quickly scan for CLI flags and arguments
+- mrmime
+    - Author: {"name":"Luke Edwards","email":"luke.edwards05@gmail.com","url":"https://lukeed.com"}
+    - Version: 1.0.1
+    - License: MIT
+    - Description: A tiny (2.8kB) and fast utility for getting a MIME type from an extension or filename
+- ms
+    - Version: 2.1.2
+    - License: MIT
+    - Description: Tiny millisecond conversion utility
+- nanoid
+    - Author: Andrey Sitnik <andrey@sitnik.ru>
+    - Version: 3.3.4
+    - License: MIT
+    - Description: A tiny (116 bytes), secure URL-friendly unique string ID generator
+- natural-compare
+    - Author: Lauri Rooden (https://github.com/litejs/natural-compare-lite)
+    - Version: 1.4.0
+    - License: MIT
+    - Description: Compare strings containing a mix of letters and numbers in the way a human being would in sort order.
+- natural-compare-lite
+    - Author: Lauri Rooden (https://github.com/litejs/natural-compare-lite)
+    - Version: 1.4.0
+    - License: MIT
+    - Description: Compare strings containing a mix of letters and numbers in the way a human being would in sort order.
+- node-releases
+    - Author: Sergey Rubanov <chi187@gmail.com>
+    - Version: 2.0.10
+    - License: MIT
+    - Description: Node.js releases data
+- normalize-path
+    - Author: Jon Schlinkert (https://github.com/jonschlinkert)
+    - Version: 3.0.0
+    - License: MIT
+    - Description: Normalize slashes in a file path to be posix/unix-like forward slashes. Also condenses repeat slashes to a single slash and removes and trailing slashes, unless disabled.
+    - Homepage: https://github.com/jonschlinkert/normalize-path
+- normalize-range
+    - Author: {"name":"James Talmage","email":"james@talmage.io","url":"github.com/jamestalmage"}
+    - Version: 0.1.2
+    - License: MIT
+    - Description: Utility for normalizing a numeric range, with a wrapping function useful for polar coordinates
+- object-hash
+    - Author: Scott Puleo <puleos@gmail.com>
+    - Version: 3.0.0
+    - License: MIT
+    - Description: Generate hashes from javascript objects in node and the browser.
+    - Homepage: https://github.com/puleos/object-hash
+- once
+    - Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+    - Version: 1.4.0
+    - License: ISC
+    - Description: Run a function exactly one time
+- optionator
+    - Author: George Zahariev <z@georgezahariev.com>
+    - Version: 0.9.1
+    - License: MIT
+    - Description: option parsing and help generation
+    - Homepage: https://github.com/gkz/optionator
+- p-limit
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"}
+    - Version: 3.1.0
+    - License: MIT
+    - Description: Run multiple promise-returning & async functions with limited concurrency
+- p-locate
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"}
+    - Version: 5.0.0
+    - License: MIT
+    - Description: Get the first fulfilled promise that satisfies the provided testing function
+- parent-module
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 1.0.1
+    - License: MIT
+    - Description: Get the path of the parent module
+- path-exists
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 4.0.0
+    - License: MIT
+    - Description: Check if a path exists
+- path-is-absolute
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 1.0.1
+    - License: MIT
+    - Description: Node.js 0.12 path.isAbsolute() ponyfill
+- path-key
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 3.1.1
+    - License: MIT
+    - Description: Get the PATH environment variable key cross-platform
+- path-parse
+    - Author: Javier Blanco <http://jbgutierrez.info>
+    - Version: 1.0.7
+    - License: MIT
+    - Description: Node.js path.parse() ponyfill
+    - Homepage: https://github.com/jbgutierrez/path-parse#readme
+- path-type
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 4.0.0
+    - License: MIT
+    - Description: Check if a path is a file, directory, or symlink
+- picocolors
+    - Author: Alexey Raspopov
+    - Version: 1.0.0
+    - License: ISC
+    - Description: The tiniest and the fastest library for terminal output formatting with ANSI colors
+- picomatch
+    - Author: Jon Schlinkert (https://github.com/jonschlinkert)
+    - Version: 2.3.1
+    - License: MIT
+    - Description: Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.
+    - Homepage: https://github.com/micromatch/picomatch
+- pify
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 2.3.0
+    - License: MIT
+    - Description: Promisify a callback-style function
+- pocketbase
+    - Author: Gani Georgiev
+    - Version: 0.12.1
+    - License: MIT
+    - Description: PocketBase JavaScript SDK
+- postcss
+    - Author: Andrey Sitnik <andrey@sitnik.ru>
+    - Version: 8.4.21
+    - License: MIT
+    - Description: Tool for transforming styles with JS plugins
+    - Homepage: https://postcss.org/
+- postcss-import
+    - Author: Maxime Thirouin
+    - Version: 14.1.0
+    - License: MIT
+    - Description: PostCSS plugin to import CSS files
+- postcss-js
+    - Author: Andrey Sitnik <andrey@sitnik.ru>
+    - Version: 4.0.1
+    - License: MIT
+    - Description: PostCSS for CSS-in-JS and styles in JS objects
+- postcss-load-config
+    - Author: Michael Ciniawky <michael.ciniawsky@gmail.com>
+    - Version: 3.1.4
+    - License: MIT
+    - Description: Autoload Config for PostCSS
+- postcss-nested
+    - Author: Andrey Sitnik <andrey@sitnik.ru>
+    - Version: 6.0.0
+    - License: MIT
+    - Description: PostCSS plugin to unwrap nested rules like how Sass does it
+- postcss-selector-parser
+    - Version: 6.0.11
+    - License: MIT
+    - Homepage: https://github.com/postcss/postcss-selector-parser
+- postcss-value-parser
+    - Author: Bogdan Chadkin <trysound@yandex.ru>
+    - Version: 4.2.0
+    - License: MIT
+    - Description: Transforms css values and at-rule params into the tree
+    - Homepage: https://github.com/TrySound/postcss-value-parser
+- prelude-ls
+    - Author: George Zahariev <z@georgezahariev.com>
+    - Version: 1.2.1
+    - License: MIT
+    - Description: prelude.ls is a functionally oriented utility library. It is powerful and flexible. Almost all of its functions are curried. It is written in, and is the recommended base library for, LiveScript.
+    - Homepage: http://preludels.com
+- prettier
+    - Author: James Long
+    - Version: 2.8.4
+    - License: MIT
+    - Description: Prettier is an opinionated code formatter
+    - Homepage: https://prettier.io
+- prettier-plugin-svelte
+    - Author: James Birtles <jameshbirtles@gmail.com>
+    - Version: 2.9.0
+    - License: MIT
+    - Description: Svelte plugin for prettier
+    - Homepage: https://github.com/sveltejs/prettier-plugin-svelte#readme
+- punycode
+    - Author: {"name":"Mathias Bynens","url":"https://mathiasbynens.be/"}
+    - Version: 2.3.0
+    - License: MIT
+    - Description: A robust Punycode converter that fully complies to RFC 3492 and RFC 5891, and works on nearly all JavaScript platforms.
+    - Homepage: https://mths.be/punycode
+- queue-microtask
+    - Author: {"name":"Feross Aboukhadijeh","email":"feross@feross.org","url":"https://feross.org"}
+    - Version: 1.2.3
+    - License: MIT
+    - Description: fast, tiny `queueMicrotask` shim for modern engines
+    - Homepage: https://github.com/feross/queue-microtask
+- quick-lru
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"}
+    - Version: 5.1.1
+    - License: MIT
+    - Description: Simple “Least Recently Used” (LRU) cache
+- read-cache
+    - Author: Bogdan Chadkin <trysound@yandex.ru>
+    - Version: 1.0.0
+    - License: MIT
+    - Description: Reads and caches the entire contents of a file until it is modified
+    - Homepage: https://github.com/TrySound/read-cache#readme
+- readdirp
+    - Author: Thorsten Lorenz <thlorenz@gmx.de> (thlorenz.com)
+    - Version: 3.6.0
+    - License: MIT
+    - Description: Recursive version of fs.readdir with streaming API.
+    - Homepage: https://github.com/paulmillr/readdirp
+- resolve
+    - Author: {"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"}
+    - Version: 1.22.1
+    - License: MIT
+    - Description: resolve like require.resolve() on behalf of files asynchronously and synchronously
+- resolve-from
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 4.0.0
+    - License: MIT
+    - Description: Resolve the path of a module like `require.resolve()` but from a given path
+- reusify
+    - Author: Matteo Collina <hello@matteocollina.com>
+    - Version: 1.0.4
+    - License: MIT
+    - Description: Reuse objects and functions with style
+    - Homepage: https://github.com/mcollina/reusify#readme
+- rimraf
+    - Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+    - Version: 3.0.2
+    - License: ISC
+    - Description: A deep deletion module for node (like `rm -rf`)
+- rollup
+    - Author: Rich Harris
+    - Version: 3.19.1
+    - License: MIT
+    - Description: Next-generation ES module bundler
+    - Homepage: https://rollupjs.org/
+- run-parallel
+    - Author: {"name":"Feross Aboukhadijeh","email":"feross@feross.org","url":"https://feross.org"}
+    - Version: 1.2.0
+    - License: MIT
+    - Description: Run an array of functions in parallel
+    - Homepage: https://github.com/feross/run-parallel
+- sade
+    - Author: {"name":"Luke Edwards","email":"luke.edwards05@gmail.com","url":"https://lukeed.com"}
+    - Version: 1.8.1
+    - License: MIT
+    - Description: Smooth (CLI) operator 🎶
+- sander
+    - Author: Rich Harris
+    - Version: 0.5.1
+    - License: MIT
+    - Description: Promise-based power tool for common filesystem tasks
+- semver
+    - Author: GitHub Inc.
+    - Version: 7.3.8
+    - License: ISC
+    - Description: The semantic version parser used by npm.
+- set-cookie-parser
+    - Author: {"name":"Nathan Friedly","email":"","url":"http://nfriedly.com/"}
+    - Version: 2.6.0
+    - License: MIT
+    - Description: Parses set-cookie headers into objects
+    - Homepage: https://github.com/nfriedly/set-cookie-parser
+- shebang-command
+    - Author: {"name":"Kevin Mårtensson","email":"kevinmartensson@gmail.com","url":"github.com/kevva"}
+    - Version: 2.0.0
+    - License: MIT
+    - Description: Get the command from a shebang
+- shebang-regex
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 3.0.0
+    - License: MIT
+    - Description: Regular expression for matching a shebang line
+- sirv
+    - Author: {"name":"Luke Edwards","email":"luke@lukeed.com","url":"https://lukeed.com"}
+    - Version: 2.0.2
+    - License: MIT
+    - Description: The optimized & lightweight middleware for serving requests to static assets
+- slash
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 3.0.0
+    - License: MIT
+    - Description: Convert Windows backslash paths to slash paths
+- sorcery
+    - Author: Rich Harris
+    - Version: 0.11.0
+    - License: MIT
+    - Description: Resolve a chain of sourcemaps back to the original source
+- source-map-js
+    - Author: Valentin 7rulnik Semirulnik <v7rulnik@gmail.com>
+    - Version: 1.0.2
+    - License: BSD-3-Clause
+    - Description: Generates and consumes source maps
+    - Homepage: https://github.com/7rulnik/source-map-js
+- streamsearch
+    - Author: Brian White <mscdex@mscdex.net>
+    - Version: 1.1.0
+    - Description: Streaming Boyer-Moore-Horspool searching for node.js
+- strip-ansi
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 6.0.1
+    - License: MIT
+    - Description: Strip ANSI escape codes from a string
+- strip-indent
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 3.0.0
+    - License: MIT
+    - Description: Strip leading whitespace from each line in a string
+- strip-json-comments
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"}
+    - Version: 3.1.1
+    - License: MIT
+    - Description: Strip comments from JSON. Lets you use comments in your JSON files!
+- supports-color
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}
+    - Version: 7.2.0
+    - License: MIT
+    - Description: Detect whether a terminal supports color
+- supports-preserve-symlinks-flag
+    - Author: Jordan Harband <ljharb@gmail.com>
+    - Version: 1.0.0
+    - License: MIT
+    - Description: Determine if the current node version supports the `--preserve-symlinks` flag.
+    - Homepage: https://github.com/inspect-js/node-supports-preserve-symlinks-flag#readme
+- svelte
+    - Author: Rich Harris
+    - Version: 3.57.0
+    - License: MIT
+    - Description: Cybernetically enhanced web apps
+    - Homepage: https://svelte.dev
+- svelte-adapter-deno
+    - Version: 0.9.0
+    - License: MIT
+- svelte-check
+    - Author: The Svelte Community
+    - Version: 3.1.4
+    - License: MIT
+    - Description: Svelte Code Checker Terminal Interface
+    - Homepage: https://github.com/sveltejs/language-tools#readme
+- svelte-hmr
+    - Author: rixo <rixo@rixo.fr>
+    - Version: 0.15.1
+    - License: ISC
+    - Description: Bundler agnostic HMR utils for Svelte 3
+    - Homepage: https://github.com/sveltejs/svelte-hmr
+- svelte-preprocess
+    - Author: Christian Kaisermann <christian@kaisermann.me>
+    - Version: 5.0.3
+    - License: MIT
+    - Description: A Svelte preprocessor wrapper with baked-in support for commonly used preprocessors
+- tailwindcss
+    - Version: 3.2.7
+    - License: MIT
+    - Description: A utility-first CSS framework for rapidly building custom user interfaces.
+    - Homepage: https://tailwindcss.com
+- text-table
+    - Author: {"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"}
+    - Version: 0.2.0
+    - License: MIT
+    - Description: borderless text tables with alignment
+    - Homepage: https://github.com/substack/text-table
+- tiny-glob
+    - Author: {"name":"Terkel Gjervig","email":"terkel@terkel.com","url":"https://terkel.com"}
+    - Version: 0.2.9
+    - License: MIT
+    - Description: Tiny and extremely fast globbing
+- to-regex-range
+    - Author: Jon Schlinkert (https://github.com/jonschlinkert)
+    - Version: 5.0.1
+    - License: MIT
+    - Description: Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.
+    - Homepage: https://github.com/micromatch/to-regex-range
+- totalist
+    - Author: {"name":"Luke Edwards","email":"luke.edwards05@gmail.com","url":"https://lukeed.com"}
+    - Version: 3.0.0
+    - License: MIT
+    - Description: A tiny (195B to 220B) utility to recursively list all (total) files in a directory
+- tslib
+    - Author: Microsoft Corp.
+    - Version: 2.5.0
+    - License: 0BSD
+    - Description: Runtime library for TypeScript helper functions
+    - Homepage: https://www.typescriptlang.org/
+- tsutils
+    - Author: Klaus Meinhardt
+    - Version: 3.21.0
+    - License: MIT
+    - Description: utilities for working with typescript's AST
+- type-check
+    - Author: George Zahariev <z@georgezahariev.com>
+    - Version: 0.4.0
+    - License: MIT
+    - Description: type-check allows you to check the types of JavaScript values at runtime with a Haskell like type syntax.
+    - Homepage: https://github.com/gkz/type-check
+- type-fest
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"}
+    - Version: 0.20.2
+    - License: (MIT OR CC0-1.0)
+    - Description: A collection of essential TypeScript types
+- typescript
+    - Author: Microsoft Corp.
+    - Version: 4.9.5
+    - License: Apache-2.0
+    - Description: TypeScript is a language for application scale JavaScript development
+    - Homepage: https://www.typescriptlang.org/
+- undici
+    - Author: Matteo Collina <hello@matteocollina.com>
+    - Version: 5.21.0
+    - License: MIT
+    - Description: An HTTP/1.1 client, written from scratch for Node.js
+    - Homepage: https://undici.nodejs.org
+- update-browserslist-db
+    - Author: Andrey Sitnik <andrey@sitnik.ru>
+    - Version: 1.0.10
+    - License: MIT
+    - Description: CLI tool to update caniuse-lite to refresh target browsers from Browserslist config
+- uri-js
+    - Author: Gary Court <gary.court@gmail.com>
+    - Version: 4.4.1
+    - License: BSD-2-Clause
+    - Description: An RFC 3986/3987 compliant, scheme extendable URI/IRI parsing/validating/resolving library for JavaScript.
+    - Homepage: https://github.com/garycourt/uri-js
+- util-deprecate
+    - Author: Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)
+    - Version: 1.0.2
+    - License: MIT
+    - Description: The Node.js `util.deprecate()` function with browser support
+    - Homepage: https://github.com/TooTallNate/util-deprecate
+- vite
+    - Author: Evan You
+    - Version: 4.2.0
+    - License: MIT
+    - Description: Native-ESM powered web dev build tool
+    - Homepage: https://github.com/vitejs/vite/tree/main/#readme
+- vitefu
+    - Version: 0.2.4
+    - License: MIT
+    - Description: Utilities for building frameworks with Vite
+- which
+    - Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)
+    - Version: 2.0.2
+    - License: ISC
+    - Description: Like which(1) unix command. Find the first instance of an executable in the PATH.
+- word-wrap
+    - Author: Jon Schlinkert (https://github.com/jonschlinkert)
+    - Version: 1.2.3
+    - License: MIT
+    - Description: Wrap words to a specified length.
+    - Homepage: https://github.com/jonschlinkert/word-wrap
+- wrappy
+    - Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+    - Version: 1.0.2
+    - License: ISC
+    - Description: Callback wrapping utility
+    - Homepage: https://github.com/npm/wrappy
+- xtend
+    - Author: Raynos <raynos2@gmail.com>
+    - Version: 4.0.2
+    - License: MIT
+    - Description: extend like a boss
+    - Homepage: https://github.com/Raynos/xtend
+- yallist
+    - Author: Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)
+    - Version: 4.0.0
+    - License: ISC
+    - Description: Yet Another Linked List
+- yaml
+    - Author: Eemeli Aro <eemeli@gmail.com>
+    - Version: 1.10.2
+    - License: ISC
+    - Description: JavaScript parser and stringifier for YAML
+    - Homepage: https://eemeli.org/yaml/v1/
+- yocto-queue
+    - Author: {"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"}
+    - Version: 0.1.0
+    - License: MIT
+    - Description: Tiny queue data structure

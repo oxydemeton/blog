@@ -1,0 +1,10 @@
+{
+    "output": "CREDITS.md",
+    "json_report": "CREDITS.json",
+    "exclude": [],
+    "allow_api_calls": false,
+    "cache": "./.cache/opencredit",
+    "managers": [
+        "npm"
+    ]
+}

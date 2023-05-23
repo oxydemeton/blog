@@ -3,6 +3,7 @@
 	import Comment from '../../../lib/Comment.svelte';
     export let data;
     import {currentUser, pb} from "$lib/pocketbase"
+    import Date from '$lib/Date.svelte';
 
     let comment_title = ""
     let comment_content = ""
@@ -34,8 +35,11 @@
 <main>
     <section>
         <h2>{data.post.title}</h2>
-        <div class="italic" aria-label="Posts author">Author: <a href={'/profile/'+data.post.creator}>{data.post.creatorExtend?.username}</a></div>
-        <div class="italic" aria-label="Post release date"><time datetime={data.post.created}>{new Date(data.post.created).toLocaleDateString('de')}</time></div>
+        <div>
+            <div class="italic" aria-label="Posts author">Author: <a href={'/profile/'+data.post.creator}>{data.post.creatorExtend?.username}</a></div>
+            <div class="italic" aria-label="Post release date">Veröffentlicht:<Date date={data.post.created} lang="de"/></div>
+            <div class="italic" aria-label="Post release date">Letzte Änderung:<Date date={data.post.updated} lang="de"/></div>
+        </div>
     </section>
     <hr>
     <article>

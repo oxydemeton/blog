@@ -6,6 +6,23 @@
     <article>
         <ul>
             <li>
+                <h5>
+                    v0.1.3
+                </h5>
+                <ul>
+                    <li>
+                        <time datetime="2023-05-23" >23.05.2023</time>:
+                        <h6>Feature:</h6>
+                        Datum der Veröffentlichung von Posts wird auf der Homepage angezeigt.
+                    </li>
+                    <li>
+                        <time datetime="2023-05-23" >23.05.2023</time>:
+                        <h6>Feature:</h6>
+                        Datum der letzten Änderung wird auf der Seite eines Posts angegeben.
+                    </li>
+                </ul>
+            </li>
+            <li>
                 <h5>v.0.1.2</h5>
                 <ul>
                     <li>

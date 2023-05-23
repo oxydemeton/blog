@@ -1,13 +1,16 @@
 <script lang="ts">
     import type {Post, User} from "$lib/DbInterfaces"
+    import Date from "$lib/Date.svelte";
     export let post: Post;
-    let creator: User;
 </script>
 
 <article>
     <div class="my-4">
         <h3 class="text-3xl my-0"><a href={"/post/" + post.id}>{post.title}</a></h3><br>
-        <span class="italic">Author: <a href={'/profile/'+post.creator}>{post.creatorExtend?.username}</a></span>
+        <div>
+            <div class="italic">Author: <a href={'/profile/'+post.creator}>{post.creatorExtend?.username}</a></div>
+            <div>Veröffentlicht: <Date date={post.created} lang="de"/></div>
+        </div>
     </div>
     <div class="latest-post-content isolate">
         {@html post.content}
