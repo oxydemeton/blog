@@ -13,5 +13,7 @@
 </ol>
 
 <style lang="postcss">
-
+    ol {
+        list-style-type: none;
+    }
 </style>
