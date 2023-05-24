@@ -50,11 +50,11 @@
         </form>
         {#if $currentUser}
             <div>
-                <a href="/profile" aria-label="Profile">{$currentUser.username}</a>
+                <a href="/profile" aria-label="Profile" data-sveltekit-preload-code="hover" data-sveltekit-preload-data="hover">{$currentUser.username}</a>
                 <button type="button" on:click={()=>pb.authStore.clear()} aria-label="Logout" class="font-medium text-base">Logout</button>
             </div>
         {:else}
-            <a href="/login" aria-label="Login">Login</a>
+            <a href="/login" aria-label="Login" data-sveltekit-preload-code="hover">Login</a>
         {/if}
     </nav>
     
@@ -64,7 +64,7 @@
 {/key}
 
 <footer>
-    <div>Changelogs: <a href="/changes">Liste</a></div>
+    <div>Changelogs: <a href="/changes" data-sveltekit-preload-code="hover" data-sveltekit-preload-data="hover">Liste</a></div>
     <div>Email: <a href="mailto:contact@mabla.name">contact@mabla.name</a></div>
     <div>Stable Blog <a href="https://mabla-meinung.blogspot.com/" target="_blank" rel="noopener noreferrer">mabla-meinung.blogspot.com</a></div>
     <div>Source code: <a href="https://github.com/oxydemeton/blog" target="_blank" rel="noopener noreferrer">@Github</a></div>
