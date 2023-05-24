@@ -6,7 +6,7 @@
 
 <article class="max-h-[40vh] overflow-y-auto mx-2 my-12 p-4 shadow-md">
     <div>
-        <h3 class="text-3xl my-0"><a href={"/post/" + post.id}>{post.title}</a></h3><br>
+        <h3 class="text-3xl my-0"><a href={"/post/" + post.id} data-sveltekit-preload-code="viewport" data-sveltekit-preload-data="hover">{post.title}</a></h3><br>
         <div>
             <div class="italic">Author: <a href={'/profile/'+post.creator}>{post.creatorExtend?.username}</a></div>
             <div>Veröffentlicht: <Date date={post.created} lang="de"/></div>
