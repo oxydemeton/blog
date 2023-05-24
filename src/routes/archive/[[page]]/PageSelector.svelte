@@ -5,9 +5,9 @@
 </script>
 
 <div>
-    <a href={prev} data-sveltekit-preload-data="hover" data-sveltekit-preload-code="viewport">&lt;</a>
+    <a href={prev.href} data-sveltekit-preload-data="hover" data-sveltekit-preload-code="viewport">&lt;</a>
     <span class="page-count">{current_page}</span>
-    <a href={next} data-sveltekit-preload-data="hover" data-sveltekit-preload-code="viewport">&gt;</a>
+    <a href={next.href} data-sveltekit-preload-data="hover" data-sveltekit-preload-code="viewport">&gt;</a>
 </div>
 
 <style lang="postcss">
