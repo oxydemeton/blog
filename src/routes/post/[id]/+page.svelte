@@ -1,5 +1,5 @@
-<script>
-	import Post from '../../Post.svelte';
+<script lang="ts">
+	import Post from '$lib/Post/Post.svelte';
 	import Comment from '../../../lib/Comment.svelte';
     export let data;
     import {currentUser, pb} from "$lib/pocketbase"

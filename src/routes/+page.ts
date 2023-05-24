@@ -2,7 +2,7 @@ import {pb} from "$lib/pocketbase"
 import type { Post, User } from "$lib/DbInterfaces";
 
 export async function load() {
-    const {items} = await pb.collection('posts').getList(1, 6, {
+    const {items} = await pb.collection('posts').getList(1, 10, {
         sort: '-created',
         expand: 'creator'
     })

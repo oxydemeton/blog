@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Post from "./Post.svelte";
+    import PostList from "$lib/Post/PostList.svelte";
 	import LatestPost from "./LatestPost.svelte";
 
     export let data;
@@ -23,10 +23,6 @@
     </section>
     <section class="shadow-xl">
         <h2>Weitere neue Posts</h2>
-        {#each data.posts as post, i}
-            {#if i > 0}
-            <Post post={post}/>
-            {/if}
-        {/each}
+        <PostList posts={data.posts.filter((_, i) => i !== 0)}/>
     </section>
 </main>
