@@ -13,6 +13,7 @@
 			"$lib/*": ["src/lib/*"],
 			"@assets/*": ["src/assets/*"],
 			"@/*": ["src/*"],
+			"@icons/*": ["src/lib/icons/*"],
 		}
 	}
 	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias
