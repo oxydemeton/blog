@@ -48,8 +48,8 @@
 }
 :target {
     color: var(--cs-marker);
-    animation: target_color_fade_scheme 2s forwards alternate;
-    animation-delay: 3s;
+    animation: target_color_fade_scheme 1.5s forwards alternate;
+    animation-delay: 0.5s;
 }
 mark {
     background-color: var(--cs-marker);
