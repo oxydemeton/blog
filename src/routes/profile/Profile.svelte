@@ -1,6 +1,7 @@
 <script lang="ts">
     import type {User} from "$lib/DbInterfaces"
-    import Comment from '../../lib/Comment.svelte';
+    import Comment from '$lib/Comment.svelte';
+    import CopyText from "$lib/Components/CopyText.svelte";
     export let user: User
 </script>
 
@@ -13,7 +14,7 @@
             {#if user.email}
                 <li>Email: {user.email}</li>
             {/if}
-            <li>Id: <span class="select-all italic font-extralight">{user.id}</span></li>
+            <li>Id: <CopyText txt={user.id}/></li>
         </ul>
     </article>
     {#if user.expand['comments(creator)']}
