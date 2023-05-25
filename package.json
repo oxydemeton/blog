@@ -15,6 +15,7 @@
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/adapter-node": "^1.2.3",
 		"@sveltejs/kit": "^1.5.0",
+		"@types/sanitize-html": "^2.9.0",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",
 		"autoprefixer": "^10.4.14",
@@ -34,6 +35,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"pocketbase": "^0.12.1"
+		"pocketbase": "^0.12.1",
+		"sanitize-html": "^2.10.0"
 	}
 }

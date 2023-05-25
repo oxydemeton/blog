@@ -2,7 +2,9 @@
     import type {Post, User} from "$lib/DbInterfaces"
     import Date from "$lib/Date.svelte";
     import CopyText from "$lib/Components/CopyText.svelte"
+    import sanitizeHtml from 'sanitize-html';
     export let post: Post;
+    
 </script>
 
 <article class="max-h-[40vh] overflow-y-auto mx-2 my-12 p-4 shadow-md">
@@ -14,7 +16,7 @@
         </div>
     </div>
     <div class="more-post-content isolate my-1">
-        {@html post.content}
+        {@html sanitizeHtml(post.content)}
     </div>
     <div class="text-sm font-light italic">Article Id: <CopyText txt={post.id}/></div>
 </article>
