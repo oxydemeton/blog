@@ -4,7 +4,22 @@
         Hier gibt es alles was sich am Blog verändert hat.
     </p>
     <article>
-        <ul>
+        <ol style="list-style: disc;">
+            <li>
+                
+                <h5>v0.1.5.1</h5>
+                <time datetime="2023-05-25" >25.05.2023</time>:<br>
+                <ul>
+                    <li>
+                        <h6>Feature:</h6>
+                        Hinzufügen den "Zum Anfang" Links am Ende jeder Seite.
+                    </li>
+                    <li>
+                        <h6>Feature:</h6>
+                        Posts wurden zur seite der Profile hinzugefügt.
+                    </li>
+                </ul>
+            </li>
             <li>
                 <h5>v0.1.5</h5>
                 <time datetime="2023-05-25" >25.05.2023</time>:
@@ -77,7 +92,7 @@
                     </li>
                 </ul>
             </li>
-        </ul>
+        </ol>
     </article>
 </main>
 
@@ -85,5 +100,8 @@
     h6 {
         display: inline;
         font-weight: 600;
+    }
+    time {
+        font-style: italic;
     }
 </style>
