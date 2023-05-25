@@ -30,9 +30,10 @@
 <main>
     {#if $currentUser}
         <a href={"/profile/" + $currentUser.id}>Public Profile</a>
+        <br><a href="#settings">Zu den Einstellungen</a>
         <Profile user={$currentUser}/>
         <hr>
-        <article>
+        <article id="sttings">
             <h3>Einstellungen</h3>
             <h5 class="italic mt-0">More features coming soon!</h5>
             {#if !$currentUser.verified}
