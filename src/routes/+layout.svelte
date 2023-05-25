@@ -64,8 +64,10 @@
 {/key}
 
 <footer>
+    <!-- svelte-ignore a11y-invalid-attribute -->
+    <div><a href="#">Zurück zum Anfang</a></div>
     <div>Changelogs: <a href="/changes" data-sveltekit-preload-code="hover" data-sveltekit-preload-data="hover">Liste</a></div>
     <div>Email: <a href="mailto:contact@mabla.name">contact@mabla.name</a></div>
-    <div>Stable Blog <a href="https://mabla-meinung.blogspot.com/" target="_blank" rel="noopener noreferrer">mabla-meinung.blogspot.com</a></div>
+    <div>Stable Blog: <a href="https://mabla-meinung.blogspot.com/" target="_blank" rel="noopener noreferrer">mabla-meinung.blogspot.com</a></div>
     <div>Source code: <a href="https://github.com/oxydemeton/blog" target="_blank" rel="noopener noreferrer">@Github</a></div>
 </footer>
