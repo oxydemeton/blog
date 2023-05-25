@@ -6,14 +6,22 @@
     <article>
         <ul>
             <li>
-                <h5>
-                    v0.1.4
-                </h5>
+                <h5>v0.1.5</h5>
+                <time datetime="2023-05-25" >25.05.2023</time>:
+                <ul>
+                    <li>
+                        <h6>Design Rework:</h6>
+                        <a href="/login" data-sveltekit-preload-data="tap" data-sveltekit-preload-code="hover">Login</a> und Register Seite
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h5>v0.1.4</h5>
                 <time datetime="2023-05-24" >24.05.2023</time>:
                 <ul>
                     <li>
                         <h6>Feature:</h6>
-                        Das <a href="/archive" data-sveltekit-preload-code="viewport" data-sveltekit-preload-data="hover">Archive</a> ist nun verfügbar.
+                        Das <a href="/archive" data-sveltekit-preload-code="viewport" data-sveltekit-preload-data="tap">Archive</a> ist nun verfügbar.
                     </li>
                     <li>
                         <h6>Feature:</h6>
@@ -43,7 +51,7 @@
                 <ul>
                     <li>
                         <h6>Feature:</h6>
-                        Passwörter können im <a href="/login" data-sveltekit-preload-code="hover">login bereich</a> zurückgesetzt werden.
+                        Passwörter können im <a href="/login" data-sveltekit-preload-code="hover" data-sveltekit-preload-data="tap">login bereich</a> zurückgesetzt werden.
                     </li>
                     <li>
                         <h6>Feature:</h6>

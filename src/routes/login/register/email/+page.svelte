@@ -1,5 +1,5 @@
 <script>
-    import {currentUser, pb} from "../../lib/pocketbase"
+    import {currentUser, pb} from "$lib/pocketbase"
     async function register() {
         if (password != passwordConfirm) {
             detail_message = "Passwords don't match"
@@ -44,6 +44,17 @@
         <input type="password" id="register-email-password" placeholder="Password" minlength="4" bind:value={password} aria-label="New Password">
         <input type="password" id="register-email-confim-password" placeholder="Confirm Password" minlength="4" bind:value={passwordConfirm} aria-label="Confirm Password">
         <input type="submit" value="Login">
-        <div>{detail_message}</div>
+        <div> {detail_message}</div>
     </fieldset>
 </form>
+
+<style lang="postcss">
+    input {
+        display: block;
+        margin: 0.2em 0;
+        font-size: theme(fontSize.sm);
+    }
+    input[type="submit"] {
+        color: theme(colors.orange.500);
+    }
+</style>

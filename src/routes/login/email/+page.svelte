@@ -15,10 +15,6 @@
                 }
             })
     }
-    let reset_email = ""
-    function resetPassword() {
-        pb.collection('users').requestPasswordReset(reset_email);
-    }
     let email = ""
     let password = ""
     let detail_message = ""
@@ -31,12 +27,17 @@
         <input type="password" id="login-email-password" placeholder="Password" minlength="4" bind:value={password} aria-label="Password">
         <input type="submit" value="Login">
         <div>{detail_message}</div>
+        <div><a href="/login/email/reset_password">Passwort Vergessen</a></div>
     </fieldset>
 </form>
-<form on:submit={resetPassword}>
-    <fieldset>
-        <legend>Reset Password</legend>
-        <input type="email" name="reset_email" id="login-email-reset-mail" placeholder="Email address" bind:value={reset_email} aria-label="Email of account to send reset mail.">
-        <input type="submit" value="Reset Password">
-    </fieldset>
-</form>
+
+<style lang="postcss">
+    input {
+        display: block;
+        margin: 0.2em 0;
+        font-size: theme(fontSize.sm);
+    }
+    input[type="submit"] {
+        color: theme(colors.orange.500);
+    }
+</style>
