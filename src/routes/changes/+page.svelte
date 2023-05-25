@@ -13,6 +13,10 @@
                         <h6>Design Rework:</h6>
                         <a href="/login" data-sveltekit-preload-data="tap" data-sveltekit-preload-code="hover">Login</a> und Register Seite
                     </li>
+                    <li>
+                        <h6>Feature:</h6>
+                        IDs von Posts werden nun angezeigt.
+                    </li>
                 </ul>
             </li>
             <li>

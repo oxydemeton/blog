@@ -1,9 +1,9 @@
 <script lang="ts">
-	import Post from '$lib/Post/Post.svelte';
 	import Comment from '../../../lib/Comment.svelte';
     export let data;
     import {currentUser, pb} from "$lib/pocketbase"
     import Date from '$lib/Date.svelte';
+	import CopyText from '$lib/Components/CopyText.svelte';
 
     let comment_title = ""
     let comment_content = ""
@@ -35,10 +35,11 @@
 <main>
     <section>
         <h2>{data.post.title}</h2>
-        <div>
-            <div class="italic" aria-label="Posts author">Author: <a href={'/profile/'+data.post.creator}>{data.post.creatorExtend?.username}</a></div>
-            <div class="italic" aria-label="Post release date">Veröffentlicht:<Date date={data.post.created} lang="de"/></div>
-            <div class="italic" aria-label="Post release date">Letzte Änderung:<Date date={data.post.updated} lang="de"/></div>
+        <div class="italic">
+            <div aria-label="Posts author">Author: <a href={'/profile/'+data.post.creator}>{data.post.creatorExtend?.username}</a></div>
+            <div aria-label="Post release date">Veröffentlicht: <Date date={data.post.created} lang="de"/></div>
+            <div aria-label="Post release date">Letzte Änderung: <Date date={data.post.updated} lang="de"/></div>
+            <div aria-label="Post ID" class="text-sm">Post ID: <CopyText txt={data.post.id}/></div>
         </div>
     </section>
     <hr>
