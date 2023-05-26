@@ -3,7 +3,9 @@
     import Comment from '$lib/Comment.svelte';
     import CopyText from "$lib/Components/CopyText.svelte";
     import PostList from "$lib/Post/PostList.svelte";
+	import Share from "$lib/Components/Share.svelte";
     export let user: User
+    export let share_url: URL | undefined = undefined
     $: posts = user.expand['posts(creator)'] as Post[]
 </script>
 
@@ -15,6 +17,9 @@
             <li>Erstellungs Datum: <time datetime={user.created}>{new Date(user.created).toLocaleDateString('de')}</time></li>
             {#if user.email}
                 <li>Email: {user.email} <span class="italic font-light">(Not Public)</span></li>
+            {/if}
+            {#if share_url && user.id}
+                <li>Share: <Share data={share_url} title="Some Stuff">Teilen</Share></li>
             {/if}
             <li>Id: <CopyText txt={user.id}/></li>
         </ul>

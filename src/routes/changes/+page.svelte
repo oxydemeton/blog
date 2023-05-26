@@ -6,7 +6,14 @@
     <article>
         <ol style="list-style: disc;">
             <li>
-                
+                <h5>v0.1.5.2</h5>
+                <time datetime="2023-05-26" >26.05.2023</time>:<br>
+                <ul>
+                    <h6>Feature:</h6>
+                    Hinzufügen von Share Buttons zu Posts und Profilen. <i>Funktioniert nicht in Firefox, InternetExplorer und möglicherweise weiteren Browsern.</i>
+                </ul>
+            </li>
+            <li>
                 <h5>v0.1.5.1</h5>
                 <time datetime="2023-05-25" >25.05.2023</time>:<br>
                 <ul>

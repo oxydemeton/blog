@@ -31,7 +31,7 @@
     {#if $currentUser}
         <a href={"/profile/" + $currentUser.id}>Public Profile</a>
         <br><a href="#settings">Zu den Einstellungen</a>
-        <Profile user={$currentUser}/>
+        <Profile user={$currentUser} share_url={new URL(`${window.location.href}/${$currentUser.id}`)}/>
         <hr>
         <article id="sttings">
             <h3>Einstellungen</h3>
