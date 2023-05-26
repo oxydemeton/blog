@@ -20,3 +20,8 @@ pb.authStore.onChange(async auth=> {
        currentUser.set(usr);       
     }
 })
+
+export async function logout() {
+    await fetch('/logout', {method: 'POST'})
+    pb.authStore.clear()
+}

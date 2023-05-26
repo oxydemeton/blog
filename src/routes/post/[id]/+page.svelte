@@ -1,11 +1,11 @@
 <script lang="ts">
 	import Comment from '$lib/Comment.svelte';
-    export let data;
     import {currentUser, pb} from "$lib/pocketbase"
+    import {location} from "$lib/Location"
     import Date from '$lib/Date.svelte';
 	import CopyText from '$lib/Components/CopyText.svelte';
     import Share from '$lib/Components/Share.svelte';
-
+    export let data;
     let comment_title = ""
     let comment_content = ""
     let comment_notice = ""
@@ -31,7 +31,6 @@
             comment_notice = "Du muss eingeloggt sein um einen Kommentar zu schreiben."
         }
     }
-    $: url = new URL(window.location.href)
 </script>
 
 <main>
@@ -41,7 +40,7 @@
             <div aria-label="Posts author">Author: <a href={'/profile/'+data.post.creator}>{data.post.creatorExtend?.username}</a></div>
             <div aria-label="Post release date">Veröffentlicht: <Date date={data.post.created} lang="de"/></div>
             <div aria-label="Post release date">Letzte Änderung: <Date date={data.post.updated} lang="de"/></div>
-            <div><Share data={url} title="Some Stuff">Teilen</Share></div>
+            <div><Share data={new URL($location.href)} title="Some Stuff">Teilen</Share></div>
             <div aria-label="Post ID" class="text-sm">Post ID: <CopyText txt={data.post.id}/></div>
         </div>
     </section>

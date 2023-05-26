@@ -2,18 +2,16 @@
     import "../base.postcss";
     import "../color-scheme.css";
     import "../app.postcss";
-    
-    import {currentUser, pb} from "../lib/pocketbase"
-	import { onDestroy } from "svelte";
-    export let data;
-    onDestroy(()=> {
-        pb.authStore.clear();
-    })
-    let refresh = {};
+    import { onMount } from "svelte";
+    import { location } from "$lib/Location";
 
-    if(data.usr) {
-        pb.authStore.loadFromCookie(data.usr)
-    }
+    import {currentUser, pb, logout} from "$lib/pocketbase"
+    export let data;
+
+    onMount(()=> {
+        if(data.usr) pb.authStore.loadFromCookie(data.usr)
+        location.set(new URL(window.location.href))
+    })
 </script>
 
 <style lang="postcss">
@@ -47,7 +45,7 @@
         <form class="mx-2 p-1 rounded-md flex flex-nowrap
             hover:outline outline-accent-light-sm
                     dark:outline-accent-dark-sm"
-                rel="search" action="/search" method="get" on:submit={()=>refresh={}}
+                rel="search" action="/search" method="get"
                 role="search">
             <input type="search" placeholder="search blog" name="search"/>
             <button type="submit" class="font-bold">Search</button>
@@ -55,7 +53,7 @@
         {#if $currentUser}
             <div>
                 <a href="/profile" aria-label="Profile" data-sveltekit-preload-code="hover" data-sveltekit-preload-data="hover">{$currentUser.username}</a>
-                <button type="button" on:click={()=>pb.authStore.clear()} aria-label="Logout" class="font-medium text-base">Logout</button>
+                <button type="button" on:click={()=>logout()} aria-label="Logout" class="font-medium text-base">Logout</button>
             </div>
         {:else}
             <a href="/login" aria-label="Login" data-sveltekit-preload-code="hover">Login</a>
@@ -63,9 +61,7 @@
     </nav>
     
 </header>
-{#key refresh}
 <slot />
-{/key}
 
 <footer>
     <!-- svelte-ignore a11y-invalid-attribute -->

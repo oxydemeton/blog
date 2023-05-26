@@ -3,12 +3,8 @@ import { redirect } from '@sveltejs/kit';
 
 export async function load({url,cookies}) {
         const authMethods = await pb.collection('users').listAuthMethods();
-        //console.log("authmethods", authMethods);
         if (!authMethods) {
-            return {
-                authProviderRedirect: '',
-                authProviderState: ''
-            };
+            return {};
         }
         const redirectURL = `${url.origin}/login/oauth/google`;
         const googleAuthProvider = authMethods.authProviders[0];
@@ -18,7 +14,6 @@ export async function load({url,cookies}) {
 
         cookies.set('state',state, {path: '/'});
         cookies.set('verifier',verifier, {path: '/'});
-        console.log("Pre redirect"+cookies.get('state'));
         
         throw redirect(302,authProviderRedirect)
     }

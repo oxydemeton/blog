@@ -1,7 +1,8 @@
 <script lang="ts">
-	import type { User } from "$lib/DbInterfaces";
     import {currentUser, pb} from "../../lib/pocketbase"
 	import Profile from "./Profile.svelte";
+    import { location } from "$lib/Location";
+    
     function sendVerify(){
         if ($currentUser)
             if ($currentUser.email) pb.collection('users').requestVerification($currentUser.email);
@@ -13,6 +14,7 @@
     }
     let newmail = ""
     let newmail_msg = ""
+    
 </script>
 
 <style lang="postcss">
@@ -31,7 +33,7 @@
     {#if $currentUser}
         <a href={"/profile/" + $currentUser.id}>Public Profile</a>
         <br><a href="#settings">Zu den Einstellungen</a>
-        <Profile user={$currentUser} share_url={new URL(`${window.location.href}/${$currentUser.id}`)}/>
+        <Profile user={$currentUser} share_url={new URL(`${$location.href}/${$currentUser.id}`)}/>
         <hr>
         <article id="sttings">
             <h3>Einstellungen</h3>

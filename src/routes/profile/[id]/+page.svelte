@@ -1,10 +1,9 @@
 <script lang="ts">
 	import Profile from "../Profile.svelte";
-
+    import { location } from "$lib/Location";
     export let data;
-    $: url = new URL(window.location.href)
 </script>
 
 <main>
-    <Profile user={data.user} share_url={new URL(window.location.href)}/>
+    <Profile user={data.user} share_url={$location}/>
 </main>

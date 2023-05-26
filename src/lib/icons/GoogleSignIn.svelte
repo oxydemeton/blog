@@ -37,6 +37,6 @@
     }
 
 </style>
-<a {href}
+<a href={href}
     style={`width: ${width}; height: ${height}; background-size: ${width} ${height};`}>
 </a>
