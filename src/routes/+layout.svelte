@@ -5,11 +5,15 @@
     
     import {currentUser, pb} from "../lib/pocketbase"
 	import { onDestroy } from "svelte";
-
+    export let data;
     onDestroy(()=> {
         pb.authStore.clear();
     })
     let refresh = {};
+
+    if(data.usr) {
+        pb.authStore.loadFromCookie(data.usr)
+    }
 </script>
 
 <style lang="postcss">

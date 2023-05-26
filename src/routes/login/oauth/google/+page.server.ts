@@ -54,8 +54,7 @@ export const load = async ({ url, cookies, }) => {
         console.log(usr);
         pb.autoCancellation(true);
         currentUser.set(usr);    
+        cookies.set('user', pb.authStore.exportToCookie(), { path: '/' });
     }
-    return {
-        usr: pb.authStore.exportToCookie()
-    }
+    throw redirect(303, '/');
 };
