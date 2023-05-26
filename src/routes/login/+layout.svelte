@@ -1,5 +1,6 @@
 <script lang="ts">
     import {currentUser, pb} from "$lib/pocketbase"
+    import GoogleSignIn from "$lib/icons/GoogleSignIn.svelte";
     async function logout() {
         pb.authStore.clear();
     }
@@ -7,27 +8,45 @@
 
 <main>
     <h2>Anmelden/Registrieren</h2>
-    {#if $currentUser}
-        <h3>Bereits Angemeldet</h3>
-        <nav>
-            <a href="/profile" data-sveltekit-preload-code="hover" data-sveltekit-preload-data="hover">Profil</a>
-            <a href="/login" on:click={logout} data-sveltekit-reload>Abmelden</a>
-        </nav>
-    {:else}
-        <nav>
-            <a href="/login/email" data-sveltekit-preload-code="eager" data-sveltekit-preload-data="hover" data-sveltekit-keepfocus>Anmelden mit Email/Username</a>
-            <a href="/login/register/email" data-sveltekit-preload-code="eager" data-sveltekit-preload-data="hover" data-sveltekit-keepfocus>Registrieren mit Email</a>
-        </nav>
-        <slot/>
-    {/if}
+    
+        {#if $currentUser}
+            <h3>Bereits Angemeldet</h3>
+            <div class="nav-wrapper">
+                <nav>
+                    <a href="/profile" data-sveltekit-preload-code="hover" data-sveltekit-preload-data="hover">Profil</a>
+                    <a href="/login" on:click={logout} data-sveltekit-reload>Abmelden</a>
+                </nav>
+            </div>
+        {:else}
+            <div class="nav-wrapper">
+                <nav>
+                    <a href="/login/email" data-sveltekit-preload-code="eager" data-sveltekit-preload-data="hover" data-sveltekit-keepfocus>Anmelden mit Email/Username</a>
+                    <a href="/login/register/email" data-sveltekit-preload-code="eager" data-sveltekit-preload-data="hover" data-sveltekit-keepfocus>Registrieren mit Email</a>
+                    <GoogleSignIn width="100%" href="/login/register/google"/>
+                </nav>
+            </div>
+            <slot/>
+        {/if}
 </main>
 
 <style lang="postcss">
+    a {
+        padding: .11em;
+    }
+    .nav-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
     nav {
+        font-size: theme(fontSize.md);
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10%;
-        padding-inline: 5%;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5%;
+        padding-inline: 2%;
+        max-width: 700px;
+        text-align: center;
     }
     nav > * {
         flex: 1;

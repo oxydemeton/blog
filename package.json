@@ -1,6 +1,6 @@
 {
 	"name": "blog",
-	"version": "0.1.5.2-dev",
+	"version": "0.1.6.0-dev",
 	"private": false,
 	"scripts": {
 		"dev": "vite dev",
