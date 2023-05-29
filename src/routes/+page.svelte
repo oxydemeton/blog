@@ -26,3 +26,11 @@
         <PostList posts={data.posts.filter((_, i) => i !== 0)}/>
     </section>
 </main>
+
+<svelte:head>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@odydemeton"/>
+    <meta name="twitter:title" content="Mabla's Blog Homepage" />
+    <meta name="twitter:description" content="Regelmäßige neue Blog Posts mit Meinung, Erfahrung und anderem."/>
+    <meta name="twitter:image" content="https://blog.mabla.name/favicon.png" />
+</svelte:head>

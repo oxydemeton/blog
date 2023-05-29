@@ -31,6 +31,10 @@
             comment_notice = "Du muss eingeloggt sein um einen Kommentar zu schreiben."
         }
     }
+    function trimContent(txt: string, len: number): string {
+        if(txt.length <= len) return txt
+        return txt.slice(0, len) + "..."
+    }
 </script>
 
 <main>
@@ -70,6 +74,14 @@
         {/if}
     </section>
 </main>
+
+<svelte:head>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@odydemeton"/>
+    <meta name="twitter:title" content={`Mabla's Blog: ${data.post.title}`} />
+    <meta name="twitter:description" content={trimContent(data.post.title, 15)}/>
+    <meta name="twitter:image" content="https://blog.mabla.name/favicon.png" />
+</svelte:head>
 
 <style lang="postcss">
     textarea {
