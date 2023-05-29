@@ -6,7 +6,7 @@ export async function load({url,cookies}) {
         if (!authMethods) {
             return {};
         }
-        const origin = url.origin.replace("127.0.0.1:3000", "blog.mabla.name")
+        const origin = url.origin.replace("http://127.0.0.1:3000", "https://blog.mabla.name")
         const redirectURL = `${origin}/login/oauth/google`;
         
         const googleAuthProvider = authMethods.authProviders[0];
