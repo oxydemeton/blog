@@ -6,6 +6,22 @@
     <article>
         <ol style="list-style: disc;">
             <li>
+                <h5>v0.1.6.1</h5>
+                <time datetime="2023-05-30" >30.05.2023</time>:<br>
+                <ul>
+                    <li>
+                        <h6>Inhalt:</h6>
+                        Neue Datenschutzerklärung unter <a href="/privacy">/privacy</a>
+                    </li>
+                    <li>
+                        <h6>Feature:</h6>
+                        Möglichkeit seinen Namen zu ändern.
+                        <h6>Known Issue:</h6>
+                        Schlechte Fehlermeldung bei u.a. unzulässigen Namen.
+                    </li>
+                </ul>
+            </li>
+            <li>
                 <h5>v0.1.6.0</h5>
                 <time datetime="2023-05-26" >26.05.2023</time>:<br>
                 <ul>

@@ -8,13 +8,19 @@
             if ($currentUser.email) pb.collection('users').requestVerification($currentUser.email);
     }
     async function updateEmail() {
-        await pb.collection('users').requestEmailChange(newmail).catch((reason)=> {
-            newmail_msg = "An error occurred: " + reason
+        await pb.collection('users').requestEmailChange(new_mail).catch((reason)=> {
+            new_mail_msg = "An error occurred: " + reason
         })
     }
-    let newmail = ""
-    let newmail_msg = ""
-    
+    async function updateName() {
+        if($currentUser) await pb.collection('users').update($currentUser.id, {username: new_name}).catch((reason)=> {
+            new_name_msg = "An error occurred: " + reason
+        })
+    }
+    let new_mail = ""
+    let new_mail_msg = ""
+    let new_name = ""
+    let new_name_msg = ""
 </script>
 
 <style lang="postcss">
@@ -44,12 +50,20 @@
                     <button on:click={sendVerify} class="btn-verify">Email senden </button>
                 </div>
             {/if}
+            <form on:submit={updateName}>
+                <fieldset>
+                    <legend class="text-lg">Update username</legend>
+                    <input type="text" name="newmail" placeholder="new name" bind:value={new_name} class="text-md">
+                    <button type="submit" class="text-md">Change Name</button>
+                    <span class="block italic"> {new_name_msg}</span>
+                </fieldset>
+            </form>
             <form on:submit={updateEmail}>
                 <fieldset>
                     <legend class="text-lg">Update Email address</legend>
-                    <input type="email" name="newmail" placeholder="new email" bind:value={newmail} class="text-md">
+                    <input type="email" name="newmail" placeholder="new email" bind:value={new_mail} class="text-md">
                     <button type="submit" class="text-md">Change Mail</button>
-                    <span class="block italic"> {newmail_msg}</span>
+                    <span class="block italic"> {new_mail_msg}</span>
                 </fieldset>
             </form>
         </article>

@@ -4,7 +4,7 @@ import { error, redirect } from '@sveltejs/kit';
 
 
 export const load = async ({ url, cookies, }) => {
-    const origin = url.origin.replace("http://","https://").replace("127.0.0.1:3000", "blog.mabla.name")
+    const origin = url.origin.replace("127.0.0.1:3000", "blog.mabla.name")
     const redirectURL = `${origin}/login/oauth/google`;
     const expectedState = cookies.get('state');
     const expectedVerifier = cookies.get('verifier');
