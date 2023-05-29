@@ -1,12 +1,14 @@
 import { pb } from '$lib/pocketbase';
-import { redirect } from '@sveltejs/kit';
+import { error, redirect } from '@sveltejs/kit';
 
 export async function load({url,cookies}) {
         const authMethods = await pb.collection('users').listAuthMethods();
         if (!authMethods) {
             return {};
         }
-        const redirectURL = `${url.origin}/login/oauth/google`;
+        const origin = url.origin.replace("http://","https://").replace("127.0.0.1:3000", "blog.mabla.name")
+        const redirectURL = `${origin}/login/oauth/google`;
+        
         const googleAuthProvider = authMethods.authProviders[0];
         const authProviderRedirect = `${googleAuthProvider.authUrl}${redirectURL}`;
         const state = googleAuthProvider.state;
