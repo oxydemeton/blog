@@ -4,9 +4,13 @@ import type { User } from "./DbInterfaces";
 
 export const pb = new PocketBase('https://blog.mabla.name/pb');
 const genCurrentUser = () => {
-    if (pb.authStore.model) pb.collection('users').getOne(pb.authStore.model.id, {expand: 'comments(creator).post'}).then((v)=> {
-        currentUser.set(v as unknown as User)
-    })
+    if (pb.authStore.model) 
+        pb.collection('users').getOne(pb.authStore.model.id, {expand: 'comments(creator).post'}).then((v)=> {
+            currentUser.set(v as unknown as User)
+        }).catch((e)=> {
+            console.log(e);
+            pb.authStore.clear()
+        })
     return undefined;
 }
 export const currentUser = writable<User | undefined>(genCurrentUser())
