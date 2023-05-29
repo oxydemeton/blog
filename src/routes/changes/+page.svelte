@@ -19,6 +19,10 @@
                         <h6>Known Issue:</h6>
                         Schlechte Fehlermeldung bei u.a. unzulässigen Namen.
                     </li>
+                    <li>
+                        <h6>Feature:</h6>
+                        Twitter Cards für Posts und homepage.
+                    </li>
                 </ul>
             </li>
             <li>
