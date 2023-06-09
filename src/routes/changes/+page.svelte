@@ -26,12 +26,16 @@
                         Überarbeitung der Seiten Auswahl im Archive.
                     </li>
                     <li>
-                        <h6>Fix:</h6>
+                        <h6>Detail:</h6>
                         Archive ist nun von neu nach alt sortiert.
                     </li>
                     <li>
                         <h6>Fix:</h6>
                         Autor wird nun bei Posts in der Archiveliste angezeigt.
+                    </li>
+                    <li>
+                        <h6>Detail:</h6>
+                        Page Titles adjusted
                     </li>
                 </ul>
             </li>
@@ -172,3 +176,7 @@
         font-style: italic;
     }
 </style>
+
+<svelte:head>
+    <title>Changelog</title>
+</svelte:head>

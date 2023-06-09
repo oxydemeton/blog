@@ -72,3 +72,7 @@
     <div>Source code: <a href="https://github.com/oxydemeton/blog" target="_blank" rel="noopener noreferrer">@Github</a></div>
     <div><a href="/privacy">Datenschutzerklärung</a></div>
 </footer>
+
+<svelte:head>
+    <title>Mabla's Blog</title>
+</svelte:head>

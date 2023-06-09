@@ -59,3 +59,7 @@
         margin: 0.5em;
     }
 </style>
+
+<svelte:head>
+    <title>Login</title>
+</svelte:head>

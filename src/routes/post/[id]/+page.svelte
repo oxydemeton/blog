@@ -5,6 +5,7 @@
     import Date from '$lib/Date.svelte';
 	import CopyText from '$lib/Components/CopyText.svelte';
     import Share from '$lib/Components/Share.svelte';
+	import Post from '$lib/Post/Post.svelte';
     export let data;
     let comment_title = ""
     let comment_content = ""
@@ -76,6 +77,7 @@
 </main>
 
 <svelte:head>
+    <title>Post: {data.post.title}</title>
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@odydemeton"/>
     <meta name="twitter:title" content={`Mabla's Blog: ${data.post.title}`} />

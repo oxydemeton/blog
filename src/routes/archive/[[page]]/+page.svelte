@@ -29,3 +29,7 @@
         font-size: var(--ft-size-sm);
     }
 </style>
+
+<svelte:head>
+    <title>Archive</title>
+</svelte:head>

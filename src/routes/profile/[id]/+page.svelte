@@ -9,6 +9,7 @@
 </main>
 
 <svelte:head>
+    <title>Profil: {data.user.username}</title>
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@odydemeton"/>
     <meta name="twitter:title" content={`Mabla's Blog user: ${data.user.username}`} />

@@ -73,3 +73,7 @@
         <a href="/login" class="font-medium text-lg">Pleas login</a>
     {/if}
 </main>
+
+<svelte:head>
+    <title>Dein Profil</title>
+</svelte:head>

@@ -1,3 +1,6 @@
+<svelte:head>
+    <title>Datenschutzerklärung</title>
+</svelte:head>
 
 <h2>Datenschutzerklärung</h2>
 <p>Stand: 30. Mai 2023</p><h2>Inhaltsübersicht</h2>
