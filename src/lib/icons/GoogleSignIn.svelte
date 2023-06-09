@@ -1,6 +1,7 @@
 <script lang="ts">
     export let width = "auto"
     export let height = "auto"
+    export let disabled = false
 
     export let href: string
 </script>
@@ -9,7 +10,8 @@
     a {
         display: inline-block;
         background-repeat: no-repeat;
-        aspect-ratio: 4.152;
+        background-size: 100% 100%;
+        aspect-ratio: 382/92;
         background-image: url(../../assets/google_login/light/normal.png);
     }
     a:disabled {
@@ -37,6 +39,6 @@
     }
 
 </style>
-<a href={href}
-    style={`width: ${width}; height: ${height}; background-size: ${width} ${height};`}>
+<a href={href} aria-disabled={disabled}
+    style={`width: ${width}; height: ${height};`}>
 </a>
