@@ -35,10 +35,6 @@ export const GET = async () => {
             <changefreq>weekly</changefreq>\
         </url>\
         <url>\
-            <loc>https://blog.mabla.name/about</loc>\
-            <lastmod>${last_updated}</lastmod>\
-        </url>\
-        <url>\
             <loc>https://blog.mabla.name/privacy</loc>\
             <lastmod>${last_updated}</lastmod>\
         </url>\
