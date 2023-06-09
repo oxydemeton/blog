@@ -25,6 +25,10 @@
                         <h6>Design:</h6>
                         Überarbeitung der Seiten Auswahl im Archive.
                     </li>
+                    <li>
+                        <h6>Fix:</h6>
+                        Archive ist nun von neu nach alt sortiert.
+                    </li>
                 </ul>
             </li>
             <li>
