@@ -3,9 +3,9 @@ const last_updated = "2021-06-09"
 export const GET = async () => {
     const latest_post_url = new URL('https://blog.mabla.name/pb/api/collections/posts/records')
     latest_post_url.searchParams.set('page', '1')
-    latest_post_url.searchParams.set('perPage', '1')
+    latest_post_url.searchParams.set('perPage', '100')
     latest_post_url.searchParams.set('sort', 'created')
-    latest_post_url.searchParams.set('fields', 'created')
+    latest_post_url.searchParams.set('fields', 'created,id')
     let latest_post = undefined
     console.log(latest_post_url.href);
     
@@ -25,6 +25,9 @@ export const GET = async () => {
         throw error(500, 'No created property found')
     }
     const latest_post_created = latest_post.items[0].created
+
+    const posts = latest_post.items.map(generatePostSitemapEntry).join('\n')
+
     return new Response(
     `<?xml version="1.0" encoding="UTF-8"?>\
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\
@@ -62,6 +65,7 @@ export const GET = async () => {
             <loc>https://blog.mabla.name/changes</loc>\
             <lastmod>${last_updated}</lastmod>\
         </url>\
+        ${posts}\
     </urlset>`, {
         headers: {
             'content-type': 'application/xml'
@@ -70,6 +74,14 @@ export const GET = async () => {
 };
 type PostCreated = {
     items: {
-        created: string
+        created: string,
+        id: string
     }[]
+}
+
+function generatePostSitemapEntry(post: PostCreated['items'][0]) {
+    return `<url>\
+    <loc>https://blog.mabla.name/post/${post.id}</loc>\
+    <lastmod>${post.created}</lastmod>\
+   </url>`
 }
