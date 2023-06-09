@@ -16,10 +16,7 @@ export async function load({params}) {
     //post.creatorExtend = await loadPostAuthor(post as unknown as Post)
 
     return {
-        posts: (res.items as unknown as Post[]).map(post => {
-            post.creatorExtend = post.expand.creator
-            return post
-        }),
+        posts: (res.items as unknown as Post[]),
         page,
         pages_count: res.totalPages,
     }
