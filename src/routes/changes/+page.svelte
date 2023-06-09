@@ -6,6 +6,20 @@
     <article>
         <ol style="list-style: disc;">
             <li>
+                <h5>v0.1.6.2</h5>
+                <time datetime="2023-06-09" >09.06.2023</time>:<br>
+                <ul>
+                    <li>
+                        <h6>Feature:</h6>
+                        Sitemap für SEO.
+                    </li>
+                    <li>
+                        <h6>Design:</h6>
+                        Optimierung des Logins für Mobile nutzer.
+                    </li>
+                </ul>
+            </li>
+            <li>
                 <h5>v0.1.6.1</h5>
                 <time datetime="2023-05-30" >30.05.2023</time>:<br>
                 <ul>
