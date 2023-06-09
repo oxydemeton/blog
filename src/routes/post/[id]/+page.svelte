@@ -44,7 +44,7 @@
             <div aria-label="Posts author">Author: <a href={'/profile/'+data.post.creator}>{data.post.creatorExtend?.username}</a></div>
             <div aria-label="Post release date">Veröffentlicht: <Date date={data.post.created} lang="de"/></div>
             <div aria-label="Post release date">Letzte Änderung: <Date date={data.post.updated} lang="de"/></div>
-            <div><Share data={new URL($location.href)} title="Some Stuff">Teilen</Share></div>
+            <div><Share data={new URL($location.href)} title={`Post: ${data.post.title}`}>Teilen</Share></div>
             <div aria-label="Post ID" class="text-sm">Post ID: <CopyText txt={data.post.id}/></div>
         </div>
     </section>
