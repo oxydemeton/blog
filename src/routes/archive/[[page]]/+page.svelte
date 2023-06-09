@@ -4,24 +4,11 @@
     import PageSelector from './PageSelector.svelte';
     export let data
     
-    $: next_url = () => {
-        const url = new URL($page.url)
-        if($page.url.pathname == "/archive") url.pathname += "/2"
-        else url.pathname = url.pathname.replace(/\/\d+$/, `/${data.page + 1}`)
-        return url;
-    }
-    $: prev_url = () => {
-        const url = new URL($page.url)
-        if($page.url.pathname == "/archive") url.pathname += "/1"
-        else if (data.page == 1) url.pathname = url.pathname.replace(/\/\d+$/, `/${data.page}`)
-        else url.pathname = url.pathname.replace(/\/\d+$/, `/${data.page - 1}`)
-        return url;
-    }
 </script>
 
 <main>
     <h2>Alle Posts</h2>
-    <PageSelector current_page={data.page} next={next_url()} prev={prev_url()}/>
+    <PageSelector max_page={data.pages_count} current_page={data.page}/>
     <details>
         <summary>Filter</summary>
         <fieldset>

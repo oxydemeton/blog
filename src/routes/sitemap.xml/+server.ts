@@ -24,7 +24,7 @@ export const GET = async () => {
     } else if (!latest_post.items[0].created == undefined) {
         throw error(500, 'No created property found')
     }
-    const latest_post_created = latest_post.items[0].created
+    const latest_post_created = new Date(latest_post.items[0].created).toISOString().split('T')[0]
 
     const posts = latest_post.items.map(generatePostSitemapEntry).join('\n')
 
@@ -82,6 +82,6 @@ type PostCreated = {
 function generatePostSitemapEntry(post: PostCreated['items'][0]) {
     return `<url>\
     <loc>https://blog.mabla.name/post/${post.id}</loc>\
-    <lastmod>${post.created}</lastmod>\
+    <lastmod>${new Date(post.created).toISOString().split('T')[0]}</lastmod>\
    </url>`
 }
