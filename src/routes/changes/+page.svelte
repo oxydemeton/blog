@@ -17,6 +17,14 @@
                         <h6>Design:</h6>
                         Optimierung des Logins für Mobile nutzer.
                     </li>
+                    <li>
+                        <h6>Feature:</h6>
+                        Teilen Button bei Blog Posts auf der Homepage und im Archive, insofern der Browser es unterstützt.
+                    </li>
+                    <li>
+                        <h6>Design:</h6>
+                        Überarbeitung der Seiten Auswahl im Archive.
+                    </li>
                 </ul>
             </li>
             <li>
