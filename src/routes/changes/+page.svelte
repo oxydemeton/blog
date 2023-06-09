@@ -29,6 +29,10 @@
                         <h6>Fix:</h6>
                         Archive ist nun von neu nach alt sortiert.
                     </li>
+                    <li>
+                        <h6>Fix:</h6>
+                        Autor wird nun bei Posts in der Archiveliste angezeigt.
+                    </li>
                 </ul>
             </li>
             <li>
