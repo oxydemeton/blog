@@ -3,6 +3,7 @@
     export let title: string | undefined = undefined
 
     export let active = true
+    export let show_if_unsupported = true
 
     $: share_obj = () => {
         if (data instanceof Array) {
@@ -42,5 +43,7 @@
 </style>
 
 <button on:click={() => navigator.share(share_obj())} disabled={!activated}>
-    <slot/>
+    {#if show_if_unsupported || activated}
+        <slot/>
+    {/if}
 </button>
