@@ -6,7 +6,10 @@
 	import Share from "$lib/Components/Share.svelte";
     export let user: User
     export let share_url: URL | undefined = undefined
-    $: posts = user.expand['posts(creator)'] as Post[]
+    $: posts = (user.expand['posts(creator)'] as Post[]).map(post => {
+        post.creatorExtend = user
+        return post
+    })
 </script>
 
 <section>
