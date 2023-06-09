@@ -3,3 +3,4 @@ Allow: /
 Disallow: /search/
 Disallow: /profile
 Disallow: /login/email/password_reset
+sitemap: https://blog.mabla.name/sitemap.xml
