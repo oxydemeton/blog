@@ -2,6 +2,7 @@
     import type {Post, User} from "$lib/DbInterfaces"
     import Date from "$lib/Date.svelte";
     import CopyText from "$lib/Components/CopyText.svelte"
+	import Share from "$lib/Components/Share.svelte";
     export let post: Post;
     
 </script>
@@ -18,6 +19,7 @@
         {@html post.content}
     </div>
     <div class="text-sm font-light italic">Article Id: <CopyText txt={post.id}/></div>
+    <div class="text-sm font-light"><Share show_if_unsupported={false} data={new URL(`https://blog.mabla.name/post/${post.id}`)} title={`Post: ${post.title}`}>Teilen</Share></div>
 </article>
 
 <style lang="postcss">
