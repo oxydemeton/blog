@@ -22,7 +22,7 @@
                 <nav>
                     <a href="/login/email" data-sveltekit-preload-code="eager" data-sveltekit-preload-data="hover" data-sveltekit-keepfocus>Anmelden mit Email/Username</a>
                     <a href="/login/register/email" data-sveltekit-preload-code="eager" data-sveltekit-preload-data="hover" data-sveltekit-keepfocus>Registrieren mit Email</a>
-                    <GoogleSignIn width="100%" href="/login/register/google"/>
+                    <GoogleSignIn width="25%" href="/login/register/google"/>
                 </nav>
             </div>
             <slot/>
@@ -30,6 +30,9 @@
 </main>
 
 <style lang="postcss">
+    h2 {
+        text-align: center;
+    }
     a {
         padding: .11em;
     }
@@ -37,21 +40,22 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         gap: 1em;
     }
     nav {
         font-size: theme(fontSize.md);
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 5%;
-        padding-inline: 2%;
-        max-width: 700px;
-        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
     }
     nav > * {
-        flex: 1;
         text-align: center;
+        align-self: center;
+        width: fit-content;
         border: solid .1em theme(colors.gray.300);
         border-radius: 0.5em;
+        margin: 0.5em;
     }
 </style>
