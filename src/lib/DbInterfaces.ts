@@ -8,7 +8,7 @@ export interface Post {
     creator: string
     creatorExtend?: User
     expand: {
-        creator: User[]
+        creator: User
         'comments(post)': Comment[]
     }
 }

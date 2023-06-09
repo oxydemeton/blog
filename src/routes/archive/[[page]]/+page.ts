@@ -9,12 +9,17 @@ export async function load({params}) {
     });
     
 
-    const res = await (await pb.collection('posts').getList(page, 10, {sort: "-created"}))
+    const res = await pb.collection('posts').getList(page, 10, {sort: "created", expand: "creator"})
+    console.log(res.items);
+    
     //post.creatorExtend = post.expand.creator
     //post.creatorExtend = await loadPostAuthor(post as unknown as Post)
 
     return {
-        posts: res.items as unknown as Post[],
+        posts: (res.items as unknown as Post[]).map(post => {
+            post.creatorExtend = post.expand.creator
+            return post
+        }),
         page,
         pages_count: res.totalPages,
     }
