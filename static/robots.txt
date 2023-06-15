@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /logout/
-Disallow: /profile
+Disallow: /profile/
 Disallow: /login/email/password_reset
+Disallow: /pb
 sitemap: https://blog.mabla.name/sitemap.xml
